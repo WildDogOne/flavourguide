@@ -10,7 +10,7 @@ def main():
     flavours = tables[0]
     ingredients = {}
     for index, row in flavours.iterrows():
-        ingredients[row["Main Ingredient"]] = {
+        ingredients[row["Main Ingredient"].capitalize()] = {
             "fruit": row["Fruit"].replace("  ", " ").capitalize().split(", "),
             "herb_n_spice": row["Herb and Spice"].replace("  ", " ").capitalize().split(", "),
             "other": row["Other"].replace("  ", " ").capitalize().split(", ")

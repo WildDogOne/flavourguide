@@ -8,9 +8,9 @@
 | Banana | Apricot, guava, kiwi, kumquat, lime, mango, orange, papaya, pineapple, pomegranate | Cardamom, cinnamon, clove, ginger, mint | Caramel, coconut, coffee, hazelnut, honey, macadamia, maple, pecan, walnut, chocolate, |
 | Bay leaf | Pineapple, lime, lemon | Ginger, thyme | Juniper, honey |
 | Black current | Apple, cherry, figs, peach, pear, prune, raspberry, strawberry | Ginger, basil, pepper, mint, rosemary | Almond, carrot, fennel, honey |
-| blackberry | Apple, elderberry, citrus mango, peach, pear, raspberry, rhubarb, strawberry, tangerine | Cinnamon, ginger, black pepper, mint | Vanilla, hazelnut, chocolate, honey, maple |
+| Blackberry | Apple, elderberry, citrus mango, peach, pear, raspberry, rhubarb, strawberry, tangerine | Cinnamon, ginger, black pepper, mint | Vanilla, hazelnut, chocolate, honey, maple |
 | Blood orange | Fig, pineapple, passionfruit | Cardamom, cinnamon, clove, ginger, rosemary, mint | Almond, honey, chocolate |
-| blueberry | Lemon, fig, mango, apple, apricot | Cardamom, ginger, rosemary, sage | Lavender, hazelnut, jasmine, lemongrass, orange blossom, white chocolate, almond |
+| Blueberry | Lemon, fig, mango, apple, apricot | Cardamom, ginger, rosemary, sage | Lavender, hazelnut, jasmine, lemongrass, orange blossom, white chocolate, almond |
 | Cantaloupe | Lime, lemon, pomegranate, melon, pineapple, orange | Ginger, mint, basil, sage | Honey, maple, agave, cucumber, rose |
 | Caramel | Apple, cranberry, banana, tangerine, pear | Cinnamon, anise, mint | Almond, chocolate, coffee, toffee, vanilla, walnut |
 | Cardamom | Apple, lime, pineapple, orange, papaya, grapefruit | Ginger, anise, cardamom, mint, basil | Rose, coconut, honey, agave |
@@ -22,7 +22,7 @@
 | Chillies | Mango, lime, pineapple, papaya, orange, grapefruit | Cardamom, mint | Agave, honey, chocolate |
 | Chocolate | Blueberry, cherries, raspberry, orange, strawberry, banana | Anise, cinnamon, cloves, mint, sage, rosemary | Almond, caramel hazelnut, honey, maple, coffee, vanilla |
 | Cinnamon | Apple, lime, pineapple, papaya, grapefruit | Ginger, anise, cardamom, nutmeg, mint | Almond, coconut, honey, agave |
-| cloudberry | Citrus fruits, orange, pineapple | Cinnamon, sage, mint | Cream, pistachio |
+| Cloudberry | Citrus fruits, orange, pineapple | Cinnamon, sage, mint | Cream, pistachio |
 | Cloves | Apple, lime, orange, raisins, prune, pear | Cinnamon, anise, nutmeg, mint, sage | Liquorice, chocolate, walnut |
 | Coconut | Pineapple, orange, guava, papaya, orange, watermelon | Cinnamon, anise, ginger, mint, rosemary | Chocolate, cucumber |
 | Coffee | Apricot, cherry, orange, pumpkin | Anise, clove, cinnamon, cardamom, mint | Almond, hazelnut, chocolate, vanilla, honey, walnut |
@@ -54,7 +54,7 @@
 | Kumquat | Berries, plum, cherry, papaya, apple, lime, lemon, pumpkin | Cinnamon, anise, ginger, nutmeg, basil, mint | Coffee, vanilla, honey, walnut |
 | Lavender | Apricot, lemon, peach | Ginger, cardamom, mint, thyme, rosemary | Cucumber, rhubarb, honey |
 | Lemon | Apple, apricot, banana, berries, cherry, currants, grapefruit, grape, guava, kumquat, lime, mango, nectarine, orange, papaya, passion fruit, pear, plum, prune, quince, | Black pepper, cardamom, cumin, mint, thyme, basil, rosemary, sage | Flowers, almond, caramel, chestnut, hazelnut, honey, pecan, pine nut, pistachio, poppyseed, walnut. rhubarb, cucumber, juniper |
-| Lemon Thyme | Apple, lemon, pineapple, orange, blackberries, raspberries | Ginger, basil, mint | Honey, juniper, cucumber, rhubarb |
+| Lemon thyme | Apple, lemon, pineapple, orange, blackberries, raspberries | Ginger, basil, mint | Honey, juniper, cucumber, rhubarb |
 | Lemongrass | Apple, strawberry, lemon, guava, peach | Ginger, cinnamon, mint, sage | Coconut, kaffir lime leaf, cucumber |
 | Lime | Apricot, banana, date, fig, berries, grapefruit, guava, kumquat, lemon, lychee, orange, mango, papaya, passion fruit, persimmon, pineapple | Cinnamon, cardamom, anise, ginger, mint, rosemary, sage, tarragon, thyme | Rhubarb, cucumber, chillies. juniper |
 | Longan | Banana, mango, pomegranate, goji, orange, date | Ginger, cinnamon, rosemary, thyme | Honey, vanilla |
