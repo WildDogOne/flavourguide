@@ -1,16 +1,37 @@
 from pprint import pprint
-import requests
-from bs4 import BeautifulSoup
+import pandas as pd
+from tomark import Tomark
 
 
 def main():
     url = 'https://www.smartblend.co.uk/flavour-guide'
-    response = requests.get(url).text
-    soup = BeautifulSoup(response, 'html.parser')
-    table = (soup.find_all("table", {"class": "mytable"}))
-    headers = [header.text for header in table.find_all('th')]
-    results = [{headers[i]: cell for i, cell in enumerate(row.find_all('td'))}
-               for row in table.find_all('tr')]
-    pprint(results)
+
+    tables = pd.read_html(url, header=0)
+    flavours = tables[0]
+    ingredients = {}
+    for index, row in flavours.iterrows():
+        ingredients[row["Main Ingredient"]] = {
+            "fruit": row["Fruit"].replace("  ", " ").split(", "),
+            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").split(", "),
+            "other": row["Other"].replace("  ", " ").split(", ")
+        }
+    # pprint(ingredients)
+    y = []
+    for x in ingredients:
+        y.append({
+            "Ingredient": x,
+            "Fruit": ingredients[x]["fruit"],
+            "Herb and Spice": ingredients[x]["herb_n_spice"],
+            "Other": ingredients[x]["other"],
+        })
+        # pprint(y)
+        # quit()
+    markdown = Tomark.table(y)
+    markdown = markdown.replace("[", "").replace("]", "").replace("'", "")
+    with open("flavours.md", "w") as file1:
+        file1.writelines(markdown)
+
+
+
 if __name__ == '__main__':
     main()
