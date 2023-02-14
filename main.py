@@ -11,9 +11,9 @@ def main():
     ingredients = {}
     for index, row in flavours.iterrows():
         ingredients[row["Main Ingredient"]] = {
-            "fruit": row["Fruit"].replace("  ", " ").split(", "),
-            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").split(", "),
-            "other": row["Other"].replace("  ", " ").split(", ")
+            "fruit": row["Fruit"].replace("  ", " ").capitalize().split(", "),
+            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").capitalize().split(", "),
+            "other": row["Other"].replace("  ", " ").capitalize().split(", ")
         }
     # pprint(ingredients)
     y = []
