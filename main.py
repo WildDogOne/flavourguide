@@ -10,10 +10,10 @@ def main():
     flavours = tables[0]
     ingredients = {}
     for index, row in flavours.iterrows():
-        ingredients[row["Main Ingredient"].capitalize()] = {
-            "fruit": row["Fruit"].replace("  ", " ").capitalize().split(", "),
-            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").capitalize().split(", "),
-            "other": row["Other"].replace("  ", " ").capitalize().split(", ")
+        ingredients[row["Main Ingredient"].title()] = {
+            "fruit": row["Fruit"].replace("  ", " ").title().split(", "),
+            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").title().split(", "),
+            "other": row["Other"].replace("  ", " ").title().split(", ")
         }
     # pprint(ingredients)
     y = []
