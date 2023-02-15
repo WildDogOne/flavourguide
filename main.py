@@ -1,3 +1,4 @@
+import json
 from pprint import pprint
 import pandas as pd
 from tomark import Tomark
@@ -31,7 +32,9 @@ def main():
     with open("flavours.md", "w") as file1:
         file1.writelines(markdown)
 
-
+    json_object = json.dumps(ingredients, indent=4)
+    with open("flavours.json", "w") as outfile:
+        outfile.write(json_object)
 
 if __name__ == '__main__':
     main()

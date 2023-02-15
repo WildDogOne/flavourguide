@@ -1,0 +1,2497 @@
+{
+    "Agave": {
+        "fruit": [
+            "Mango",
+            "Papaya",
+            "Cantaloupe",
+            "Cherry",
+            "Grapefruit",
+            "Pineapple",
+            "Strawberry",
+            "Lime"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Chilli",
+            "Cinnamon",
+            "Ginger",
+            "Mint",
+            "Basil",
+            "Thyme"
+        ],
+        "other": [
+            "Almond",
+            "Honey",
+            "Cucumber",
+            "Coffee",
+            "Celery"
+        ]
+    },
+    "Almond": {
+        "fruit": [
+            "Apricot",
+            "Cherry",
+            "Plum",
+            "Peach",
+            "Fig"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Pepper",
+            "Cardamom And Nutmeg",
+            "Parsley",
+            "Basil",
+            "Cassia Leaf"
+        ],
+        "other": [
+            "Coffee",
+            "Honey",
+            "Caramel"
+        ]
+    },
+    "Apple": {
+        "fruit": [
+            "Cranberry",
+            "Mango",
+            "Citrus",
+            "Currants",
+            "Pumpkin",
+            "Kiwi",
+            "Raspberry"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Cinnamon",
+            "Ginger",
+            "Clove",
+            "Nutmeg",
+            "Rosemary",
+            "Mint"
+        ],
+        "other": [
+            "Caramel",
+            "Chestnut",
+            "Maple",
+            "Hazelnut",
+            "Walnut",
+            "Rhubarb",
+            "Pecan"
+        ]
+    },
+    "Apricot": {
+        "fruit": [
+            "Plum",
+            "Peach",
+            "Orange",
+            "Pineapple",
+            "Cherry",
+            "Figs",
+            "Strawberry",
+            "Raspberry"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cardamom",
+            "Ginger",
+            "Mint",
+            "Rosemary",
+            "Dill"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Honey",
+            "Vanilla",
+            "Rose",
+            "Coconut",
+            "Pistachio"
+        ]
+    },
+    "Avocado": {
+        "fruit": [
+            "Pineapple",
+            "Mango",
+            "Lime",
+            "Plum"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Mint"
+        ],
+        "other": [
+            "Juniper",
+            "Honey",
+            "Agave",
+            "Cucumber",
+            "Matcha"
+        ]
+    },
+    "Banana": {
+        "fruit": [
+            "Apricot",
+            "Guava",
+            "Kiwi",
+            "Kumquat",
+            "Lime",
+            "Mango",
+            "Orange",
+            "Papaya",
+            "Pineapple",
+            "Pomegranate"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Caramel",
+            "Coconut",
+            "Coffee",
+            "Hazelnut",
+            "Honey",
+            "Macadamia",
+            "Maple",
+            "Pecan",
+            "Walnut",
+            "Chocolate,"
+        ]
+    },
+    "Bay Leaf": {
+        "fruit": [
+            "Pineapple",
+            "Lime",
+            "Lemon"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Thyme"
+        ],
+        "other": [
+            "Juniper",
+            "Honey"
+        ]
+    },
+    "Black Current": {
+        "fruit": [
+            "Apple",
+            "Cherry",
+            "Figs",
+            "Peach",
+            "Pear",
+            "Prune",
+            "Raspberry",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Basil",
+            "Pepper",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Carrot",
+            "Fennel",
+            "Honey"
+        ]
+    },
+    "Blackberry": {
+        "fruit": [
+            "Apple",
+            "Elderberry",
+            "Citrus Mango",
+            "Peach",
+            "Pear",
+            "Raspberry",
+            "Rhubarb",
+            "Strawberry",
+            "Tangerine"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Ginger",
+            "Black Pepper",
+            "Mint"
+        ],
+        "other": [
+            "Vanilla",
+            "Hazelnut",
+            "Chocolate",
+            "Honey",
+            "Maple"
+        ]
+    },
+    "Blood Orange": {
+        "fruit": [
+            "Fig",
+            "Pineapple",
+            "Passionfruit"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Rosemary",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Honey",
+            "Chocolate"
+        ]
+    },
+    "Blueberry": {
+        "fruit": [
+            "Lemon",
+            "Fig",
+            "Mango",
+            "Apple",
+            "Apricot"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Ginger",
+            "Rosemary",
+            "Sage"
+        ],
+        "other": [
+            "Lavender",
+            "Hazelnut",
+            "Jasmine",
+            "Lemongrass",
+            "Orange Blossom",
+            "White Chocolate",
+            "Almond"
+        ]
+    },
+    "Cantaloupe": {
+        "fruit": [
+            "Lime",
+            "Lemon",
+            "Pomegranate",
+            "Melon",
+            "Pineapple",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint",
+            "Basil",
+            "Sage"
+        ],
+        "other": [
+            "Honey",
+            "Maple",
+            "Agave",
+            "Cucumber",
+            "Rose"
+        ]
+    },
+    "Caramel": {
+        "fruit": [
+            "Apple",
+            "Cranberry",
+            "Banana",
+            "Tangerine",
+            "Pear"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Anise",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Chocolate",
+            "Coffee",
+            "Toffee",
+            "Vanilla",
+            "Walnut"
+        ]
+    },
+    "Cardamom": {
+        "fruit": [
+            "Apple",
+            "Lime",
+            "Pineapple",
+            "Orange",
+            "Papaya",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Anise",
+            "Cardamom",
+            "Mint",
+            "Basil"
+        ],
+        "other": [
+            "Rose",
+            "Coconut",
+            "Honey",
+            "Agave"
+        ]
+    },
+    "Carrot": {
+        "fruit": [
+            "Pineapple",
+            "Orange",
+            "Lime"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon",
+            "Cardamom",
+            "Chilli",
+            "Ginger",
+            "Mint",
+            "Basil",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Agave",
+            "Tomato",
+            "Juniper",
+            "Cucumber",
+            "Celery"
+        ]
+    },
+    "Cashew": {
+        "fruit": [
+            "Pear",
+            "Pineapple",
+            "Apple"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Nutmeg",
+            "Parsley",
+            "Dill"
+        ],
+        "other": [
+            "Caramel",
+            "Honey"
+        ]
+    },
+    "Chamomile": {
+        "fruit": [
+            "Pineapple",
+            "Apple",
+            "Citrus",
+            "Tangerine"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon",
+            "Mint",
+            "Thyme"
+        ],
+        "other": [
+            "Almond",
+            "Coffee"
+        ]
+    },
+    "Cherry": {
+        "fruit": [
+            "Apricot",
+            "Citrus",
+            "Nectarine",
+            "Peach",
+            "Plum",
+            "Currants",
+            "Lychee"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon",
+            "Nutmeg",
+            "Sage"
+        ],
+        "other": [
+            "Vanilla",
+            "Violet",
+            "Chocolate",
+            "Pecan",
+            "Caramel"
+        ]
+    },
+    "Chestnut": {
+        "fruit": [
+            "Fig",
+            "Lemon",
+            "Pears",
+            "Prunes",
+            "Oranges",
+            "Raisins"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Nutmeg",
+            "Cloves",
+            "Bay Leaf",
+            "Rosemary",
+            "Thyme"
+        ],
+        "other": [
+            "Maple Syrup",
+            "Honey",
+            "Chocolate",
+            "Coffee"
+        ]
+    },
+    "Chillies": {
+        "fruit": [
+            "Mango",
+            "Lime",
+            "Pineapple",
+            "Papaya",
+            "Orange",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Mint"
+        ],
+        "other": [
+            "Agave",
+            "Honey",
+            "Chocolate"
+        ]
+    },
+    "Chocolate": {
+        "fruit": [
+            "Blueberry",
+            "Cherries",
+            "Raspberry",
+            "Orange",
+            "Strawberry",
+            "Banana"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cinnamon",
+            "Cloves",
+            "Mint",
+            "Sage",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Caramel Hazelnut",
+            "Honey",
+            "Maple",
+            "Coffee",
+            "Vanilla"
+        ]
+    },
+    "Cinnamon": {
+        "fruit": [
+            "Apple",
+            "Lime",
+            "Pineapple",
+            "Papaya",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Anise",
+            "Cardamom",
+            "Nutmeg",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Coconut",
+            "Honey",
+            "Agave"
+        ]
+    },
+    "Cloudberry": {
+        "fruit": [
+            "Citrus Fruits",
+            "Orange",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Sage",
+            "Mint"
+        ],
+        "other": [
+            "Cream",
+            "Pistachio"
+        ]
+    },
+    "Cloves": {
+        "fruit": [
+            "Apple",
+            "Lime",
+            "Orange",
+            "Raisins",
+            "Prune",
+            "Pear"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Anise",
+            "Nutmeg",
+            "Mint",
+            "Sage"
+        ],
+        "other": [
+            "Liquorice",
+            "Chocolate",
+            "Walnut"
+        ]
+    },
+    "Coconut": {
+        "fruit": [
+            "Pineapple",
+            "Orange",
+            "Guava",
+            "Papaya",
+            "Orange",
+            "Watermelon"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Anise",
+            "Ginger",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Chocolate",
+            "Cucumber"
+        ]
+    },
+    "Coffee": {
+        "fruit": [
+            "Apricot",
+            "Cherry",
+            "Orange",
+            "Pumpkin"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Clove",
+            "Cinnamon",
+            "Cardamom",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Hazelnut",
+            "Chocolate",
+            "Vanilla",
+            "Honey",
+            "Walnut"
+        ]
+    },
+    "Coriander": {
+        "fruit": [
+            "Strawberry",
+            "Lime",
+            "Lemon",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Coconut",
+            "Cucumber",
+            "Juniper",
+            "Honey"
+        ]
+    },
+    "Cranberry": {
+        "fruit": [
+            "Apple",
+            "Lemon",
+            "Lime Orange",
+            "Peach",
+            "Pear",
+            "Pumpkin"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Sage",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Hazelnut",
+            "Honey",
+            "Pistachio",
+            "Walnut",
+            "White Chocolate"
+        ]
+    },
+    "Cucumber": {
+        "fruit": [
+            "Strawberry",
+            "Raspberry",
+            "Apple",
+            "Orange",
+            "Citrus"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Basil",
+            "Dill",
+            "Mint",
+            "Sage",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Agave",
+            "Honey",
+            "Flowers",
+            "Juniper",
+            "Rhubarb"
+        ]
+    },
+    "Dandelion": {
+        "fruit": [
+            "Apple",
+            "Orange",
+            "Citrus",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Mint",
+            "Basil",
+            "Sage",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Cucumber",
+            "Rhubarb",
+            "Maple",
+            "Juniper"
+        ]
+    },
+    "Date": {
+        "fruit": [
+            "Cranberry",
+            "Apple",
+            "Apricot",
+            "Fig",
+            "Nectarine",
+            "Orange",
+            "Prune",
+            "Quince",
+            "Tangerine"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Vanilla",
+            "Chocolate",
+            "Hazelnut",
+            "Pecan",
+            "Pistachio",
+            "Walnut",
+            "Honey. Almond"
+        ]
+    },
+    "Dill": {
+        "fruit": [
+            "Apricot",
+            "Apple",
+            "Lemon",
+            "Pineapple",
+            "Pomegranate"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Black Pepper",
+            "Mint"
+        ],
+        "other": [
+            "Cucumber"
+        ]
+    },
+    "Dragon Fruit": {
+        "fruit": [
+            "Mango",
+            "Pineapple",
+            "Lemon",
+            "Lime",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Honey",
+            "Vanilla"
+        ]
+    },
+    "Durian": {
+        "fruit": [
+            "Lime",
+            "Cherry",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Nutmeg",
+            "Clove",
+            "Star Anise",
+            "Cinnamon",
+            "Mint"
+        ],
+        "other": [
+            "Vanilla",
+            "Caramel",
+            "Honey"
+        ]
+    },
+    "Elderberry": {
+        "fruit": [
+            "Berries Orange",
+            "Peach",
+            "Tangerine"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Nutmeg",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Honey",
+            "Vanilla"
+        ]
+    },
+    "Elderflower": {
+        "fruit": [
+            "Lemon",
+            "Apple",
+            "Orange",
+            "Pineapple",
+            "Pear",
+            "Peach Kiwi",
+            "Berries",
+            "Lychee",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Mint",
+            "Basil",
+            "Sage",
+            "Rosemary",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Cucumber",
+            "Rhubarb",
+            "Juniper"
+        ]
+    },
+    "Fennel": {
+        "fruit": [
+            "Lemon",
+            "Strawberry",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Mint"
+        ],
+        "other": [
+            "Maple",
+            "Honey",
+            "Rhubarb",
+            "Cucumber"
+        ]
+    },
+    "Fig": {
+        "fruit": [
+            "Pear",
+            "Cherry",
+            "Date",
+            "Prune",
+            "Date",
+            "Quince"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon",
+            "Anise",
+            "Thyme",
+            "Rosemary",
+            "Mint"
+        ],
+        "other": [
+            "Hazelnut",
+            "Vanilla",
+            "Walnut"
+        ]
+    },
+    "Ginger": {
+        "fruit": [
+            "Apricot",
+            "Apple",
+            "Lime",
+            "Lemon",
+            "Mango",
+            "Grapefruit Papaya",
+            "Raspberry",
+            "Guava",
+            "Plum"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Mint",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Coconut",
+            "Cucumber",
+            "Juniper"
+        ]
+    },
+    "Goji Berry": {
+        "fruit": [
+            "Acai",
+            "Raspberries",
+            "Strawberries",
+            "Blueberries"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Mint",
+            "Thyme"
+        ],
+        "other": [
+            "Cashew",
+            "Walnut",
+            "Hazelnut",
+            "Chocolate",
+            "Coffee"
+        ]
+    },
+    "Gooseberry": {
+        "fruit": [
+            "Lemon",
+            "Lime",
+            "Yuzu",
+            "Berries"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Ginger",
+            "Mint",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Honey",
+            "White Chocolate"
+        ]
+    },
+    "Grape": {
+        "fruit": [
+            "Citrus",
+            "Melon",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint"
+        ],
+        "other": [
+            "Honey",
+            "Rose"
+        ]
+    },
+    "Grapefruit": {
+        "fruit": [
+            "Lemon",
+            "Lime",
+            "Melon",
+            "Orange",
+            "Papaya",
+            "Pineapple",
+            "Pomegranate",
+            "Raspberry"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Ginger",
+            "Mint",
+            "Rosemary",
+            "Lemon Thyme",
+            "Basil"
+        ],
+        "other": [
+            "Vanilla",
+            "Chamomile Rose Water",
+            "Honey",
+            "Pecan"
+        ]
+    },
+    "Guava": {
+        "fruit": [
+            "Coconut",
+            "Pineapple",
+            "Strawberry",
+            "Lime",
+            "Passionfruit"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Basil",
+            "Mint"
+        ],
+        "other": [
+            "Kaffir Leaf",
+            "Juniper",
+            "Lavender",
+            "Honey",
+            "Vanilla",
+            "Agave"
+        ]
+    },
+    "Hazelnut": {
+        "fruit": [
+            "Banana",
+            "Fig",
+            "Cherry",
+            "Mandarin",
+            "Peaches"
+        ],
+        "herb_n_spice": [
+            "All Spice Berries",
+            "Ginger",
+            "Turmeric",
+            "Bay Leaf",
+            "Basil"
+        ],
+        "other": [
+            "Chocolate",
+            "Honey",
+            "Coffee"
+        ]
+    },
+    "Hibiscus": {
+        "fruit": [
+            "Apple",
+            "Citrus",
+            "Cranberry",
+            "Raspberries",
+            "Strawberries",
+            "Peach",
+            "Blackberries",
+            "Grapefruit",
+            "Watermelon"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Ginger",
+            "Mint",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Cucumber",
+            "Rhubarb"
+        ]
+    },
+    "Honey": {
+        "fruit": [
+            "Apple",
+            "Mango",
+            "Pineapple",
+            "Cranberry",
+            "Peach",
+            "Lemon",
+            "Orange",
+            "Grapefruit",
+            "Watermelon"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Anise",
+            "Ginger",
+            "Mint",
+            "Basil",
+            "Sage",
+            "Thyme"
+        ],
+        "other": [
+            "Juniper",
+            "Chocolate",
+            "Cucumber",
+            "Coconut",
+            "Rhubarb"
+        ]
+    },
+    "Jackfruit": {
+        "fruit": [
+            "Lemon",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Hazelnut"
+        ]
+    },
+    "Jasmine": {
+        "fruit": [
+            "Lemon",
+            "Apple",
+            "Peach",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint",
+            "Thyme"
+        ],
+        "other": [
+            "Elderflower",
+            "Honey",
+            "Maple",
+            "Lavender"
+        ]
+    },
+    "Juniper Berries": {
+        "fruit": [
+            "Strawberry",
+            "Lemon",
+            "Grapefruit",
+            "Berries",
+            "Orange",
+            "Peach",
+            "Plum",
+            "Pear"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Cinnamon",
+            "Anise",
+            "Black Pepper",
+            "Rosemary",
+            "Mint",
+            "Sage",
+            "Lemongrass",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Rhubarb",
+            "Cucumber"
+        ]
+    },
+    "Kiwi": {
+        "fruit": [
+            "Strawberry",
+            "Apple",
+            "Mango",
+            "Cherry",
+            "Lychee",
+            "Papaya",
+            "Passion Fruit",
+            "Pineapple",
+            "Tangerine"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Basil",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Chamomile",
+            "Orange Blossom Water",
+            "Cucumber",
+            "Honey",
+            "Macadamia"
+        ]
+    },
+    "Kumquat": {
+        "fruit": [
+            "Berries",
+            "Plum",
+            "Cherry",
+            "Papaya",
+            "Apple",
+            "Lime",
+            "Lemon",
+            "Pumpkin"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Anise",
+            "Ginger",
+            "Nutmeg",
+            "Basil",
+            "Mint"
+        ],
+        "other": [
+            "Coffee",
+            "Vanilla",
+            "Honey",
+            "Walnut"
+        ]
+    },
+    "Lavender": {
+        "fruit": [
+            "Apricot",
+            "Lemon",
+            "Peach"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cardamom",
+            "Mint",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Cucumber",
+            "Rhubarb",
+            "Honey"
+        ]
+    },
+    "Lemon": {
+        "fruit": [
+            "Apple",
+            "Apricot",
+            "Banana",
+            "Berries",
+            "Cherry",
+            "Currants",
+            "Grapefruit",
+            "Grape",
+            "Guava",
+            "Kumquat",
+            "Lime",
+            "Mango",
+            "Nectarine",
+            "Orange",
+            "Papaya",
+            "Passion Fruit",
+            "Pear",
+            "Plum",
+            "Prune",
+            "Quince,"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cardamom",
+            "Cumin",
+            "Mint",
+            "Thyme",
+            "Basil",
+            "Rosemary",
+            "Sage"
+        ],
+        "other": [
+            "Flowers",
+            "Almond",
+            "Caramel",
+            "Chestnut",
+            "Hazelnut",
+            "Honey",
+            "Pecan",
+            "Pine Nut",
+            "Pistachio",
+            "Poppyseed",
+            "Walnut. Rhubarb",
+            "Cucumber",
+            "Juniper"
+        ]
+    },
+    "Lemon Thyme": {
+        "fruit": [
+            "Apple",
+            "Lemon",
+            "Pineapple",
+            "Orange",
+            "Blackberries",
+            "Raspberries"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Basil",
+            "Mint"
+        ],
+        "other": [
+            "Honey",
+            "Juniper",
+            "Cucumber",
+            "Rhubarb"
+        ]
+    },
+    "Lemongrass": {
+        "fruit": [
+            "Apple",
+            "Strawberry",
+            "Lemon",
+            "Guava",
+            "Peach"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint",
+            "Sage"
+        ],
+        "other": [
+            "Coconut",
+            "Kaffir Lime Leaf",
+            "Cucumber"
+        ]
+    },
+    "Lime": {
+        "fruit": [
+            "Apricot",
+            "Banana",
+            "Date",
+            "Fig",
+            "Berries",
+            "Grapefruit",
+            "Guava",
+            "Kumquat",
+            "Lemon",
+            "Lychee",
+            "Orange",
+            "Mango",
+            "Papaya",
+            "Passion Fruit",
+            "Persimmon",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Cardamom",
+            "Anise",
+            "Ginger",
+            "Mint",
+            "Rosemary",
+            "Sage",
+            "Tarragon",
+            "Thyme"
+        ],
+        "other": [
+            "Rhubarb",
+            "Cucumber",
+            "Chillies. Juniper"
+        ]
+    },
+    "Longan": {
+        "fruit": [
+            "Banana",
+            "Mango",
+            "Pomegranate",
+            "Goji",
+            "Orange",
+            "Date"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Rosemary",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Vanilla"
+        ]
+    },
+    "Loquat": {
+        "fruit": [
+            "Orange",
+            "Cranberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Basil"
+        ],
+        "other": [
+            "Liquorice",
+            "Honey"
+        ]
+    },
+    "Lychee": {
+        "fruit": [
+            "Citrus",
+            "Goji Berry",
+            "Passion Fruit",
+            "Coconut",
+            "Pineapple",
+            "Mango",
+            "Watermelon"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Vanilla"
+        ]
+    },
+    "Macadamia": {
+        "fruit": [
+            "Strawberries",
+            "Cherry",
+            "Peach",
+            "Plum"
+        ],
+        "herb_n_spice": [
+            "Cumin",
+            "Ginger",
+            "Cayenne Pepper",
+            "Mint"
+        ],
+        "other": [
+            "Maple Syrup"
+        ]
+    },
+    "Mandarin": {
+        "fruit": [
+            "Cherry",
+            "Fig",
+            "Tropical Fruits,"
+        ],
+        "herb_n_spice": [
+            "Star Anise",
+            "Ginger",
+            "Nutmeg",
+            "Cinnamon",
+            "Cardamom",
+            "Thyme",
+            "Lemon Thyme",
+            "Rosemary",
+            "Sage",
+            "Mint"
+        ],
+        "other": [
+            "Chocolate",
+            "Coffee",
+            "Vanilla",
+            "Honey",
+            "Maple"
+        ]
+    },
+    "Mango": {
+        "fruit": [
+            "Kumquat",
+            "Lemon",
+            "Lime",
+            "Orange",
+            "Papaya",
+            "Passion Fruit",
+            "Pear",
+            "Pineapple",
+            "Tangerine",
+            "Coconut"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Chillies",
+            "Agave",
+            "Honey,"
+        ]
+    },
+    "Maple Syrup": {
+        "fruit": [
+            "Apricot",
+            "Pineapple",
+            "Orange",
+            "Lemon"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cinnamon",
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Chocolate",
+            "Oak",
+            "Walnut"
+        ]
+    },
+    "Mint": {
+        "fruit": [
+            "Apricot",
+            "Apple",
+            "Strawberry",
+            "Plum",
+            "Pear",
+            "Lime",
+            "Lemon",
+            "Berries",
+            "Peach",
+            "Pomegranate"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Cardamom",
+            "Rosemary",
+            "Thyme",
+            "Dill"
+        ],
+        "other": [
+            "Cucumber",
+            "Rhubarb",
+            "Honey",
+            "Agave"
+        ]
+    },
+    "Mulberry": {
+        "fruit": [
+            "Berries",
+            "Plum",
+            "Lemon",
+            "Currants",
+            "Apple,"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Mint",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Juniper"
+        ]
+    },
+    "Nectarine": {
+        "fruit": [
+            "Apricot",
+            "Blackberry",
+            "Blueberry",
+            "Cherry",
+            "Cranberry",
+            "Fig",
+            "Lemon",
+            "Orange",
+            "Peach",
+            "Plum",
+            "Raspberry",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cardamom",
+            "Cinnamon",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Coconut",
+            "Dark Chocolate",
+            "Hazelnut",
+            "Honey",
+            "Maple",
+            "Pecan",
+            "Pistachio"
+        ]
+    },
+    "Nutmeg": {
+        "fruit": [
+            "Lemon",
+            "Lime",
+            "Oranges",
+            "Apple"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Cardamom",
+            "Cloves",
+            "Rosemary",
+            "Lime Leaf"
+        ],
+        "other": [
+            "Caramel",
+            "Coffee",
+            "Maple Syrup"
+        ]
+    },
+    "Olive": {
+        "fruit": [
+            "Lemon",
+            "Grapefruit",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Coriander",
+            "Rosemary",
+            "Thyme",
+            "Basil"
+        ],
+        "other": [
+            "Juniper",
+            "Lemongrass"
+        ]
+    },
+    "Orange": {
+        "fruit": [
+            "Apple",
+            "Apricot",
+            "Banana",
+            "Berries Cherry",
+            "Date",
+            "Fig",
+            "Grapefruit",
+            "Guava",
+            "Kumquat",
+            "Citrus Mango",
+            "Nectarine",
+            "Papaya",
+            "Passion Fruit",
+            "Pear",
+            "Persimmon",
+            "Plum",
+            "Pomegranate",
+            "Prune",
+            "Pumpkin",
+            "Quince",
+            "Raisin"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cardamom Cinnamon",
+            "Clove",
+            "Cumin",
+            "Ginger",
+            "Nutmeg",
+            "Basil",
+            "Dill",
+            "Thyme",
+            "Rosemary",
+            "Mint"
+        ],
+        "other": [
+            "Rhubarb",
+            "Lavender",
+            "Rose Water",
+            "Vanilla"
+        ]
+    },
+    "Papaya": {
+        "fruit": [
+            "Banana",
+            "Grapefruit",
+            "Kiwi",
+            "Kumquat",
+            "Lemon",
+            "Lime",
+            "Mango",
+            "Orange",
+            "Passion Fruit",
+            "Peach",
+            "Pineapple",
+            "Coconut"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Coriander",
+            "Cumin",
+            "Ginger",
+            "Mint",
+            "Basil"
+        ],
+        "other": [
+            "Macadamia",
+            "Vanilla"
+        ]
+    },
+    "Parsley": {
+        "fruit": [
+            "Strawberry",
+            "Lime",
+            "Lemon"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Coconut",
+            "Honey"
+        ]
+    },
+    "Passionfruit": {
+        "fruit": [
+            "Kiwi",
+            "Citrus",
+            "Mango",
+            "Orange",
+            "Papaya",
+            "Pineapple",
+            "Raspberry",
+            "Strawberry,"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint"
+        ],
+        "other": [
+            "Vanilla",
+            "Macadamia",
+            "Caramel",
+            "Lemongrass"
+        ]
+    },
+    "Peach": {
+        "fruit": [
+            "Apricot",
+            "Blackberry",
+            "Blueberry",
+            "Berries",
+            "Citrus Cherry",
+            "Coconut",
+            "Currants",
+            "Fig",
+            "Nectarine",
+            "Orange",
+            "Papaya",
+            "Passionfruit Plum,"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Basil",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Chocolate Hazelnut",
+            "Honey",
+            "Maple",
+            "Pecan",
+            "Pistachio",
+            "Walnut",
+            "Vanilla"
+        ]
+    },
+    "Peanut": {
+        "fruit": [
+            "Banana",
+            "Strawberry",
+            "Peach",
+            "Pear"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Nutmeg",
+            "Paprika",
+            "Parsley",
+            "Mint"
+        ],
+        "other": [
+            "Chocolate",
+            "Coffee"
+        ]
+    },
+    "Pear": {
+        "fruit": [
+            "Apple",
+            "Citrus Blackberry",
+            "Cherry",
+            "Cranberry",
+            "Currant",
+            "Date",
+            "Fig",
+            "Lingonberry",
+            "Pomegranate",
+            "Prune",
+            "Quince",
+            "Raisin,"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Clove",
+            "Nutmeg",
+            "Ginger",
+            "Rosemary",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Chestnut",
+            "Chocolate",
+            "Macadamia",
+            "Honey",
+            "Hazelnut",
+            "Pistachio",
+            "Vanilla",
+            "Walnut"
+        ]
+    },
+    "Pecan": {
+        "fruit": [
+            "Banana",
+            "Pear",
+            "Grapes. Fig"
+        ],
+        "herb_n_spice": [
+            "Cardamom",
+            "Basil",
+            "Parsley"
+        ],
+        "other": [
+            "Vanilla",
+            "Maple",
+            "Chocolate"
+        ]
+    },
+    "Pepper": {
+        "fruit": [
+            "Blackberries",
+            "Cherry",
+            "Strawberry",
+            "Lime",
+            "Lemon"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint",
+            "Sage",
+            "Basil"
+        ],
+        "other": [
+            "Tomato",
+            "Honey",
+            "Lavender"
+        ]
+    },
+    "Persimmon": {
+        "fruit": [
+            "Cherry",
+            "Cranberry",
+            "Grapefruit",
+            "Kumquat",
+            "Lemon",
+            "Nectarine",
+            "Mango",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Nutmeg",
+            "Basil"
+        ],
+        "other": [
+            "Almonds",
+            "Honey",
+            "Vanilla"
+        ]
+    },
+    "Pine Nut": {
+        "fruit": [
+            "Lemon",
+            "Fig",
+            "Peach",
+            "Plum"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Turmeric",
+            "Basil",
+            "Oregano",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Maple"
+        ]
+    },
+    "Pineapple": {
+        "fruit": [
+            "Apricot",
+            "Banana",
+            "Cherry",
+            "Coconut Grapefruit",
+            "Kiwi",
+            "Kumquat",
+            "Lime",
+            "Mango",
+            "Melon",
+            "Orange",
+            "Papaya",
+            "Passion Fruit",
+            "Raspberry",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Cardamom",
+            "Clove",
+            "Ginger",
+            "Anise",
+            "Basil",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Coconut",
+            "Dark Chocolate",
+            "Hazelnut",
+            "Honey",
+            "Macadamia",
+            "Maple",
+            "Peanut"
+        ]
+    },
+    "Pistachio": {
+        "fruit": [
+            "Pineapple Plum",
+            "Peaches",
+            "Coconut",
+            "Cranberry",
+            "Apricot"
+        ],
+        "herb_n_spice": [
+            "Nutmeg",
+            "Cardamom",
+            "Fennel Seeds",
+            "Basil",
+            "Parsley",
+            "Rosemary"
+        ],
+        "other": [
+            "Vanilla",
+            "Chocolate (Dark And White)"
+        ]
+    },
+    "Plum": {
+        "fruit": [
+            "Cherry",
+            "Cranberry",
+            "Fig",
+            "Kumquat",
+            "Lemon",
+            "Nectarine",
+            "Peach",
+            "Raspberry",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon. Anise",
+            "Cardamom",
+            "Ginger",
+            "Nutmeg",
+            "Basil",
+            "Dill",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Chestnut",
+            "Chocolate",
+            "Rhubarb Hazelnut",
+            "Honey",
+            "Walnut",
+            "Vanilla"
+        ]
+    },
+    "Pomegranate": {
+        "fruit": [
+            "Cranberry",
+            "Cucumber",
+            "Pear",
+            "Blueberry",
+            "Raspberry",
+            "Mango",
+            "Pineapple",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Clove",
+            "Cinnamon",
+            "Rosemary",
+            "Thyme",
+            "Mint"
+        ],
+        "other": [
+            "Juniper",
+            "Vanilla",
+            "Coconut",
+            "Chocolate",
+            "Honey",
+            "Maple Syrup",
+            "Agave"
+        ]
+    },
+    "Prune": {
+        "fruit": [
+            "Apple",
+            "Apricot",
+            "Currants",
+            "Date",
+            "Fig",
+            "Lemon",
+            "Orange",
+            "Pear",
+            "Raisin"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Mint",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Chestnut",
+            "Dark Chocolate",
+            "Hazelnut",
+            "Honey",
+            "Maple",
+            "Pecan",
+            "Pistachio",
+            "Walnut,"
+        ]
+    },
+    "Pumpkin": {
+        "fruit": [
+            "Apple",
+            "Cranberry",
+            "Pomegranate",
+            "Strawberry,"
+        ],
+        "herb_n_spice": [
+            "Allspice",
+            "Cardamom",
+            "Cinnamon",
+            "Clove",
+            "Ginger",
+            "Nutmeg",
+            "Sage",
+            "Thyme",
+            "Rosemary"
+        ],
+        "other": [
+            "Coffee",
+            "Chocolate",
+            "Honey",
+            "Caramel",
+            "Vanilla"
+        ]
+    },
+    "Quince": {
+        "fruit": [
+            "Apple",
+            "Cherry",
+            "Cranberry",
+            "Date",
+            "Fig",
+            "Kumquat",
+            "Lemon",
+            "Nectarine",
+            "Orange",
+            "Pear",
+            "Raspberry"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Nutmeg",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Caramel",
+            "Hazelnut",
+            "Honey",
+            "Maple",
+            "Pecan",
+            "Walnut"
+        ]
+    },
+    "Rambutan": {
+        "fruit": [
+            "Lychee",
+            "Longan",
+            "Lemon",
+            "Lime",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint"
+        ],
+        "other": [
+            "Coconut",
+            "Agave",
+            "Honey",
+            "Vanilla"
+        ]
+    },
+    "Raspberry": {
+        "fruit": [
+            "Apricot",
+            "Apple",
+            "Citrus",
+            "Lemon",
+            "Nectarine",
+            "Other Berries",
+            "Peach",
+            "Plum",
+            "Passionfruit",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Thyme",
+            "Mint",
+            "Basil"
+        ],
+        "other": [
+            "Vanilla",
+            "Rhubarb",
+            "Honey"
+        ]
+    },
+    "Rhubarb": {
+        "fruit": [
+            "Apple",
+            "Apricot",
+            "Orange",
+            "Peach",
+            "Lemon",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cardamom",
+            "Mint",
+            "Thyme"
+        ],
+        "other": [
+            "Juniper",
+            "Cucumber",
+            "Honey"
+        ]
+    },
+    "Rose": {
+        "fruit": [
+            "Pineapple",
+            "Citrus Strawberry",
+            "Peach",
+            "Raspberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cardamom",
+            "Mint",
+            "Rosemary",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Cucumber",
+            "Rhubarb"
+        ]
+    },
+    "Rosemary": {
+        "fruit": [
+            "Apricot",
+            "Apple",
+            "Lime",
+            "Cranberry",
+            "Lemon",
+            "Pineapple",
+            "Orange",
+            "Pomegranate"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cardamom",
+            "Mint",
+            "Basil",
+            "Thyme"
+        ],
+        "other": [
+            "Rose",
+            "Olive",
+            "Honey",
+            "Rhubarb",
+            "Cucumber"
+        ]
+    },
+    "Sage": {
+        "fruit": [
+            "Apple",
+            "Lime",
+            "Lemon",
+            "Cherries",
+            "Pineapple"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Thyme"
+        ],
+        "other": [
+            "Honey",
+            "Cucumber",
+            "Rhubarb"
+        ]
+    },
+    "Soursop": {
+        "fruit": [
+            "Apple",
+            "Lemon",
+            "Lime",
+            "Guava",
+            "Raspberry",
+            "Blackberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Cardamom",
+            "Mint",
+            "Rosemary",
+            "Basil"
+        ],
+        "other": [
+            "Vanilla",
+            "Coconut"
+        ]
+    },
+    "Star Anise": {
+        "fruit": [
+            "Apple",
+            "Lime",
+            "Pineapple",
+            "Plum",
+            "Orange",
+            "Tangerine"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Nutmeg",
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Almond",
+            "Chocolate",
+            "Honey",
+            "Maple",
+            "Walnut"
+        ]
+    },
+    "Star Fruit": {
+        "fruit": [
+            "Apple",
+            "Orange",
+            "Lime",
+            "Passionfruit"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cardamom",
+            "Cinnamon",
+            "Mint"
+        ],
+        "other": [
+            "Rhubarb",
+            "Vanilla",
+            "Honey"
+        ]
+    },
+    "Strawberry": {
+        "fruit": [
+            "Currant",
+            "Citrus",
+            "Berries Grapefruit",
+            "Guava",
+            "Kiwi",
+            "Kumquat",
+            "Lychee",
+            "Mango",
+            "Nectarine",
+            "Orange",
+            "Papaya",
+            "Passion Fruit",
+            "Peach",
+            "Pineapple",
+            "Plum,"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Black Pepper",
+            "Clove",
+            "Ginger",
+            "Basil",
+            "Thyme",
+            "Rosemary",
+            "Sage",
+            "Mint",
+            "Coriander"
+        ],
+        "other": [
+            "Rhubarb",
+            "Vanilla",
+            "Almond",
+            "Caramel",
+            "Coconut",
+            "Chocolate",
+            "Hazelnut",
+            "Honey",
+            "Maple Syrup Pecan",
+            "Pistachio",
+            "Violet,"
+        ]
+    },
+    "Tangerine": {
+        "fruit": [
+            "Apple",
+            "Orange",
+            "Citrus",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint",
+            "Basil"
+        ],
+        "other": [
+            "Agave",
+            "Honey",
+            "Maple Syrup",
+            "Vanilla"
+        ]
+    },
+    "Tarragon": {
+        "fruit": [
+            "Lime",
+            "Lemon",
+            "Orange",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint"
+        ],
+        "other": [
+            "Elderflower",
+            "Honey",
+            "Juniper"
+        ]
+    },
+    "Thyme": {
+        "fruit": [
+            "Apple",
+            "Lemon",
+            "Pineapple",
+            "Orange",
+            "Blackberries",
+            "Raspberries",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Cinnamon",
+            "Cardamom",
+            "Rosemary",
+            "Mint"
+        ],
+        "other": [
+            "Honey",
+            "Juniper",
+            "Cucumber",
+            "Rose",
+            "Lavender",
+            "Violet"
+        ]
+    },
+    "Tomato": {
+        "fruit": [
+            "Lemon",
+            "Strawberry"
+        ],
+        "herb_n_spice": [
+            "Black Pepper",
+            "Cinnamon",
+            "Basil"
+        ],
+        "other": [
+            "Celery"
+        ]
+    },
+    "Vanilla": {
+        "fruit": [
+            "Apricot",
+            "Passionfruit",
+            "Apple",
+            "Peach",
+            "Raspberries",
+            "Orange"
+        ],
+        "herb_n_spice": [
+            "Anise",
+            "Cinnamon",
+            "Cardamom",
+            "Basil",
+            "Mint",
+            "Rosemary",
+            "Sage"
+        ],
+        "other": [
+            "Almond",
+            "Chocolate",
+            "Coffee",
+            "Walnut",
+            "Cucumber",
+            "Rhubarb"
+        ]
+    },
+    "Violet": {
+        "fruit": [
+            "Apricot",
+            "Lemon",
+            "Cherry",
+            "Peach",
+            "Cranberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Mint",
+            "Basil",
+            "Rosemary"
+        ],
+        "other": [
+            "Almond",
+            "Coconut",
+            "Lavender",
+            "Jasmin",
+            "Elderflower"
+        ]
+    },
+    "Walnut": {
+        "fruit": [
+            "Apple",
+            "Apricot",
+            "Banana",
+            "Cherry",
+            "Cranberry"
+        ],
+        "herb_n_spice": [
+            "Nutmeg",
+            "Anise",
+            "Rosemary"
+        ],
+        "other": [
+            "Dark Chocolate",
+            "Vanilla",
+            "Coffee",
+            "Honey",
+            "Caramel"
+        ]
+    },
+    "Watermelon": {
+        "fruit": [
+            "Lemon",
+            "Lime",
+            "Passionfruit",
+            "Orange",
+            "Pineapple",
+            "Cranberry"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Cinnamon",
+            "Anise",
+            "Mint",
+            "Basil",
+            "Rosemary"
+        ],
+        "other": [
+            "Vanilla",
+            "Coconut",
+            "Cucumber",
+            "Agave",
+            "Honey"
+        ]
+    },
+    "Yuzu": {
+        "fruit": [
+            "Apple",
+            "Orange",
+            "Lemon",
+            "Grapefruit"
+        ],
+        "herb_n_spice": [
+            "Ginger",
+            "Mint",
+            "Dill"
+        ],
+        "other": [
+            "Almonds",
+            "Coffee",
+            "Honey",
+            "Juniper",
+            "Jasmine"
+        ]
+    }
+}
