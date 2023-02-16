@@ -12,11 +12,12 @@ def main():
     ingredients = {}
     for index, row in flavours.iterrows():
         ingredients[row["Main Ingredient"].title()] = {
-            "fruit": row["Fruit"].replace("  ", " ").title().split(", "),
-            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").title().split(", "),
-            "other": row["Other"].replace("  ", " ").title().split(", ")
+            "fruit": row["Fruit"].replace("  ", " ").replace(",,", ",").title().split(", "),
+            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").replace(",,", ",").title().split(", "),
+            "other": row["Other"].replace("  ", " ").replace(",,", ",").title().split(", ")
         }
     # pprint(ingredients)
+    ingredients = cleaner(ingredients)
     y = []
     for x in ingredients:
         y.append({
@@ -31,10 +32,41 @@ def main():
     markdown = markdown.replace("[", "").replace("]", "").replace("'", "")
     with open("flavours.md", "w") as file1:
         file1.writelines(markdown)
-
     json_object = json.dumps(ingredients, indent=4)
     with open("flavours.json", "w") as outfile:
         outfile.write(json_object)
+
+
+def cleaner(data):
+    type = {}
+    for key in data:
+        for x in data[key]:
+            for y in data[key][x]:
+                if y not in type:
+                    type[y] = x
+    outdata = dict(data)
+    for key in data:
+        for x in data[key]:
+            for y in data[key][x]:
+                if y not in outdata:
+                    outdata[y] = {
+                        "fruit": [],
+                        "herb_n_spice": [],
+                        "other": [],
+                    }
+                if "fruit" not in outdata[y]:
+                    outdata[y]["fruit"] = []
+                if "herb_n_spice" not in outdata[y]:
+                    outdata[y]["herb_n_spice"] = []
+                if "other" not in outdata[y]:
+                    outdata[y]["other"] = []
+                if key in type:
+                    if key not in outdata[y][type[key]]:
+                        # print(f"{key} {type[key]} - {y} {type[y]}")
+                        outdata[y][type[key]].append(key)
+                        # print("missing")
+    return outdata
+
 
 if __name__ == '__main__':
     main()

@@ -5,6 +5,7 @@ from fuzzywuzzy import process
 from rich.console import Console
 from rich.table import Table
 
+
 def ingredient_lookup(search):
     with open('flavours.json', 'r') as openfile:
         ingredients = json.load(openfile)
@@ -15,15 +16,15 @@ def ingredient_lookup(search):
         if confidence > 80:
             table = Table(title=result, show_header=False)
             table.add_row("Fruit", ", ".join(ingredients[result]["fruit"]))
-            table.add_row("Herb and Spice",", ".join(ingredients[result]["herb_n_spice"]))
+            table.add_row("Herb and Spice", ", ".join(ingredients[result]["herb_n_spice"]))
             table.add_row("Other", ", ".join(ingredients[result]["other"]))
             console = Console()
             console.print(table)
         else:
             print("No match found\nSimilar results to your search:")
-            simlares = process.extract(search, keys)
-            for result, confidence in simlares:
-                print(f"{result} Confidence: {confidence}")
+            similar = process.extract(search, keys)
+            for result, confidence in similar:
+                print(f"{result}")
 
 
 if __name__ == '__main__':
