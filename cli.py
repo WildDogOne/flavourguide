@@ -14,9 +14,9 @@ def ingredient_lookup(search):
         result, confidence = result
         if confidence > 80:
             table = Table(title=result, show_header=False)
-            table.add_row("fruit", ", ".join(ingredients[result]["fruit"]))
-            table.add_row("herb_n_spice",", ".join(ingredients[result]["herb_n_spice"]))
-            table.add_row("other", ", ".join(ingredients[result]["other"]))
+            table.add_row("Fruit", ", ".join(ingredients[result]["fruit"]))
+            table.add_row("Herb and Spice",", ".join(ingredients[result]["herb_n_spice"]))
+            table.add_row("Other", ", ".join(ingredients[result]["other"]))
             console = Console()
             console.print(table)
         else:
