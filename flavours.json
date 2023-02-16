@@ -43,6 +43,7 @@
             "Fig",
             "Blueberry",
             "Cranberry",
+            "Date",
             "Lemon",
             "Nectarine",
             "Pear",
@@ -666,6 +667,7 @@
             "Peach",
             "Pear",
             "Persimmon",
+            "Plum",
             "Pomegranate",
             "Prune",
             "Pumpkin",
@@ -960,7 +962,8 @@
             "Pecan",
             "Pistachio",
             "Walnut",
-            "Honey. Almond"
+            "Honey",
+            "Almond"
         ]
     },
     "Dill": {
@@ -1119,6 +1122,7 @@
             "Walnut",
             "Almond",
             "Chestnut",
+            "Pecan",
             "Pine Nut"
         ]
     },
@@ -1390,6 +1394,7 @@
             "Banana",
             "Blackberry",
             "Cantaloupe",
+            "Date",
             "Elderberry",
             "Grape",
             "Guava",
@@ -1659,7 +1664,8 @@
             "Pine Nut",
             "Pistachio",
             "Poppyseed",
-            "Walnut. Rhubarb",
+            "Walnut",
+            "Rhubarb",
             "Cucumber",
             "Juniper",
             "Elderflower",
@@ -1669,7 +1675,6 @@
             "Lemongrass",
             "Maple Syrup",
             "Olive",
-            "Rhubarb",
             "Tomato",
             "Violet"
         ]
@@ -1762,10 +1767,10 @@
         "other": [
             "Rhubarb",
             "Cucumber",
-            "Chillies. Juniper",
+            "Chillies",
+            "Juniper",
             "Agave",
-            "Carrot",
-            "Chillies"
+            "Carrot"
         ]
     },
     "Longan": {
@@ -2397,7 +2402,8 @@
         "fruit": [
             "Banana",
             "Pear",
-            "Grapes. Fig",
+            "Grapes",
+            "Fig",
             "Apple",
             "Cherry",
             "Date",
@@ -2591,7 +2597,8 @@
         ],
         "herb_n_spice": [
             "Black Pepper",
-            "Cinnamon. Anise",
+            "Cinnamon",
+            "Anise",
             "Cardamom",
             "Ginger",
             "Nutmeg",
@@ -3245,6 +3252,7 @@
             "Fig",
             "Goji Berry",
             "Kumquat",
+            "Lemon",
             "Peach",
             "Pear",
             "Plum",
@@ -3322,6 +3330,7 @@
             "Nectarine",
             "Orange",
             "Pineapple",
+            "Plum",
             "Prune",
             "Strawberry",
             "Watermelon"
@@ -3527,6 +3536,7 @@
         "fruit": [
             "Guava",
             "Lemon",
+            "Lime",
             "Pomegranate",
             "Yuzu"
         ],
@@ -3672,13 +3682,6 @@
         "other": [
             "Cucumber"
         ]
-    },
-    "Honey. Almond": {
-        "fruit": [
-            "Date"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Berries Orange": {
         "fruit": [
@@ -3836,26 +3839,12 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Walnut. Rhubarb": {
-        "fruit": [
-            "Lemon"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Kaffir Lime Leaf": {
         "fruit": [],
         "herb_n_spice": [],
         "other": [
             "Lemongrass"
         ]
-    },
-    "Chillies. Juniper": {
-        "fruit": [
-            "Lime"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Goji": {
         "fruit": [
@@ -3983,7 +3972,7 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Grapes. Fig": {
+    "Grapes": {
         "fruit": [],
         "herb_n_spice": [],
         "other": [
@@ -4032,13 +4021,6 @@
         "other": [
             "Pistachio"
         ]
-    },
-    "Cinnamon. Anise": {
-        "fruit": [
-            "Plum"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Rhubarb Hazelnut": {
         "fruit": [

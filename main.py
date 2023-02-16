@@ -11,9 +11,9 @@ def main():
     ingredients = {}
     for index, row in flavours.iterrows():
         ingredients[row["Main Ingredient"].title()] = {
-            "fruit": row["Fruit"].replace("  ", " ").title().split(", "),
-            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").title().split(", "),
-            "other": row["Other"].replace("  ", " ").title().split(", ")
+            "fruit": row["Fruit"].replace("  ", " ").replace(".", ",").title().split(", "),
+            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").replace(".", ",").title().split(", "),
+            "other": row["Other"].replace("  ", " ").replace(".", ",").title().split(", ")
         }
     ingredients = cleaner(ingredients)
     y = []
@@ -38,9 +38,10 @@ def cleaner(data):
     for key in data:
         for x in data[key]:
             for y in data[key][x]:
-                if "," in y:
+                if "," in y or "." in y:
                     data[key][x].remove(y)
                     y = y.replace(",", "")
+                    #y = y.replace(".", "")
                     data[key][x].append(y)
                 if y not in type:
                     type[y] = x
