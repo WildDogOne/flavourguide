@@ -221,7 +221,6 @@
             "Maple",
             "Pecan",
             "Walnut",
-            "Chocolate,",
             "Chocolate",
             "Peanut"
         ]
@@ -1621,12 +1620,11 @@
             "Pear",
             "Plum",
             "Prune",
-            "Quince,",
+            "Quince",
             "Blueberry",
             "Cantaloupe",
             "Cranberry",
             "Persimmon",
-            "Quince",
             "Raspberry",
             "Watermelon",
             "Yuzu"
@@ -1854,7 +1852,7 @@
         "fruit": [
             "Cherry",
             "Fig",
-            "Tropical Fruits,"
+            "Tropical Fruits"
         ],
         "herb_n_spice": [
             "Star Anise",
@@ -1910,7 +1908,6 @@
         "other": [
             "Chillies",
             "Agave",
-            "Honey,",
             "Honey"
         ]
     },
@@ -2025,7 +2022,7 @@
             "Plum",
             "Lemon",
             "Currants",
-            "Apple,"
+            "Apple"
         ],
         "herb_n_spice": [
             "Black Pepper",
@@ -2266,7 +2263,7 @@
             "Papaya",
             "Pineapple",
             "Raspberry",
-            "Strawberry,",
+            "Strawberry",
             "Guava",
             "Watermelon"
         ],
@@ -2295,7 +2292,7 @@
             "Nectarine",
             "Orange",
             "Papaya",
-            "Passionfruit Plum,",
+            "Passionfruit Plum",
             "Cherry",
             "Cranberry",
             "Elderberry",
@@ -2364,7 +2361,7 @@
             "Pomegranate",
             "Prune",
             "Quince",
-            "Raisin,",
+            "Raisin",
             "Blackberry",
             "Lemon",
             "Mango",
@@ -2682,7 +2679,7 @@
             "Maple",
             "Pecan",
             "Pistachio",
-            "Walnut,"
+            "Walnut"
         ]
     },
     "Pumpkin": {
@@ -2690,7 +2687,7 @@
             "Apple",
             "Cranberry",
             "Pomegranate",
-            "Strawberry,",
+            "Strawberry",
             "Kumquat",
             "Orange"
         ],
@@ -3014,11 +3011,12 @@
             "Passion Fruit",
             "Peach",
             "Pineapple",
-            "Plum,",
+            "Plum",
             "Apricot",
             "Blackberry",
-            "Plum",
-            "Pomegranate"
+            "Passionfruit",
+            "Pomegranate",
+            "Pumpkin"
         ],
         "herb_n_spice": [
             "Anise",
@@ -3045,7 +3043,7 @@
             "Honey",
             "Maple Syrup Pecan",
             "Pistachio",
-            "Violet,",
+            "Violet",
             "Agave",
             "Cucumber",
             "Fennel",
@@ -3217,7 +3215,8 @@
             "Lemon",
             "Cherry",
             "Peach",
-            "Cranberry"
+            "Cranberry",
+            "Strawberry"
         ],
         "herb_n_spice": [
             "Ginger",
@@ -3249,6 +3248,7 @@
             "Peach",
             "Pear",
             "Plum",
+            "Prune",
             "Quince"
         ],
         "herb_n_spice": [
@@ -3552,13 +3552,6 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Chocolate,": {
-        "fruit": [
-            "Banana"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Citrus Mango": {
         "fruit": [
             "Blackberry",
@@ -3825,13 +3818,6 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Quince,": {
-        "fruit": [
-            "Lemon"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Cumin": {
         "fruit": [
             "Lemon",
@@ -3885,16 +3871,9 @@
             "Macadamia"
         ]
     },
-    "Tropical Fruits,": {
+    "Tropical Fruits": {
         "fruit": [
             "Mandarin"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Honey,": {
-        "fruit": [
-            "Mango"
         ],
         "herb_n_spice": [],
         "other": []
@@ -3905,11 +3884,6 @@
         "other": [
             "Maple Syrup"
         ]
-    },
-    "Apple,": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": []
     },
     "Dark Chocolate": {
         "fruit": [
@@ -3939,6 +3913,7 @@
     "Raisin": {
         "fruit": [
             "Orange",
+            "Pear",
             "Prune"
         ],
         "herb_n_spice": [],
@@ -3958,14 +3933,6 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Strawberry,": {
-        "fruit": [
-            "Passionfruit",
-            "Pumpkin"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Citrus Cherry": {
         "fruit": [
             "Peach"
@@ -3973,7 +3940,7 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Passionfruit Plum,": {
+    "Passionfruit Plum": {
         "fruit": [
             "Peach"
         ],
@@ -4010,13 +3977,6 @@
         "other": []
     },
     "Lingonberry": {
-        "fruit": [
-            "Pear"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Raisin,": {
         "fruit": [
             "Pear"
         ],
@@ -4087,13 +4047,6 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Walnut,": {
-        "fruit": [
-            "Prune"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Allspice": {
         "fruit": [
             "Pumpkin"
@@ -4122,21 +4075,7 @@
         "herb_n_spice": [],
         "other": []
     },
-    "Plum,": {
-        "fruit": [
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Maple Syrup Pecan": {
-        "fruit": [
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Violet,": {
         "fruit": [
             "Strawberry"
         ],

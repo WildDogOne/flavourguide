@@ -38,6 +38,10 @@ def cleaner(data):
     for key in data:
         for x in data[key]:
             for y in data[key][x]:
+                if "," in y:
+                    data[key][x].remove(y)
+                    y = y.replace(",", "")
+                    data[key][x].append(y)
                 if y not in type:
                     type[y] = x
     outdata = dict(data)
