@@ -6,17 +6,15 @@ from tomark import Tomark
 
 def main():
     url = 'https://www.smartblend.co.uk/flavour-guide'
-
     tables = pd.read_html(url, header=0)
     flavours = tables[0]
     ingredients = {}
     for index, row in flavours.iterrows():
         ingredients[row["Main Ingredient"].title()] = {
-            "fruit": row["Fruit"].replace("  ", " ").replace(",,", ",").title().split(", "),
-            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").replace(",,", ",").title().split(", "),
-            "other": row["Other"].replace("  ", " ").replace(",,", ",").title().split(", ")
+            "fruit": row["Fruit"].replace("  ", " ").title().split(", "),
+            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").title().split(", "),
+            "other": row["Other"].replace("  ", " ").title().split(", ")
         }
-    # pprint(ingredients)
     ingredients = cleaner(ingredients)
     y = []
     for x in ingredients:
@@ -26,8 +24,6 @@ def main():
             "Herb and Spice": ingredients[x]["herb_n_spice"],
             "Other": ingredients[x]["other"],
         })
-        # pprint(y)
-        # quit()
     markdown = Tomark.table(y)
     markdown = markdown.replace("[", "").replace("]", "").replace("'", "")
     with open("flavours.md", "w") as file1:
@@ -62,9 +58,7 @@ def cleaner(data):
                     outdata[y]["other"] = []
                 if key in type:
                     if key not in outdata[y][type[key]]:
-                        # print(f"{key} {type[key]} - {y} {type[y]}")
                         outdata[y][type[key]].append(key)
-                        # print("missing")
     return outdata
 
 
