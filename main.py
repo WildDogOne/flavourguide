@@ -64,6 +64,7 @@ def cleaner(data):
                 if key in type:
                     if key not in outdata[y][type[key]]:
                         outdata[y][type[key]].append(key)
+    outdata = dict(sorted(outdata.items()))
     return outdata
 
 
