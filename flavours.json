@@ -494,7 +494,7 @@
         "other": [
             "Lavender",
             "Hazelnut",
-            "Jasminee",
+            "Jasmine",
             "Lemongrass",
             "Orange Blossom",
             "White Chocolate",
@@ -1801,7 +1801,9 @@
             "Lemon",
             "Apple",
             "Peach",
-            "Orange"
+            "Orange",
+            "Blueberry",
+            "Yuzu"
         ],
         "herb_n_spice": [
             "Ginger",
@@ -1816,14 +1818,6 @@
             "Lavender",
             "Violet"
         ]
-    },
-    "Jasminee": {
-        "fruit": [
-            "Blueberry",
-            "Yuzu"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Juniper": {
         "fruit": [
@@ -3898,7 +3892,7 @@
             "Coffee",
             "Honey",
             "Juniper",
-            "Jasminee"
+            "Jasmine"
         ]
     }
 }

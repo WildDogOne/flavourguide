@@ -20,7 +20,7 @@ def fixes(element):
                     "Peaches": "Peach",
                     "Strawberries": "Strawberry",
                     "Pears": "Pear",
-                    "Jasmin": "Jasmine",
+                    "Jasmin,": "Jasmine,",
                     "Citrus ": "Citrus, ",
                     "Berries ": "Berries, ",
                     "Caramel ": "Caramel, ",
