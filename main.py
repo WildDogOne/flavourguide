@@ -4,6 +4,21 @@ import pandas as pd
 from tomark import Tomark
 
 
+def fixes(element):
+    #element = element.replace("Citrus Strawberry", "Citrus, Strawberry")
+    #element = element.replace("Citrus Mango", "Citrus, Mango")
+    #element = element.replace("Citrus Blackberry", "Citrus, Blackberry")
+    element = element.replace("Citrus ", "Citrus, ")
+    return element
+
+
+def splitter(element):
+    cleanup = element.replace("  ", " ").replace(".", ",").title()
+    cleanup = cleanup.replace("Citrus ", "Citrus, ")
+    split = cleanup.split(", ")
+    return split
+
+
 def main():
     url = 'https://www.smartblend.co.uk/flavour-guide'
     tables = pd.read_html(url, header=0)
@@ -11,9 +26,9 @@ def main():
     ingredients = {}
     for index, row in flavours.iterrows():
         ingredients[row["Main Ingredient"].title()] = {
-            "fruit": row["Fruit"].replace("  ", " ").replace(".", ",").title().split(", "),
-            "herb_n_spice": row["Herb and Spice"].replace("  ", " ").replace(".", ",").title().split(", "),
-            "other": row["Other"].replace("  ", " ").replace(".", ",").title().split(", ")
+            "fruit": splitter(row["Fruit"]),
+            "herb_n_spice": splitter(row["Herb and Spice"]),
+            "other": splitter(row["Other"])
         }
     ingredients = cleaner(ingredients)
     y = []
@@ -41,7 +56,7 @@ def cleaner(data):
                 if "," in y or "." in y:
                     data[key][x].remove(y)
                     y = y.replace(",", "")
-                    #y = y.replace(".", "")
+                    # y = y.replace(".", "")
                     data[key][x].append(y)
                 if y not in type:
                     type[y] = x

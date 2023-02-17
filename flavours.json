@@ -444,7 +444,8 @@
         "fruit": [
             "Apple",
             "Elderberry",
-            "Citrus Mango",
+            "Citrus",
+            "Mango",
             "Peach",
             "Pear",
             "Raspberry",
@@ -970,10 +971,14 @@
     "Citrus": {
         "fruit": [
             "Apple",
+            "Blackberry",
             "Cherry",
             "Grape",
             "Lychee",
+            "Orange",
             "Passionfruit",
+            "Peach",
+            "Pear",
             "Raspberry",
             "Strawberry",
             "Tangerine"
@@ -981,46 +986,14 @@
         "herb_n_spice": [],
         "other": [
             "Chamomile",
-            "Cucumber"
-        ]
-    },
-    "Citrus Blackberry": {
-        "fruit": [
-            "Pear"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Citrus Cherry": {
-        "fruit": [
-            "Peach"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Citrus Fruits": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Citrus Mango": {
-        "fruit": [
-            "Blackberry",
-            "Orange"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Citrus Strawberry": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
+            "Cucumber",
             "Rose"
         ]
     },
     "Cloudberry": {
         "fruit": [
-            "Citrus Fruits",
+            "Citrus",
+            "Fruits",
             "Orange",
             "Pineapple"
         ],
@@ -1535,6 +1508,11 @@
         "other": [
             "Cucumber"
         ]
+    },
+    "Fruits": {
+        "fruit": [],
+        "herb_n_spice": [],
+        "other": []
     },
     "Ginger": {
         "fruit": [
@@ -2399,6 +2377,7 @@
             "Coconut",
             "Apple",
             "Banana",
+            "Blackberry",
             "Blueberry",
             "Kiwi",
             "Longan",
@@ -2699,7 +2678,8 @@
             "Grapefruit",
             "Guava",
             "Kumquat",
-            "Citrus Mango",
+            "Citrus",
+            "Mango",
             "Nectarine",
             "Papaya",
             "Passion Fruit",
@@ -2716,7 +2696,6 @@
             "Lemon",
             "Lime",
             "Longan",
-            "Mango",
             "Passionfruit",
             "Peach",
             "Pineapple",
@@ -2914,7 +2893,8 @@
             "Blackberry",
             "Blueberry",
             "Berries",
-            "Citrus Cherry",
+            "Citrus",
+            "Cherry",
             "Coconut",
             "Currants",
             "Fig",
@@ -2922,7 +2902,6 @@
             "Orange",
             "Papaya",
             "Passionfruit Plum",
-            "Cherry",
             "Cranberry",
             "Elderberry",
             "Plum",
@@ -2995,7 +2974,8 @@
     "Pear": {
         "fruit": [
             "Apple",
-            "Citrus Blackberry",
+            "Citrus",
+            "Blackberry",
             "Cherry",
             "Cranberry",
             "Currant",
@@ -3006,7 +2986,6 @@
             "Prune",
             "Quince",
             "Raisin",
-            "Blackberry",
             "Lemon",
             "Mango",
             "Orange"
@@ -3539,7 +3518,8 @@
     "Rose": {
         "fruit": [
             "Pineapple",
-            "Citrus Strawberry",
+            "Citrus",
+            "Strawberry",
             "Peach",
             "Raspberry",
             "Apricot",
@@ -3776,6 +3756,7 @@
             "Fennel",
             "Lemongrass",
             "Peanut",
+            "Rose",
             "Tomato"
         ]
     },
