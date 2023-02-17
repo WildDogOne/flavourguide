@@ -5,7 +5,9 @@ from tomark import Tomark
 
 
 def fixes(element):
-    replacements = {"Cardamom And Nutmeg": "Cardamom, Nutmeg",
+    replacements = {"  ": " ",
+                    ".": ",",
+                    "Cardamom And Nutmeg": "Cardamom, Nutmeg",
                     "Chocolate (Dark And White)": "Chocolate",
                     "All Spice Berries": "Allspice",
                     "Figs": "Fig",
@@ -36,8 +38,8 @@ def fixes(element):
 
 
 def splitter(element):
-    cleanup = element.replace("  ", " ").replace(".", ",").title()
-    cleanup = fixes(cleanup)
+    element = element.title()
+    cleanup = fixes(element)
     split = cleanup.split(", ")
     return split
 
