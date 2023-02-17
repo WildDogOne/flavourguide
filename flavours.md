@@ -34,8 +34,7 @@
 | Chestnut | Fig, Lemon, Pears, Prunes, Oranges, Raisins, Apple, Pear, Plum, Prune | Cardamom, Nutmeg, Cloves, Bay Leaf, Rosemary, Thyme | Maple Syrup, Honey, Chocolate, Coffee |
 | Chilli |  |  | Agave, Carrot |
 | Chillies | Mango, Lime, Pineapple, Papaya, Orange, Grapefruit | Cardamom, Mint | Agave, Honey, Chocolate |
-| Chocolate | Blueberry, Cherries, Raspberry, Orange, Strawberry, Banana, Blackberry, Cherry, Date, Goji Berry, Mandarin, Pear, Plum, Pomegranate, Pumpkin | Anise, Cinnamon, Cloves, Mint, Sage, Rosemary, Star Anise | Almond, Caramel, Hazelnut, Honey, Maple, Coffee, Vanilla, Chestnut, Chillies, Coconut, Maple Syrup, Peanut, Pecan, Pistachio |
-| Chocolate Hazelnut | Peach |  |  |
+| Chocolate | Blueberry, Cherries, Raspberry, Orange, Strawberry, Banana, Blackberry, Cherry, Date, Goji Berry, Mandarin, Peach, Pear, Plum, Pomegranate, Pumpkin | Anise, Cinnamon, Cloves, Mint, Sage, Rosemary, Star Anise | Almond, Caramel, Hazelnut, Honey, Maple, Coffee, Vanilla, Chestnut, Chillies, Coconut, Maple Syrup, Peanut, Pecan, Pistachio |
 | Cinnamon | Apple, Lime, Pineapple, Papaya, Grapefruit, Banana, Blackberry, Cherry, Cranberry, Date, Elderberry, Fig, Goji Berry, Grape, Kumquat, Longan, Mandarin, Mango, Nectarine, Orange, Passionfruit, Peach, Pear, Persimmon, Plum, Pomegranate, Prune, Pumpkin, Quince, Raspberry, Tangerine, Watermelon | Ginger, Anise, Cardamom, Nutmeg, Mint, Cloves, Star Anise, Thyme | Almond, Coconut, Honey, Agave, Caramel, Carrot, Cashew, Chamomile, Chocolate, Coffee, Jasmine, Lemongrass, Maple Syrup, Peanut, Tomato, Vanilla, Violet |
 | Citrus | Apple, Blackberry, Cherry, Grape, Lychee, Orange, Passionfruit, Peach, Pear, Raspberry, Strawberry, Tangerine |  | Chamomile, Cucumber, Rose |
 | Cloudberry | Citrus, Fruits, Orange, Pineapple | Cinnamon, Sage, Mint | Cream, Pistachio |
@@ -71,7 +70,7 @@
 | Grapefruit | Lemon, Lime, Melon, Orange, Papaya, Pineapple, Pomegranate, Raspberry, Persimmon, Strawberry, Tangerine, Yuzu | Cardamom, Ginger, Mint, Rosemary, Lemon Thyme, Basil, Cinnamon, Tarragon, Thyme | Vanilla, Chamomile, Rose Water, Honey, Pecan, Agave, Chillies, Elderflower, Olive |
 | Grapes |  |  | Pecan |
 | Guava | Coconut, Pineapple, Strawberry, Lime, Passionfruit, Banana, Lemon, Orange | Ginger, Basil, Mint | Kaffir Leaf, Juniper, Lavender, Honey, Vanilla, Agave, Coconut, Lemongrass |
-| Hazelnut | Banana, Fig, Cherry, Mandarin, Peaches, Apple, Blackberry, Blueberry, Cranberry, Date, Goji Berry, Lemon, Nectarine, Pear, Pineapple, Prune, Quince, Strawberry | Allspice, Ginger, Turmeric, Bay Leaf, Basil | Chocolate, Honey, Coffee |
+| Hazelnut | Banana, Fig, Cherry, Mandarin, Peaches, Apple, Blackberry, Blueberry, Cranberry, Date, Goji Berry, Lemon, Nectarine, Peach, Pear, Pineapple, Prune, Quince, Strawberry | Allspice, Ginger, Turmeric, Bay Leaf, Basil | Chocolate, Honey, Coffee |
 | Hibiscus | Apple, Citrus, Cranberry, Raspberries, Strawberries, Peach, Blackberries, Grapefruit, Watermelon | Cinnamon, Ginger, Mint, Thyme | Honey, Cucumber, Rhubarb |
 | Honey | Apple, Mango, Pineapple, Cranberry, Peach, Lemon, Orange, Grapefruit, Watermelon, Apricot, Banana, Blackberry, Cantaloupe, Date, Elderberry, Grape, Guava, Kiwi, Kumquat, Longan, Mandarin, Nectarine, Pear, Persimmon, Plum, Pomegranate, Prune, Pumpkin, Quince, Raspberry, Strawberry, Tangerine, Yuzu | Cinnamon, Anise, Ginger, Mint, Basil, Sage, Thyme, Bay Leaf, Cardamom, Coriander, Lemon Thyme, Parsley, Pepper, Rosemary, Star Anise, Tarragon | Juniper, Chocolate, Cucumber, Coconut, Rhubarb, Agave, Almond, Cashew, Chestnut, Chillies, Coffee, Elderflower, Fennel, Hazelnut, Jasmine, Lavender, Rose, Walnut |
 | Jackfruit | Lemon, Pineapple | Ginger, Mint, Rosemary | Hazelnut |
@@ -121,7 +120,7 @@
 | Passion Fruit | Kiwi, Lemon, Lime, Lychee, Mango, Orange, Papaya, Pineapple, Strawberry |  |  |
 | Passionfruit | Kiwi, Citrus, Mango, Orange, Papaya, Pineapple, Raspberry, Strawberry, Guava, Watermelon | Ginger, Cinnamon, Mint | Vanilla, Macadamia, Caramel, Lemongrass |
 | Passionfruit Plum | Peach |  |  |
-| Peach | Apricot, Blackberry, Blueberry, Berries, Citrus, Cherry, Coconut, Currants, Fig, Nectarine, Orange, Papaya, Passionfruit Plum, Cranberry, Elderberry, Plum, Raspberry, Strawberry | Cinnamon, Clove, Ginger, Basil, Mint | Almond, Caramel, Chocolate Hazelnut, Honey, Maple, Pecan, Pistachio, Walnut, Vanilla, Jasmine, Lavender, Lemongrass, Macadamia, Peanut, Pine Nut, Rhubarb, Rose, Violet |
+| Peach | Apricot, Blackberry, Blueberry, Berries, Citrus, Cherry, Coconut, Currants, Fig, Nectarine, Orange, Papaya, Passionfruit Plum, Cranberry, Elderberry, Plum, Raspberry, Strawberry | Cinnamon, Clove, Ginger, Basil, Mint | Almond, Caramel, Chocolate, Hazelnut, Honey, Maple, Pecan, Pistachio, Walnut, Vanilla, Jasmine, Lavender, Lemongrass, Macadamia, Peanut, Pine Nut, Rhubarb, Rose, Violet |
 | Peach Kiwi |  |  | Elderflower |
 | Peaches |  |  | Hazelnut, Pistachio |
 | Peanut | Banana, Strawberry, Peach, Pear, Pineapple | Cinnamon, Nutmeg, Paprika, Parsley, Mint | Chocolate, Coffee |

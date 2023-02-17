@@ -812,6 +812,7 @@
             "Date",
             "Goji Berry",
             "Mandarin",
+            "Peach",
             "Pear",
             "Plum",
             "Pomegranate",
@@ -842,13 +843,6 @@
             "Pecan",
             "Pistachio"
         ]
-    },
-    "Chocolate Hazelnut": {
-        "fruit": [
-            "Peach"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Cinnamon": {
         "fruit": [
@@ -1674,6 +1668,7 @@
             "Goji Berry",
             "Lemon",
             "Nectarine",
+            "Peach",
             "Pear",
             "Pineapple",
             "Prune",
@@ -2850,7 +2845,8 @@
         "other": [
             "Almond",
             "Caramel",
-            "Chocolate Hazelnut",
+            "Chocolate",
+            "Hazelnut",
             "Honey",
             "Maple",
             "Pecan",
