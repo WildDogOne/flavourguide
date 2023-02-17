@@ -1087,7 +1087,8 @@
         "fruit": [
             "Apple",
             "Lemon",
-            "Lime Orange",
+            "Lime",
+            "Orange",
             "Peach",
             "Pear",
             "Pumpkin",
@@ -2123,6 +2124,7 @@
             "Persimmon",
             "Pineapple",
             "Cantaloupe",
+            "Cranberry",
             "Watermelon"
         ],
         "herb_n_spice": [
@@ -2157,13 +2159,6 @@
         "herb_n_spice": [
             "Nutmeg"
         ],
-        "other": []
-    },
-    "Lime Orange": {
-        "fruit": [
-            "Cranberry"
-        ],
-        "herb_n_spice": [],
         "other": []
     },
     "Lingonberry": {
@@ -2355,6 +2350,7 @@
             "Orange",
             "Lemon",
             "Pomegranate",
+            "Strawberry",
             "Tangerine"
         ],
         "herb_n_spice": [
@@ -2372,13 +2368,6 @@
             "Chestnut",
             "Macadamia"
         ]
-    },
-    "Maple Syrup Pecan": {
-        "fruit": [
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Matcha": {
         "fruit": [],
@@ -2618,6 +2607,7 @@
             "Quince",
             "Raisin",
             "Cantaloupe",
+            "Cranberry",
             "Elderberry",
             "Grape",
             "Lemon",
@@ -2965,7 +2955,8 @@
             "Nectarine",
             "Peach",
             "Prune",
-            "Quince"
+            "Quince",
+            "Strawberry"
         ],
         "herb_n_spice": [
             "Cardamom",
@@ -3678,7 +3669,8 @@
             "Chocolate",
             "Hazelnut",
             "Honey",
-            "Maple Syrup Pecan",
+            "Maple Syrup",
+            "Pecan",
             "Pistachio",
             "Violet",
             "Agave",
