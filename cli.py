@@ -53,10 +53,23 @@ def ingredient_lookup(lookup):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument("-i", required=False)
-    parser.add_argument("-s", action='store_true', required=False)
-    parser.add_argument("-l", required=False)
+    parser = argparse.ArgumentParser(prog='Flavor Guide CLI',
+                                     description='A little CLI application to search through Flavour DB', )
+    parser.add_argument("-i",
+                        "--ingredient",
+                        help="Ingredient to look for, will take closest match if possible.",
+                        required=False)
+    parser.add_argument("-s",
+                        "--similarlookup",
+                        help="Checks if there are similar ingredients in the DB."
+                             "This is mostly for Debugging. Should always result in zero results.",
+                        action='store_true',
+                        required=False)
+    parser.add_argument("-l",
+                        "--lookup",
+                        help="Search for similar ingredients."
+                             "Mostly usefull if you don't know what you are looking for exactly.",
+                        required=False)
     args = parser.parse_args()
     pprint(args)
     ingredient = args.i
