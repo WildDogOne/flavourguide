@@ -5,30 +5,33 @@ from tomark import Tomark
 
 
 def fixes(element):
-    element = element.replace("Cardamom And Nutmeg", "Cardamom, Nutmeg")
-    element = element.replace("Chocolate (Dark And White)", "Chocolate")
-    element = element.replace("All Spice Berries", "Allspice")
-    element = element.replace("Figs", "Fig")
-    element = element.replace("Grapefruit Papaya", "Grapefruit, Papaya")
-    element = element.replace("Lime Orange", "Lime, Orange")
-    element = element.replace("Maple Syrup Pecan", "Maple Syrup, Pecan")
-    element = element.replace("Orange Blossom Water", "Orange Blossom")
-    element = element.replace("Passion Fruit", "Passionfruit")
-    element = element.replace("Peach ", "Peach, ")
-    element = element.replace("Peaches", "Peach")
-    element = element.replace("Strawberries", "Strawberry")
-    element = element.replace("Pears", "Pear")
-    element = element.replace("Citrus ", "Citrus, ")
-    element = element.replace("Berries ", "Berries, ")
-    element = element.replace("Caramel ", "Caramel, ")
-    element = element.replace("Cardamom ", "Cardamom, ")
-    element = element.replace("Chamomile ", "Chamomile, ")
-    element = element.replace("Coconut ", "Coconut, ")
-    element = element.replace("Chocolate ", "Chocolate, ")
-    element = element.replace("Passionfruit ", "Passionfruit, ")
-    element = element.replace("Pineapple ", "Pineapple, ")
-    element = element.replace("Rhubarb ", "Rhubarb, ")
-    element = element.replace("Goji Berry", "Goji").replace("Goji", "Goji Berry")
+    replacements = {"Cardamom And Nutmeg": "Cardamom, Nutmeg",
+                    "Chocolate (Dark And White)": "Chocolate",
+                    "All Spice Berries": "Allspice",
+                    "Figs": "Fig",
+                    "Grapefruit Papaya": "Grapefruit, Papaya",
+                    "Lime Orange": "Lime, Orange",
+                    "Maple Syrup Pecan": "Maple Syrup, Pecan",
+                    "Orange Blossom Water": "Orange Blossom",
+                    "Passion Fruit": "Passionfruit",
+                    "Peach ": "Peach, ",
+                    "Peaches": "Peach",
+                    "Strawberries": "Strawberry",
+                    "Pears": "Pear",
+                    "Citrus ": "Citrus, ",
+                    "Berries ": "Berries, ",
+                    "Caramel ": "Caramel, ",
+                    "Cardamom ": "Cardamom, ",
+                    "Chamomile ": "Chamomile, ",
+                    "Coconut ": "Coconut, ",
+                    "Chocolate ": "Chocolate, ",
+                    "Passionfruit ": "Passionfruit, ",
+                    "Pineapple ": "Pineapple, ",
+                    "Rhubarb ": "Rhubarb, ",
+                    "Goji Berry": "Goji",
+                    "Goji": "Goji Berry"}
+    for key, value in replacements.items():
+        element = element.replace(key, value)
     return element
 
 
