@@ -72,11 +72,13 @@ if __name__ == '__main__':
                         required=False)
     args = parser.parse_args()
     pprint(args)
-    ingredient = args.i
-    lookup = args.l
+    ingredient = args.ingredient
+    lookup = args.lookup
     if ingredient:
         ingredient_search(ingredient)
-    if lookup:
+    elif lookup:
         ingredient_lookup(lookup)
-    elif args.s:
+    elif args.similarlookup:
         similar_finder()
+    else:
+        parser.print_help()
