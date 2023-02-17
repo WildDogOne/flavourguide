@@ -151,11 +151,10 @@
             "Cardamom",
             "Cinnamon",
             "Ginger",
-            "Clove",
+            "Cloves",
             "Nutmeg",
             "Rosemary",
             "Mint",
-            "Cloves",
             "Dill",
             "Lemon Thyme",
             "Sage",
@@ -259,7 +258,7 @@
         "herb_n_spice": [
             "Cardamom",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Mint"
         ],
@@ -450,7 +449,7 @@
         "herb_n_spice": [
             "Cardamom",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Rosemary",
             "Mint"
@@ -941,28 +940,6 @@
             "Pistachio"
         ]
     },
-    "Clove": {
-        "fruit": [
-            "Apple",
-            "Banana",
-            "Cranberry",
-            "Elderberry",
-            "Mango",
-            "Orange",
-            "Peach",
-            "Pear",
-            "Persimmon",
-            "Pineapple",
-            "Pomegranate",
-            "Prune",
-            "Pumpkin",
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": [
-            "Coffee"
-        ]
-    },
     "Cloves": {
         "fruit": [
             "Apple",
@@ -970,7 +947,17 @@
             "Orange",
             "Raisins",
             "Prune",
-            "Pear"
+            "Pear",
+            "Banana",
+            "Cranberry",
+            "Elderberry",
+            "Mango",
+            "Peach",
+            "Persimmon",
+            "Pineapple",
+            "Pomegranate",
+            "Pumpkin",
+            "Strawberry"
         ],
         "herb_n_spice": [
             "Cinnamon",
@@ -983,7 +970,8 @@
             "Liquorice",
             "Chocolate",
             "Walnut",
-            "Chestnut"
+            "Chestnut",
+            "Coffee"
         ]
     },
     "Coconut": {
@@ -1036,7 +1024,7 @@
         ],
         "herb_n_spice": [
             "Anise",
-            "Clove",
+            "Cloves",
             "Cinnamon",
             "Cardamom",
             "Mint",
@@ -1096,7 +1084,7 @@
         "herb_n_spice": [
             "Cardamom",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Sage",
             "Mint",
@@ -1302,7 +1290,7 @@
         ],
         "herb_n_spice": [
             "Nutmeg",
-            "Clove",
+            "Cloves",
             "Star Anise",
             "Cinnamon",
             "Mint"
@@ -1323,7 +1311,7 @@
         ],
         "herb_n_spice": [
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Nutmeg",
             "Mint",
@@ -2290,7 +2278,7 @@
         "herb_n_spice": [
             "Anise",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Mint"
         ],
@@ -2604,7 +2592,7 @@
             "Anise",
             "Cardamom",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Cumin",
             "Ginger",
             "Nutmeg",
@@ -2613,7 +2601,6 @@
             "Thyme",
             "Rosemary",
             "Mint",
-            "Cloves",
             "Lemon Thyme",
             "Star Anise",
             "Tarragon"
@@ -2773,7 +2760,7 @@
         ],
         "herb_n_spice": [
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Basil",
             "Mint"
@@ -2842,12 +2829,11 @@
         ],
         "herb_n_spice": [
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Nutmeg",
             "Ginger",
             "Rosemary",
-            "Mint",
-            "Cloves"
+            "Mint"
         ],
         "other": [
             "Almond",
@@ -2930,7 +2916,7 @@
         "herb_n_spice": [
             "Black Pepper",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Nutmeg",
             "Basil"
@@ -2986,7 +2972,7 @@
         "herb_n_spice": [
             "Cinnamon",
             "Cardamom",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Anise",
             "Basil",
@@ -3109,7 +3095,7 @@
         ],
         "herb_n_spice": [
             "Ginger",
-            "Clove",
+            "Cloves",
             "Cinnamon",
             "Rosemary",
             "Thyme",
@@ -3148,11 +3134,10 @@
         "herb_n_spice": [
             "Anise",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Mint",
-            "Rosemary",
-            "Cloves"
+            "Rosemary"
         ],
         "other": [
             "Almond",
@@ -3187,7 +3172,7 @@
             "Allspice",
             "Cardamom",
             "Cinnamon",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Nutmeg",
             "Sage",
@@ -3554,7 +3539,7 @@
         "herb_n_spice": [
             "Anise",
             "Black Pepper",
-            "Clove",
+            "Cloves",
             "Ginger",
             "Basil",
             "Thyme",

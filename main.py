@@ -21,7 +21,7 @@ def fixes(element):
                     "Strawberries": "Strawberry",
                     "Pears": "Pear",
                     "Almonds": "Almond",
-                    #"Cloves": "Clove",
+                    "Clove,": "Cloves,",
                     "Oranges": "Orange",
                     "Jasmin,": "Jasmine,",
                     "Citrus ": "Citrus, ",
