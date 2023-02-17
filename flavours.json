@@ -494,7 +494,7 @@
         "other": [
             "Lavender",
             "Hazelnut",
-            "Jasmine",
+            "Jasminee",
             "Lemongrass",
             "Orange Blossom",
             "White Chocolate",
@@ -1796,21 +1796,12 @@
             "Hazelnut"
         ]
     },
-    "Jasmin": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Violet"
-        ]
-    },
     "Jasmine": {
         "fruit": [
             "Lemon",
             "Apple",
             "Peach",
-            "Orange",
-            "Blueberry",
-            "Yuzu"
+            "Orange"
         ],
         "herb_n_spice": [
             "Ginger",
@@ -1822,8 +1813,17 @@
             "Elderflower",
             "Honey",
             "Maple",
-            "Lavender"
+            "Lavender",
+            "Violet"
         ]
+    },
+    "Jasminee": {
+        "fruit": [
+            "Blueberry",
+            "Yuzu"
+        ],
+        "herb_n_spice": [],
+        "other": []
     },
     "Juniper": {
         "fruit": [
@@ -3809,7 +3809,7 @@
             "Almond",
             "Coconut",
             "Lavender",
-            "Jasmin",
+            "Jasmine",
             "Elderflower"
         ]
     },
@@ -3898,7 +3898,7 @@
             "Coffee",
             "Honey",
             "Juniper",
-            "Jasmine"
+            "Jasminee"
         ]
     }
 }
