@@ -12,6 +12,7 @@ def fixes(element):
     element = element.replace("Grapefruit Papaya", "Grapefruit, Papaya")
     element = element.replace("Lime Orange", "Lime, Orange")
     element = element.replace("Maple Syrup Pecan", "Maple Syrup, Pecan")
+    element = element.replace("Orange Blossom Water", "Orange Blossom")
     element = element.replace("Citrus ", "Citrus, ")
     element = element.replace("Berries ", "Berries, ")
     element = element.replace("Caramel ", "Caramel, ")

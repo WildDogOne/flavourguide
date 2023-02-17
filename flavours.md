@@ -80,7 +80,7 @@
 | Juniper Berries | Strawberry, Lemon, Grapefruit, Berries, Orange, Peach, Plum, Pear | Cardamom, Cinnamon, Anise, Black Pepper, Rosemary, Mint, Sage, Lemongrass, Thyme | Honey, Rhubarb, Cucumber |
 | Kaffir Leaf | Guava |  |  |
 | Kaffir Lime Leaf |  |  | Lemongrass |
-| Kiwi | Strawberry, Apple, Mango, Cherry, Lychee, Papaya, Passion Fruit, Pineapple, Tangerine, Banana, Passionfruit | Cardamom, Basil, Mint, Rosemary | Chamomile, Orange Blossom Water, Cucumber, Honey, Macadamia |
+| Kiwi | Strawberry, Apple, Mango, Cherry, Lychee, Papaya, Passion Fruit, Pineapple, Tangerine, Banana, Passionfruit | Cardamom, Basil, Mint, Rosemary | Chamomile, Orange Blossom, Cucumber, Honey, Macadamia |
 | Kumquat | Berries, Plum, Cherry, Papaya, Apple, Lime, Lemon, Pumpkin, Banana, Mango, Orange, Persimmon, Pineapple, Quince, Strawberry | Cinnamon, Anise, Ginger, Nutmeg, Basil, Mint | Coffee, Vanilla, Honey, Walnut |
 | Lavender | Apricot, Lemon, Peach, Blueberry, Guava, Orange | Ginger, Cardamom, Mint, Thyme, Rosemary, Pepper | Cucumber, Rhubarb, Honey, Jasmine, Violet |
 | Lemon | Apple, Apricot, Banana, Berries, Cherry, Currants, Grapefruit, Grape, Guava, Kumquat, Lime, Mango, Nectarine, Orange, Papaya, Passion Fruit, Pear, Plum, Prune, Quince, Blueberry, Cantaloupe, Cranberry, Persimmon, Raspberry, Watermelon, Yuzu | Black Pepper, Cardamom, Cumin, Mint, Thyme, Basil, Rosemary, Sage, Bay Leaf, Coriander, Dill, Ginger, Lemon Thyme, Nutmeg, Parsley, Pepper, Tarragon | Flowers, Almond, Caramel, Chestnut, Hazelnut, Honey, Pecan, Pine Nut, Pistachio, Poppyseed, Walnut, Rhubarb, Cucumber, Juniper, Elderflower, Fennel, Jasmine, Lavender, Lemongrass, Maple Syrup, Olive, Tomato, Violet |
@@ -107,8 +107,7 @@
 | Oak |  |  | Maple Syrup |
 | Olive | Lemon, Grapefruit, Orange | Black Pepper, Coriander, Rosemary, Thyme, Basil | Juniper, Lemongrass |
 | Orange | Apple, Apricot, Banana, Berries, Cherry, Date, Fig, Grapefruit, Guava, Kumquat, Citrus, Mango, Nectarine, Papaya, Passion Fruit, Pear, Persimmon, Plum, Pomegranate, Prune, Pumpkin, Quince, Raisin, Cantaloupe, Cranberry, Elderberry, Grape, Lemon, Lime, Longan, Passionfruit, Peach, Pineapple, Strawberry, Tangerine, Watermelon, Yuzu | Anise, Cardamom, Cinnamon, Clove, Cumin, Ginger, Nutmeg, Basil, Dill, Thyme, Rosemary, Mint, Cloves, Lemon Thyme, Star Anise, Tarragon | Rhubarb, Lavender, Rose Water, Vanilla, Carrot, Chillies, Chocolate, Coconut, Coffee, Cucumber, Elderflower, Fennel, Honey, Jasmine, Maple Syrup, Olive |
-| Orange Blossom | Blueberry |  |  |
-| Orange Blossom Water | Kiwi |  |  |
+| Orange Blossom | Blueberry, Kiwi |  |  |
 | Oranges |  | Nutmeg | Chestnut |
 | Oregano |  |  | Pine Nut |
 | Other Berries | Raspberry |  |  |

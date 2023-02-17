@@ -1920,7 +1920,7 @@
         ],
         "other": [
             "Chamomile",
-            "Orange Blossom Water",
+            "Orange Blossom",
             "Cucumber",
             "Honey",
             "Macadamia"
@@ -2660,13 +2660,7 @@
     },
     "Orange Blossom": {
         "fruit": [
-            "Blueberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Orange Blossom Water": {
-        "fruit": [
+            "Blueberry",
             "Kiwi"
         ],
         "herb_n_spice": [],
