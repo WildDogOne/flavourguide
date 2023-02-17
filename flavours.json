@@ -3043,20 +3043,15 @@
             "Chillies",
             "Elderflower",
             "Maple Syrup",
+            "Pistachio",
             "Rhubarb",
             "Rose"
         ]
     },
-    "Pineapple Plum": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Pistachio"
-        ]
-    },
     "Pistachio": {
         "fruit": [
-            "Pineapple Plum",
+            "Pineapple",
+            "Plum",
             "Peach",
             "Coconut",
             "Cranberry",
@@ -3116,7 +3111,8 @@
             "Walnut",
             "Vanilla",
             "Macadamia",
-            "Pine Nut"
+            "Pine Nut",
+            "Pistachio"
         ]
     },
     "Pomegranate": {
