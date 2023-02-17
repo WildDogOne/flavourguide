@@ -7,6 +7,7 @@ from tomark import Tomark
 def fixes(element):
     element = element.replace("Cardamom And Nutmeg", "Cardamom, Nutmeg")
     element = element.replace("Chocolate (Dark And White)", "Chocolate")
+    element = element.replace("All Spice Berries", "Allspice")
     element = element.replace("Citrus ", "Citrus, ")
     element = element.replace("Berries ", "Berries, ")
     element = element.replace("Caramel ", "Caramel, ")

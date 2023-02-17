@@ -41,19 +41,14 @@
             "Chillies"
         ]
     },
-    "All Spice Berries": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Hazelnut"
-        ]
-    },
     "Allspice": {
         "fruit": [
             "Pumpkin"
         ],
         "herb_n_spice": [],
-        "other": []
+        "other": [
+            "Hazelnut"
+        ]
     },
     "Almond": {
         "fruit": [
@@ -1700,7 +1695,7 @@
             "Strawberry"
         ],
         "herb_n_spice": [
-            "All Spice Berries",
+            "Allspice",
             "Ginger",
             "Turmeric",
             "Bay Leaf",
