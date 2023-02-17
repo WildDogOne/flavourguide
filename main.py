@@ -8,6 +8,7 @@ def fixes(element):
     replacements = {"  ": " ",
                     ".": ",",
                     "Cardamom And Nutmeg": "Cardamom, Nutmeg",
+                    "Kaffir Lime Leaf": "Kaffir Leaf",
                     "Chocolate (Dark And White)": "Chocolate",
                     "All Spice Berries": "Allspice",
                     "Figs": "Fig",

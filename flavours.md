@@ -72,14 +72,13 @@
 | Jasmine | Lemon, Apple, Peach, Orange, Blueberry, Yuzu | Ginger, Cinnamon, Mint, Thyme | Elderflower, Honey, Maple, Lavender, Violet |
 | Juniper | Guava, Lemon, Lime, Pomegranate, Yuzu | Bay Leaf, Coriander, Ginger, Lemon Thyme, Tarragon, Thyme | Carrot, Cucumber, Elderflower, Honey, Olive, Rhubarb |
 | Juniper Berries | Strawberry, Lemon, Grapefruit, Berries, Orange, Peach, Plum, Pear | Cardamom, Cinnamon, Anise, Black Pepper, Rosemary, Mint, Sage, Lemongrass, Thyme | Honey, Rhubarb, Cucumber |
-| Kaffir Leaf | Guava |  |  |
-| Kaffir Lime Leaf |  |  | Lemongrass |
+| Kaffir Leaf | Guava |  | Lemongrass |
 | Kiwi | Strawberry, Apple, Mango, Cherry, Lychee, Papaya, Passionfruit, Pineapple, Tangerine, Banana | Cardamom, Basil, Mint, Rosemary | Chamomile, Orange Blossom, Cucumber, Honey, Macadamia, Elderflower |
 | Kumquat | Berries, Plum, Cherry, Papaya, Apple, Lime, Lemon, Pumpkin, Banana, Mango, Orange, Persimmon, Pineapple, Quince, Strawberry | Cinnamon, Anise, Ginger, Nutmeg, Basil, Mint | Coffee, Vanilla, Honey, Walnut |
 | Lavender | Apricot, Lemon, Peach, Blueberry, Guava, Orange | Ginger, Cardamom, Mint, Thyme, Rosemary, Pepper | Cucumber, Rhubarb, Honey, Jasmine, Violet |
 | Lemon | Apple, Apricot, Banana, Berries, Cherry, Currant, Grapefruit, Grape, Guava, Kumquat, Lime, Mango, Nectarine, Orange, Papaya, Passionfruit, Pear, Plum, Prune, Quince, Blueberry, Cantaloupe, Cranberry, Persimmon, Raspberry, Watermelon, Yuzu | Black Pepper, Cardamom, Cumin, Mint, Thyme, Basil, Rosemary, Sage, Bay Leaf, Coriander, Dill, Ginger, Lemon Thyme, Nutmeg, Parsley, Pepper, Tarragon | Flowers, Almond, Caramel, Chestnut, Hazelnut, Honey, Pecan, Pine Nut, Pistachio, Poppyseed, Walnut, Rhubarb, Cucumber, Juniper, Elderflower, Fennel, Jasmine, Lavender, Lemongrass, Maple Syrup, Olive, Tomato, Violet |
 | Lemon Thyme | Apple, Lemon, Pineapple, Orange, Blackberries, Raspberries, Grapefruit, Mandarin | Ginger, Basil, Mint | Honey, Juniper, Cucumber, Rhubarb |
-| Lemongrass | Apple, Strawberry, Lemon, Guava, Peach, Blueberry, Passionfruit | Ginger, Cinnamon, Mint, Sage | Coconut, Kaffir Lime Leaf, Cucumber, Olive |
+| Lemongrass | Apple, Strawberry, Lemon, Guava, Peach, Blueberry, Passionfruit | Ginger, Cinnamon, Mint, Sage | Coconut, Kaffir Leaf, Cucumber, Olive |
 | Lime | Apricot, Banana, Date, Fig, Berries, Grapefruit, Guava, Kumquat, Lemon, Lychee, Orange, Mango, Papaya, Passionfruit, Persimmon, Pineapple, Cantaloupe, Cranberry, Watermelon | Cinnamon, Cardamom, Anise, Ginger, Mint, Rosemary, Sage, Tarragon, Thyme, Bay Leaf, Cloves, Coriander, Nutmeg, Parsley, Pepper, Star Anise | Rhubarb, Cucumber, Chillies, Juniper, Agave, Carrot |
 | Lime Leaf |  | Nutmeg |  |
 | Lingonberry | Pear |  |  |

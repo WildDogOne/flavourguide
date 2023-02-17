@@ -1846,11 +1846,6 @@
             "Guava"
         ],
         "herb_n_spice": [],
-        "other": []
-    },
-    "Kaffir Lime Leaf": {
-        "fruit": [],
-        "herb_n_spice": [],
         "other": [
             "Lemongrass"
         ]
@@ -2057,7 +2052,7 @@
         ],
         "other": [
             "Coconut",
-            "Kaffir Lime Leaf",
+            "Kaffir Leaf",
             "Cucumber",
             "Olive"
         ]
