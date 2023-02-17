@@ -76,7 +76,8 @@
         "herb_n_spice": [
             "Cinnamon",
             "Pepper",
-            "Cardamom And Nutmeg",
+            "Cardamom",
+            "Nutmeg",
             "Parsley",
             "Basil",
             "Cassia Leaf",
@@ -599,6 +600,7 @@
             "Coconut",
             "Honey",
             "Agave",
+            "Almond",
             "Carrot",
             "Chestnut",
             "Chillies",
@@ -609,20 +611,6 @@
             "Rhubarb",
             "Vanilla"
         ]
-    },
-    "Cardamom And Nutmeg": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Almond"
-        ]
-    },
-    "Cardamom Cinnamon": {
-        "fruit": [
-            "Orange"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Carrot": {
         "fruit": [
@@ -697,6 +685,7 @@
             "Apple",
             "Citrus",
             "Tangerine",
+            "Grapefruit",
             "Kiwi"
         ],
         "herb_n_spice": [
@@ -709,13 +698,6 @@
             "Almond",
             "Coffee"
         ]
-    },
-    "Chamomile Rose Water": {
-        "fruit": [
-            "Grapefruit"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Cherries": {
         "fruit": [],
@@ -900,6 +882,7 @@
             "Mandarin",
             "Mango",
             "Nectarine",
+            "Orange",
             "Passionfruit",
             "Peach",
             "Pear",
@@ -1062,13 +1045,6 @@
             "Pistachio",
             "Violet"
         ]
-    },
-    "Coconut Grapefruit": {
-        "fruit": [
-            "Pineapple"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Coffee": {
         "fruit": [
@@ -1565,19 +1541,13 @@
             "Violet"
         ]
     },
-    "Goji": {
-        "fruit": [
-            "Longan"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Goji Berry": {
         "fruit": [
             "Acai",
             "Raspberries",
             "Strawberries",
             "Blueberries",
+            "Longan",
             "Lychee"
         ],
         "herb_n_spice": [
@@ -1657,7 +1627,8 @@
         ],
         "other": [
             "Vanilla",
-            "Chamomile Rose Water",
+            "Chamomile",
+            "Rose Water",
             "Honey",
             "Pecan",
             "Agave",
@@ -2238,7 +2209,7 @@
             "Banana",
             "Mango",
             "Pomegranate",
-            "Goji",
+            "Goji Berry",
             "Orange",
             "Date"
         ],
@@ -2612,6 +2583,7 @@
             "Caramel",
             "Coffee",
             "Maple Syrup",
+            "Almond",
             "Cashew",
             "Chestnut",
             "Peanut",
@@ -2685,7 +2657,8 @@
         ],
         "herb_n_spice": [
             "Anise",
-            "Cardamom Cinnamon",
+            "Cardamom",
+            "Cinnamon",
             "Clove",
             "Cumin",
             "Ginger",
@@ -2695,7 +2668,6 @@
             "Thyme",
             "Rosemary",
             "Mint",
-            "Cardamom",
             "Cloves",
             "Lemon Thyme",
             "Star Anise",
@@ -3100,7 +3072,8 @@
             "Apricot",
             "Banana",
             "Cherry",
-            "Coconut Grapefruit",
+            "Coconut",
+            "Grapefruit",
             "Kiwi",
             "Kumquat",
             "Lime",
@@ -3112,7 +3085,6 @@
             "Raspberry",
             "Strawberry",
             "Cantaloupe",
-            "Grapefruit",
             "Guava",
             "Lychee",
             "Passionfruit",
@@ -3520,6 +3492,7 @@
     },
     "Rose Water": {
         "fruit": [
+            "Grapefruit",
             "Orange"
         ],
         "herb_n_spice": [],

@@ -5,9 +5,16 @@ from tomark import Tomark
 
 
 def fixes(element):
+    element = element.replace("Cardamom And Nutmeg", "Cardamom, Nutmeg")
     element = element.replace("Citrus ", "Citrus, ")
     element = element.replace("Berries ", "Berries, ")
     element = element.replace("Caramel ", "Caramel, ")
+    element = element.replace("Cardamom ", "Cardamom, ")
+    element = element.replace("Chamomile ", "Chamomile, ")
+    element = element.replace("Coconut ", "Coconut, ")
+    #element = element.replace("Grapefruit", "Grapefruit, ")
+    #element = element.replace("Chocolate (Dark And White)", "Chocolate")
+    #element = element.replace("Goji Berry", "Goji").replace("Goji", "Goji Berry") # Cannot Fix
     return element
 
 
