@@ -5,17 +5,15 @@ from tomark import Tomark
 
 
 def fixes(element):
-    #element = element.replace("Citrus Strawberry", "Citrus, Strawberry")
-    #element = element.replace("Citrus Mango", "Citrus, Mango")
-    #element = element.replace("Citrus Blackberry", "Citrus, Blackberry")
     element = element.replace("Citrus ", "Citrus, ")
+    element = element.replace("Berries ", "Berries, ")
+    element = element.replace("Caramel ", "Caramel, ")
     return element
 
 
 def splitter(element):
     cleanup = element.replace("  ", " ").replace(".", ",").title()
-    cleanup = cleanup.replace("Citrus ", "Citrus, ")
-    cleanup = cleanup.replace("Berries ", "Berries, ")
+    cleanup = fixes(cleanup)
     split = cleanup.split(", ")
     return split
 

@@ -564,13 +564,6 @@
             "Cashew"
         ]
     },
-    "Caramel Hazelnut": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Chocolate"
-        ]
-    },
     "Cardamom": {
         "fruit": [
             "Apple",
@@ -858,16 +851,15 @@
         ],
         "other": [
             "Almond",
-            "Caramel Hazelnut",
+            "Caramel",
+            "Hazelnut",
             "Honey",
             "Maple",
             "Coffee",
             "Vanilla",
-            "Caramel",
             "Chestnut",
             "Chillies",
             "Coconut",
-            "Hazelnut",
             "Maple Syrup",
             "Peanut",
             "Pecan"
