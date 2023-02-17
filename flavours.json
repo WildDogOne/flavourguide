@@ -348,10 +348,13 @@
     },
     "Berries": {
         "fruit": [
+            "Elderberry",
             "Kumquat",
             "Lemon",
             "Lime",
-            "Peach"
+            "Orange",
+            "Peach",
+            "Strawberry"
         ],
         "herb_n_spice": [
             "Mint"
@@ -359,27 +362,6 @@
         "other": [
             "Elderflower"
         ]
-    },
-    "Berries Cherry": {
-        "fruit": [
-            "Orange"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Berries Grapefruit": {
-        "fruit": [
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Berries Orange": {
-        "fruit": [
-            "Elderberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Black Current": {
         "fruit": [
@@ -765,6 +747,7 @@
             "Kumquat",
             "Lemon",
             "Mandarin",
+            "Orange",
             "Pear",
             "Persimmon",
             "Pineapple",
@@ -1387,7 +1370,8 @@
     },
     "Elderberry": {
         "fruit": [
-            "Berries Orange",
+            "Berries",
+            "Orange",
             "Peach",
             "Tangerine",
             "Blackberry"
@@ -1664,6 +1648,7 @@
             "Pomegranate",
             "Raspberry",
             "Persimmon",
+            "Strawberry",
             "Tangerine",
             "Yuzu"
         ],
@@ -2672,7 +2657,8 @@
             "Apple",
             "Apricot",
             "Banana",
-            "Berries Cherry",
+            "Berries",
+            "Cherry",
             "Date",
             "Fig",
             "Grapefruit",
@@ -2692,6 +2678,7 @@
             "Quince",
             "Raisin",
             "Cantaloupe",
+            "Elderberry",
             "Grape",
             "Lemon",
             "Lime",
@@ -3706,7 +3693,8 @@
         "fruit": [
             "Currant",
             "Citrus",
-            "Berries Grapefruit",
+            "Berries",
+            "Grapefruit",
             "Guava",
             "Kiwi",
             "Kumquat",

@@ -15,6 +15,7 @@ def fixes(element):
 def splitter(element):
     cleanup = element.replace("  ", " ").replace(".", ",").title()
     cleanup = cleanup.replace("Citrus ", "Citrus, ")
+    cleanup = cleanup.replace("Berries ", "Berries, ")
     split = cleanup.split(", ")
     return split
 
