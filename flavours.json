@@ -844,13 +844,7 @@
             "Coconut",
             "Maple Syrup",
             "Peanut",
-            "Pecan"
-        ]
-    },
-    "Chocolate (Dark And White)": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
+            "Pecan",
             "Pistachio"
         ]
     },
@@ -1541,13 +1535,19 @@
             "Violet"
         ]
     },
+    "Goji": {
+        "fruit": [
+            "Longan"
+        ],
+        "herb_n_spice": [],
+        "other": []
+    },
     "Goji Berry": {
         "fruit": [
             "Acai",
             "Raspberries",
             "Strawberries",
             "Blueberries",
-            "Longan",
             "Lychee"
         ],
         "herb_n_spice": [
@@ -2209,7 +2209,7 @@
             "Banana",
             "Mango",
             "Pomegranate",
-            "Goji Berry",
+            "Goji",
             "Orange",
             "Date"
         ],
@@ -3161,7 +3161,7 @@
         ],
         "other": [
             "Vanilla",
-            "Chocolate (Dark And White)"
+            "Chocolate"
         ]
     },
     "Plum": {
