@@ -1,7 +1,15 @@
-## Flavour Guide CLI
+# Flavour Guide CLI
 
 This is a little application to download, and normalise the [Flavour Guide](https://www.smartblend.co.uk/flavour-guide).
 May support other DBs in the future.
+
+## Installation && Usage
+
+- Clone Repository
+- Make sure you have python 3+
+- Install requirements.txt (pip install -r requirements.txt)
+- Run main.py for downloading of the DB (not strictly necessary as the repo already has a DB file)
+- Run cli.py to interact with the DB
 
 ### main.py
 
