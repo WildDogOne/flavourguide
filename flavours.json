@@ -193,7 +193,7 @@
             "Orange",
             "Pineapple",
             "Cherry",
-            "Figs",
+            "Fig",
             "Strawberry",
             "Raspberry",
             "Banana",
@@ -363,7 +363,7 @@
         "fruit": [
             "Apple",
             "Cherry",
-            "Figs",
+            "Fig",
             "Peach",
             "Pear",
             "Prune",
@@ -1408,6 +1408,7 @@
             "Prune",
             "Date",
             "Quince",
+            "Apricot",
             "Blueberry",
             "Lime",
             "Mandarin",
@@ -1434,13 +1435,6 @@
             "Pine Nut"
         ]
     },
-    "Figs": {
-        "fruit": [
-            "Apricot"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Flowers": {
         "fruit": [
             "Lemon"
@@ -1462,7 +1456,8 @@
             "Lime",
             "Lemon",
             "Mango",
-            "Grapefruit Papaya",
+            "Grapefruit",
+            "Papaya",
             "Raspberry",
             "Guava",
             "Plum",
@@ -1474,13 +1469,11 @@
             "Date",
             "Elderberry",
             "Grape",
-            "Grapefruit",
             "Kumquat",
             "Longan",
             "Lychee",
             "Mandarin",
             "Orange",
-            "Papaya",
             "Passionfruit",
             "Peach",
             "Pear",
@@ -1631,13 +1624,6 @@
             "Elderflower",
             "Olive"
         ]
-    },
-    "Grapefruit Papaya": {
-        "fruit": [],
-        "herb_n_spice": [
-            "Ginger"
-        ],
-        "other": []
     },
     "Grapes": {
         "fruit": [],
