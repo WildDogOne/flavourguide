@@ -26,6 +26,7 @@ def fixes(element):
     element = element.replace("Chocolate ", "Chocolate, ")
     element = element.replace("Passionfruit ", "Passionfruit, ")
     element = element.replace("Pineapple ", "Pineapple, ")
+    element = element.replace("Rhubarb ", "Rhubarb, ")
     #element = element.replace("Grapefruit", "Grapefruit, ")
     #element = element.replace("Goji Berry", "Goji").replace("Goji", "Goji Berry") # Cannot Fix
     return element

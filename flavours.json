@@ -1671,6 +1671,7 @@
             "Nectarine",
             "Pear",
             "Pineapple",
+            "Plum",
             "Prune",
             "Quince",
             "Strawberry"
@@ -3106,7 +3107,8 @@
             "Almond",
             "Chestnut",
             "Chocolate",
-            "Rhubarb Hazelnut",
+            "Rhubarb",
+            "Hazelnut",
             "Honey",
             "Walnut",
             "Vanilla",
@@ -3349,6 +3351,7 @@
             "Pineapple",
             "Blackberry",
             "Lime",
+            "Plum",
             "Raspberry",
             "Strawberry"
         ],
@@ -3371,13 +3374,6 @@
             "Rose",
             "Vanilla"
         ]
-    },
-    "Rhubarb Hazelnut": {
-        "fruit": [
-            "Plum"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Rose": {
         "fruit": [
