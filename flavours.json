@@ -1529,7 +1529,7 @@
         "fruit": [
             "Acai",
             "Raspberries",
-            "Strawberries",
+            "Strawberry",
             "Blueberries",
             "Lychee"
         ],
@@ -1695,7 +1695,7 @@
             "Citrus",
             "Cranberry",
             "Raspberries",
-            "Strawberries",
+            "Strawberry",
             "Peach",
             "Blackberries",
             "Grapefruit",
@@ -2234,7 +2234,7 @@
     },
     "Macadamia": {
         "fruit": [
-            "Strawberries",
+            "Strawberry",
             "Cherry",
             "Peach",
             "Plum",
@@ -3554,15 +3554,6 @@
             "Honey"
         ]
     },
-    "Strawberries": {
-        "fruit": [
-            "Goji Berry"
-        ],
-        "herb_n_spice": [],
-        "other": [
-            "Macadamia"
-        ]
-    },
     "Strawberry": {
         "fruit": [
             "Currant",
@@ -3583,6 +3574,7 @@
             "Plum",
             "Apricot",
             "Blackberry",
+            "Goji Berry",
             "Pomegranate",
             "Pumpkin"
         ],
@@ -3617,6 +3609,7 @@
             "Cucumber",
             "Fennel",
             "Lemongrass",
+            "Macadamia",
             "Peanut",
             "Rose",
             "Tomato"
