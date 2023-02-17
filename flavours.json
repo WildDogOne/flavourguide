@@ -1518,19 +1518,13 @@
             "Violet"
         ]
     },
-    "Goji": {
-        "fruit": [
-            "Longan"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Goji Berry": {
         "fruit": [
             "Acai",
             "Raspberries",
             "Strawberry",
             "Blueberries",
+            "Longan",
             "Lychee"
         ],
         "herb_n_spice": [
@@ -2180,7 +2174,7 @@
             "Banana",
             "Mango",
             "Pomegranate",
-            "Goji",
+            "Goji Berry",
             "Orange",
             "Date"
         ],
