@@ -37,7 +37,7 @@ def similar_finder():
         for result in results:
             if result[0] != key:
                 if result[1] > 90:
-                    print(f"{key} is similar to {result[0]} - Similarity Grade {result[1]}")
+                    #print(f"{key} is similar to {result[0]} - Similarity Grade {result[1]}")
                     print(f'"{result[0]}": "{key}",')
 
 

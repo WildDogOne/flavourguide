@@ -131,7 +131,7 @@
             "Cranberry",
             "Mango",
             "Citrus",
-            "Currants",
+            "Currant",
             "Pumpkin",
             "Kiwi",
             "Raspberry",
@@ -703,7 +703,7 @@
             "Nectarine",
             "Peach",
             "Plum",
-            "Currants",
+            "Currant",
             "Lychee",
             "Fig",
             "Kiwi",
@@ -742,12 +742,11 @@
             "Fig",
             "Lemon",
             "Pear",
-            "Prunes",
+            "Prune",
             "Orange",
-            "Raisins",
+            "Raisin",
             "Apple",
-            "Plum",
-            "Prune"
+            "Plum"
         ],
         "herb_n_spice": [
             "Cardamom",
@@ -945,7 +944,7 @@
             "Apple",
             "Lime",
             "Orange",
-            "Raisins",
+            "Raisin",
             "Prune",
             "Pear",
             "Banana",
@@ -1161,19 +1160,13 @@
     },
     "Currant": {
         "fruit": [
-            "Pear",
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Currants": {
-        "fruit": [
             "Apple",
             "Cherry",
             "Lemon",
             "Peach",
-            "Prune"
+            "Pear",
+            "Prune",
+            "Strawberry"
         ],
         "herb_n_spice": [],
         "other": []
@@ -1555,7 +1548,8 @@
         ],
         "other": [
             "Honey",
-            "Rose"
+            "Rose",
+            "Pecan"
         ]
     },
     "Grapefruit": {
@@ -1594,13 +1588,6 @@
             "Chillies",
             "Elderflower",
             "Olive"
-        ]
-    },
-    "Grapes": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Pecan"
         ]
     },
     "Guava": {
@@ -1961,7 +1948,7 @@
             "Banana",
             "Berries",
             "Cherry",
-            "Currants",
+            "Currant",
             "Grapefruit",
             "Grape",
             "Guava",
@@ -2438,7 +2425,7 @@
             "Berries",
             "Plum",
             "Lemon",
-            "Currants",
+            "Currant",
             "Apple"
         ],
         "herb_n_spice": [
@@ -2746,7 +2733,7 @@
             "Citrus",
             "Cherry",
             "Coconut",
-            "Currants",
+            "Currant",
             "Fig",
             "Nectarine",
             "Orange",
@@ -2856,7 +2843,7 @@
         "fruit": [
             "Banana",
             "Pear",
-            "Grapes",
+            "Grape",
             "Fig",
             "Apple",
             "Cherry",
@@ -3123,7 +3110,7 @@
         "fruit": [
             "Apple",
             "Apricot",
-            "Currants",
+            "Currant",
             "Date",
             "Fig",
             "Lemon",
@@ -3150,13 +3137,6 @@
             "Pecan",
             "Pistachio",
             "Walnut"
-        ]
-    },
-    "Prunes": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Chestnut"
         ]
     },
     "Pumpkin": {
@@ -3222,11 +3202,6 @@
             "Pear",
             "Prune"
         ],
-        "herb_n_spice": [],
-        "other": []
-    },
-    "Raisins": {
-        "fruit": [],
         "herb_n_spice": [
             "Cloves"
         ],
