@@ -1906,11 +1906,10 @@
             "Cherry",
             "Lychee",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Pineapple",
             "Tangerine",
-            "Banana",
-            "Passionfruit"
+            "Banana"
         ],
         "herb_n_spice": [
             "Cardamom",
@@ -2001,7 +2000,7 @@
             "Nectarine",
             "Orange",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Pear",
             "Plum",
             "Prune",
@@ -2120,7 +2119,7 @@
             "Orange",
             "Mango",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Persimmon",
             "Pineapple",
             "Cantaloupe",
@@ -2213,7 +2212,7 @@
         "fruit": [
             "Citrus",
             "Goji Berry",
-            "Passion Fruit",
+            "Passionfruit",
             "Coconut",
             "Pineapple",
             "Mango",
@@ -2289,7 +2288,7 @@
             "Lime",
             "Orange",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Pear",
             "Pineapple",
             "Tangerine",
@@ -2301,7 +2300,6 @@
             "Kiwi",
             "Longan",
             "Lychee",
-            "Passionfruit",
             "Persimmon",
             "Pomegranate",
             "Strawberry"
@@ -2597,7 +2595,7 @@
             "Mango",
             "Nectarine",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Pear",
             "Persimmon",
             "Plum",
@@ -2613,7 +2611,6 @@
             "Lemon",
             "Lime",
             "Longan",
-            "Passionfruit",
             "Peach",
             "Pineapple",
             "Strawberry",
@@ -2699,11 +2696,10 @@
             "Lime",
             "Mango",
             "Orange",
-            "Passion Fruit",
+            "Passionfruit",
             "Peach",
             "Pineapple",
             "Coconut",
-            "Passionfruit",
             "Strawberry"
         ],
         "herb_n_spice": [
@@ -2751,21 +2747,6 @@
             "Pistachio"
         ]
     },
-    "Passion Fruit": {
-        "fruit": [
-            "Kiwi",
-            "Lemon",
-            "Lime",
-            "Lychee",
-            "Mango",
-            "Orange",
-            "Papaya",
-            "Pineapple",
-            "Strawberry"
-        ],
-        "herb_n_spice": [],
-        "other": []
-    },
     "Passionfruit": {
         "fruit": [
             "Kiwi",
@@ -2777,6 +2758,10 @@
             "Raspberry",
             "Strawberry",
             "Guava",
+            "Lemon",
+            "Lime",
+            "Lychee",
+            "Peach",
             "Watermelon"
         ],
         "herb_n_spice": [
@@ -2790,13 +2775,6 @@
             "Caramel",
             "Lemongrass"
         ]
-    },
-    "Passionfruit Plum": {
-        "fruit": [
-            "Peach"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Peach": {
         "fruit": [
@@ -2812,10 +2790,10 @@
             "Nectarine",
             "Orange",
             "Papaya",
-            "Passionfruit Plum",
+            "Passionfruit",
+            "Plum",
             "Cranberry",
             "Elderberry",
-            "Plum",
             "Raspberry",
             "Strawberry"
         ],
@@ -3043,13 +3021,12 @@
             "Melon",
             "Orange",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Raspberry",
             "Strawberry",
             "Cantaloupe",
             "Guava",
             "Lychee",
-            "Passionfruit",
             "Pomegranate",
             "Watermelon"
         ],
@@ -3630,13 +3607,12 @@
             "Nectarine",
             "Orange",
             "Papaya",
-            "Passion Fruit",
+            "Passionfruit",
             "Peach",
             "Pineapple",
             "Plum",
             "Apricot",
             "Blackberry",
-            "Passionfruit",
             "Pomegranate",
             "Pumpkin"
         ],

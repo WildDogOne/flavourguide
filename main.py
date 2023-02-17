@@ -13,6 +13,7 @@ def fixes(element):
     element = element.replace("Lime Orange", "Lime, Orange")
     element = element.replace("Maple Syrup Pecan", "Maple Syrup, Pecan")
     element = element.replace("Orange Blossom Water", "Orange Blossom")
+    element = element.replace("Passion Fruit", "Passionfruit")
     element = element.replace("Citrus ", "Citrus, ")
     element = element.replace("Berries ", "Berries, ")
     element = element.replace("Caramel ", "Caramel, ")
@@ -20,6 +21,7 @@ def fixes(element):
     element = element.replace("Chamomile ", "Chamomile, ")
     element = element.replace("Coconut ", "Coconut, ")
     element = element.replace("Chocolate ", "Chocolate, ")
+    element = element.replace("Passionfruit ", "Passionfruit, ")
     #element = element.replace("Grapefruit", "Grapefruit, ")
     #element = element.replace("Goji Berry", "Goji").replace("Goji", "Goji Berry") # Cannot Fix
     return element
