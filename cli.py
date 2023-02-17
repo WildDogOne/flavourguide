@@ -6,9 +6,13 @@ from rich.console import Console
 from rich.table import Table
 
 
-def ingredient_lookup(search):
+def load_db():
     with open('flavours.json', 'r') as openfile:
-        ingredients = json.load(openfile)
+        db = json.load(openfile)
+    return db
+
+def ingredient_lookup(search):
+    ingredients = load_db()
     keys = [key for key in ingredients]
     result = process.extractOne(search, keys)
     if result:
@@ -26,10 +30,25 @@ def ingredient_lookup(search):
             for result, confidence in similar:
                 print(f"{result}")
 
+def similar_finder():
+    db = load_db()
+    for key in db:
+        results = process.extract(key, db.keys())
+        for result in results:
+            if result[0] != key:
+                if result[1] > 90:
+                    print(f"{key} is similar to {result[0]} - Similarity Grade {result[1]}")
+                    print(f'"{result[0]}": "{key}",')
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("ingredient")
+    parser.add_argument("-i", required=False)
+    parser.add_argument("-s", action='store_true', required=False)
     args = parser.parse_args()
-    ingredient = args.ingredient
-    ingredient_lookup(ingredient)
+    pprint(args)
+    ingredient = args.i
+    if ingredient:
+        ingredient_lookup(ingredient)
+    if args.s:
+        similar_finder()

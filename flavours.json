@@ -63,10 +63,12 @@
             "Lemon",
             "Nectarine",
             "Pear",
+            "Persimmon",
             "Pineapple",
             "Prune",
             "Quince",
-            "Strawberry"
+            "Strawberry",
+            "Yuzu"
         ],
         "herb_n_spice": [
             "Cinnamon",
@@ -91,14 +93,6 @@
             "Vanilla",
             "Violet"
         ]
-    },
-    "Almonds": {
-        "fruit": [
-            "Persimmon",
-            "Yuzu"
-        ],
-        "herb_n_spice": [],
-        "other": []
     },
     "Anise": {
         "fruit": [
@@ -750,7 +744,7 @@
             "Lemon",
             "Pear",
             "Prunes",
-            "Oranges",
+            "Orange",
             "Raisins",
             "Apple",
             "Plum",
@@ -2510,13 +2504,12 @@
         "fruit": [
             "Lemon",
             "Lime",
-            "Oranges",
+            "Orange",
             "Apple",
             "Cherry",
             "Elderberry",
             "Kumquat",
             "Mandarin",
-            "Orange",
             "Pear",
             "Persimmon",
             "Plum",
@@ -2631,6 +2624,7 @@
             "Rose Water",
             "Vanilla",
             "Carrot",
+            "Chestnut",
             "Chillies",
             "Chocolate",
             "Coconut",
@@ -2651,15 +2645,6 @@
         ],
         "herb_n_spice": [],
         "other": []
-    },
-    "Oranges": {
-        "fruit": [],
-        "herb_n_spice": [
-            "Nutmeg"
-        ],
-        "other": [
-            "Chestnut"
-        ]
     },
     "Oregano": {
         "fruit": [],
@@ -2951,7 +2936,7 @@
             "Basil"
         ],
         "other": [
-            "Almonds",
+            "Almond",
             "Honey",
             "Vanilla"
         ]
@@ -3888,7 +3873,7 @@
             "Dill"
         ],
         "other": [
-            "Almonds",
+            "Almond",
             "Coffee",
             "Honey",
             "Juniper",
