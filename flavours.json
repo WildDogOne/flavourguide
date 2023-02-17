@@ -748,12 +748,11 @@
         "fruit": [
             "Fig",
             "Lemon",
-            "Pears",
+            "Pear",
             "Prunes",
             "Oranges",
             "Raisins",
             "Apple",
-            "Pear",
             "Plum",
             "Prune"
         ],
@@ -2891,13 +2890,6 @@
             "Elderflower",
             "Peanut",
             "Pecan"
-        ]
-    },
-    "Pears": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Chestnut"
         ]
     },
     "Pecan": {
