@@ -1348,7 +1348,8 @@
             "Orange",
             "Pineapple",
             "Pear",
-            "Peach Kiwi",
+            "Peach",
+            "Kiwi",
             "Berries",
             "Lychee",
             "Grapefruit"
@@ -1660,7 +1661,7 @@
             "Fig",
             "Cherry",
             "Mandarin",
-            "Peaches",
+            "Peach",
             "Apple",
             "Blackberry",
             "Blueberry",
@@ -1669,7 +1670,6 @@
             "Goji Berry",
             "Lemon",
             "Nectarine",
-            "Peach",
             "Pear",
             "Pineapple",
             "Prune",
@@ -1922,7 +1922,8 @@
             "Orange Blossom",
             "Cucumber",
             "Honey",
-            "Macadamia"
+            "Macadamia",
+            "Elderflower"
         ]
     },
     "Kumquat": {
@@ -2815,6 +2816,7 @@
             "Pistachio",
             "Walnut",
             "Vanilla",
+            "Elderflower",
             "Jasmine",
             "Lavender",
             "Lemongrass",
@@ -2824,21 +2826,6 @@
             "Rhubarb",
             "Rose",
             "Violet"
-        ]
-    },
-    "Peach Kiwi": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Elderflower"
-        ]
-    },
-    "Peaches": {
-        "fruit": [],
-        "herb_n_spice": [],
-        "other": [
-            "Hazelnut",
-            "Pistachio"
         ]
     },
     "Peanut": {
@@ -3078,14 +3065,13 @@
     "Pistachio": {
         "fruit": [
             "Pineapple Plum",
-            "Peaches",
+            "Peach",
             "Coconut",
             "Cranberry",
             "Apricot",
             "Date",
             "Lemon",
             "Nectarine",
-            "Peach",
             "Pear",
             "Prune",
             "Strawberry"
