@@ -3,6 +3,8 @@ from pprint import pprint
 import pandas as pd
 from tomark import Tomark
 
+from functions.config import flavours_json
+
 
 def fixes(element):
     replacements = {"  ": " ",
@@ -78,7 +80,7 @@ def main():
     with open("flavours.md", "w") as file1:
         file1.writelines(markdown)
     json_object = json.dumps(ingredients, indent=4)
-    with open("flavours.json", "w") as outfile:
+    with open(flavours_json, "w") as outfile:
         outfile.write(json_object)
 
 

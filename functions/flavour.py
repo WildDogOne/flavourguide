@@ -7,23 +7,24 @@ from thefuzz import process
 from rich.console import Console
 from rich.table import Table
 
+from functions.config import flavours_json, flavour_db
 
 
 def load_flavour_db_json():
-    with open('flavours.json', 'r') as openfile:
+    with open(flavours_json, 'r') as openfile:
         db = json.load(openfile)
     return db
 
 
 def load_cocktail_db_yaml():
-    with open(r'data/flavours.yml') as file:
+    with open(flavour_db) as file:
         db = yaml.full_load(file)
     return db
 
 
 def convert_to_yaml():
     db = load_flavour_db_json()
-    with open(r'data/flavours.yml', 'w') as file:
+    with open(flavour_db, 'w') as file:
         documents = yaml.dump(db, file)
 
 
