@@ -4,6 +4,7 @@ import argparse
 import json
 from pprint import pprint
 from thefuzz import process
+from thefuzz import fuzz
 from rich.console import Console
 from rich.table import Table
 
@@ -34,7 +35,7 @@ def ingredient_search(search):
     result = process.extractOne(search, keys)
     if result:
         result, confidence = result
-        if confidence > 80:
+        if confidence > 90:
             table = Table(title=result, show_header=False)
             table.add_row("Fruit", ", ".join(ingredients[result]["fruit"]))
             table.add_row("Herb and Spice", ", ".join(ingredients[result]["herb_n_spice"]))
@@ -48,11 +49,11 @@ def ingredient_search(search):
                 print(f"{result}")
 def ingredient_lookup(lookup):
     db = load_cocktail_db_yaml()
-    results = process.extract(lookup, db.keys())
-    for result in results:
-        if result[0].lower() != lookup.lower():
-            if result[1] > 50:
-                print(f"Similar to {result[0]} - Similarity Grade {result[1]}")
+    for key in db.keys():
+        confidence = fuzz.partial_ratio(lookup, key)
+        if key.lower() != lookup.lower():
+            if confidence > 50:
+                print(f"Similar to {key} - Similarity Grade {confidence}")
 def similar_finder():
     db = load_cocktail_db_yaml()
     for key in db:
