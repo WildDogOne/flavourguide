@@ -9,6 +9,8 @@ import requests
 from thefuzz import process
 from thefuzz import fuzz
 
+from functions.config import cocktails_json, cocktails_downloaded, cocktails_custom, cocktail_db
+
 
 def count():
     db = load_cocktail_db_yaml()
@@ -16,30 +18,30 @@ def count():
 
 
 def load_cocktail_db_json():
-    with open('cocktails.json', 'r') as openfile:
+    with open(cocktails_json, 'r') as openfile:
         db = json.load(openfile)
     return db
 
 
 def load_cocktail_db_yaml():
-    with open(r'data/cocktails.yml') as file:
+    with open(cocktail_db) as file:
         db = yaml.full_load(file)
     return db
 
 
 def merge_cocktail_db():
-    with open(r'data/cocktails_downloaded.yml') as file:
+    with open(cocktails_downloaded) as file:
         downloaded = yaml.full_load(file)
-    with open(r'data/cocktails_custom.yml') as file:
+    with open(cocktails_custom) as file:
         custom = yaml.full_load(file)
     db = downloaded + custom
-    with open(r'data/cocktails.yml', 'w') as file:
+    with open(cocktail_db, 'w') as file:
         documents = yaml.dump(db, file)
 
 
 def convert_to_yaml():
     db = load_cocktail_db_json()
-    with open(r'data/cocktails_downloaded.yml', 'w') as file:
+    with open(cocktails_downloaded, 'w') as file:
         documents = yaml.dump(db, file)
 
 
@@ -57,14 +59,14 @@ def download(id=11000):
             if len(cocktails) % 10 == 0 and len(cocktails) > 0:
                 print(f"{len(cocktails)} Cocktails processed")
             json_object = json.dumps(cocktails, indent=4)
-            with open("cocktails.json", "w") as outfile:
+            with open(cocktails_json, "w") as outfile:
                 outfile.write(json_object)
             id += 1
         else:
             go = 0
             pprint(response.text)
             json_object = json.dumps(cocktails, indent=4)
-            with open("cocktails.json", "w") as outfile:
+            with open(cocktails_json, "w") as outfile:
                 outfile.write(json_object)
 
 
