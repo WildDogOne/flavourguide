@@ -2,7 +2,8 @@ import argparse
 import json
 from pprint import pprint
 from fuzzywuzzy import process
-
+from rich.console import Console
+from rich.table import Table
 import requests
 
 
@@ -43,23 +44,46 @@ def count():
     print(len(db))
 
 
-def search_ingredient(search):
+def search_ingredient(searches=None):
+    if type(searches) == str:
+        searches = [searches]
     db = load_cocktail_db()
-    for cocktail in db:
-        ingredients = []
-        for x in cocktail:
-            if "Ingredient" in x:
-                ingredient = cocktail[x]
-                if ingredient:
-                    ingredients.append(ingredient)
-        result = process.extract(search, ingredients)
-        for x in result:
-            ingredient = x[0]
-            confidence = x[1]
-            if confidence > 90:
-                pprint(cocktail["strDrink"])
-                pprint(ingredient)
-                quit()
+    table = Table(title=", ".join(searches), show_header=True)
+    table.add_column("Cocktail")
+    table.add_column("Ingredients")
+    cocktail_hits = {}
+    for search in searches:
+        for cocktail in db:
+            ingredients = []
+            for x in cocktail:
+                if "Ingredient" in x:
+                    ingredient = cocktail[x]
+                    if ingredient:
+                        ingredients.append(ingredient)
+            result = process.extract(search, ingredients)
+            for x in result:
+                ingredient = x[0]
+                confidence = x[1]
+                if confidence > 90:
+                    cocktail_name = cocktail["strDrink"]
+                    if cocktail_name not in cocktail_hits:
+                        cocktail_hits[cocktail_name] = {"ingredients": ", ".join(ingredients),
+                                                        "hits": 1}
+                    else:
+                        cocktail_hits[cocktail_name]["hits"] += 1
+                    # pprint(cocktail)
+                    # table.add_row(cocktail_name, ", ".join(ingredients))
+    # pprint(cocktail_hits)
+
+    for key, value in cocktail_hits.items():
+        if len(searches) == value["hits"]:
+            table.add_row(key, value["ingredients"])
+        # pprint(value["hits"])
+    if len(table.rows) > 0:
+        console = Console()
+        console.print(table)
+    else:
+        print(f"No results found for your search {', '.join(searches)}")
 
 
 if __name__ == '__main__':
@@ -79,6 +103,7 @@ if __name__ == '__main__':
     parser.add_argument("-i",
                         "--ingredient",
                         help="Search for cocktail by ingredient",
+                        nargs="+",
                         required=False)
     args = parser.parse_args()
     ingredient_search = args.ingredient
