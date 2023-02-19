@@ -111,3 +111,27 @@ def search_ingredient(searches=None, amount=None):
         console.print(table)
     else:
         print(f"No results found for your search {', '.join(searches)}")
+
+
+def search_cocktail(search):
+    db = load_cocktail_db_yaml()
+    for cocktail in db:
+        cocktail_name = cocktail["strDrink"]
+        confidence = fuzz.partial_ratio(search.lower(), cocktail_name.lower())
+        if confidence > 90:
+            table = Table(title=cocktail_name, show_header=True)
+            table.add_column("Ingredient")
+            table.add_column("Amount")
+            # pprint(cocktail)
+            for key, value in cocktail.items():
+                if "ingredient" in key.lower() and value:
+                    amount = key.replace("Ingredient", "Measure")
+                    table.add_row(value, cocktail[amount])
+            if len(table.rows) > 0:
+                instructions = cocktail["strInstructions"]
+                console = Console()
+                console.print(table)
+                if instructions:
+                    print(instructions + "\n")
+            else:
+                print(f"No results found for your search {search}")

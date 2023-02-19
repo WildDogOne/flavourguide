@@ -2,7 +2,7 @@ import argparse
 import json
 from pprint import pprint
 
-from functions.cocktail import convert_to_yaml, search_ingredient, count, download, merge_cocktail_db
+from functions.cocktail import convert_to_yaml, search_ingredient, count, download, merge_cocktail_db, search_cocktail
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='Cocktail Organiser',
@@ -24,8 +24,7 @@ if __name__ == '__main__':
                              "This will take a long time",
                         action='store_true',
                         required=False)
-    parser.add_argument("-c",
-                        "--count",
+    parser.add_argument("--count",
                         help="Count how many entries are in the DB",
                         action='store_true',
                         required=False)
@@ -34,6 +33,11 @@ if __name__ == '__main__':
                         help="Merge Cocktail DB with Custom Cocktails"
                              "by default takes cocktails_downloaded.yml and cocktails_custom.yml from the Data dir.",
                         action='store_true',
+                        required=False)
+    parser.add_argument("-c",
+                        "--cocktail",
+                        help="Search for cocktail by name",
+                        nargs=1,
                         required=False)
     parser.add_argument("-i",
                         "--ingredient",
@@ -50,6 +54,7 @@ if __name__ == '__main__':
     pprint(args)
 
     ingredient_search = args.ingredient
+    cocktail = args.cocktail[0]
     amount = args.amount
     if args.download:
         if args.start:
@@ -62,6 +67,8 @@ if __name__ == '__main__':
         merge_cocktail_db()
     elif ingredient_search:
         search_ingredient(ingredient_search, amount)
+    elif cocktail:
+        search_cocktail(cocktail)
     elif args.convert_to_yaml:
         convert_to_yaml()
     else:
