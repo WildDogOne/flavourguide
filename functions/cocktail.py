@@ -10,6 +10,7 @@ from thefuzz import process
 from thefuzz import fuzz
 
 from functions.config import cocktails_json, cocktails_downloaded, cocktails_custom, cocktail_db
+from functions.flavour import load_flavour_db_yaml
 
 
 def count():
@@ -135,3 +136,38 @@ def search_cocktail(search):
                     print(instructions + "\n")
             else:
                 print(f"No results found for your search {search}")
+
+
+def expand_cocktail(search):
+    db = load_cocktail_db_yaml()
+    flavour_db = load_flavour_db_yaml()
+    for cocktail in db:
+        cocktail_name = cocktail["strDrink"]
+        confidence = fuzz.partial_ratio(search.lower(), cocktail_name.lower())
+        if confidence > 99:
+            table = Table(title=cocktail_name, show_header=True)
+            table.add_column("Ingredient")
+            table.add_column("Fruit")
+            table.add_column("Herb and Spice")
+            table.add_column("Other")
+            for key, value in cocktail.items():
+                if "ingredient" in key.lower() and value:
+                    add = {"fruit": [],
+                           "herb_n_spice": [],
+                           "other": []}
+                    for flavour_key, flavour_value in flavour_db.items():
+                        f_confidence = fuzz.partial_ratio(value.lower(), flavour_key.lower())
+                        if f_confidence > 95:
+                            add = flavour_value
+                            # pprint(add)
+                            # quit()
+                    table.add_row(value,
+                                  ", ".join(add["fruit"]),
+                                  ", ".join(add["herb_n_spice"]),
+                                  ", ".join(add["other"]))
+            if len(table.rows) > 0:
+                console = Console()
+                console.print(table)
+            else:
+                print(f"No results found for your search {search}")
+            #break

@@ -2,7 +2,8 @@ import argparse
 import json
 from pprint import pprint
 
-from functions.cocktail import convert_to_yaml, search_ingredient, count, download, merge_cocktail_db, search_cocktail
+from functions.cocktail import convert_to_yaml, search_ingredient, count, download, merge_cocktail_db, search_cocktail, \
+    expand_cocktail
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='Cocktail Organiser',
@@ -39,6 +40,11 @@ if __name__ == '__main__':
                         help="Search for cocktail by name",
                         nargs=1,
                         required=False)
+    parser.add_argument("-e",
+                        "--expand",
+                        help="Search for cocktail by name, and list ingredients which may be interesting to add",
+                        nargs=1,
+                        required=False)
     parser.add_argument("-i",
                         "--ingredient",
                         help="Search for cocktail by ingredient",
@@ -54,7 +60,8 @@ if __name__ == '__main__':
     pprint(args)
 
     ingredient_search = args.ingredient
-    cocktail = args.cocktail[0]
+    cocktail = args.cocktail
+    expand = args.expand
     amount = args.amount
     if args.download:
         if args.start:
@@ -68,7 +75,9 @@ if __name__ == '__main__':
     elif ingredient_search:
         search_ingredient(ingredient_search, amount)
     elif cocktail:
-        search_cocktail(cocktail)
+        search_cocktail(cocktail[0])
+    elif expand:
+        expand_cocktail(expand[0])
     elif args.convert_to_yaml:
         convert_to_yaml()
     else:
