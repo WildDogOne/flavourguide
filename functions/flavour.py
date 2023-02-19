@@ -3,7 +3,7 @@ import yaml
 import argparse
 import json
 from pprint import pprint
-from fuzzywuzzy import process
+from thefuzz import process
 from rich.console import Console
 from rich.table import Table
 

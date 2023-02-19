@@ -1,12 +1,13 @@
-import json
+import fuzzywuzzy.fuzz
 import yaml
-import argparse
 import json
 from pprint import pprint
-from fuzzywuzzy import process
+# from fuzzywuzzy import process
 from rich.console import Console
 from rich.table import Table
 import requests
+from thefuzz import process
+from thefuzz import fuzz
 
 
 def count():
@@ -23,13 +24,22 @@ def load_cocktail_db_json():
 def load_cocktail_db_yaml():
     with open(r'data/cocktails.yml') as file:
         db = yaml.full_load(file)
-
     return db
+
+
+def merge_cocktail_db():
+    with open(r'data/cocktails_downloaded.yml') as file:
+        downloaded = yaml.full_load(file)
+    with open(r'data/cocktails_custom.yml') as file:
+        custom = yaml.full_load(file)
+    db = downloaded + custom
+    with open(r'data/cocktails.yml', 'w') as file:
+        documents = yaml.dump(db, file)
 
 
 def convert_to_yaml():
     db = load_cocktail_db_json()
-    with open(r'data/cocktails.yml', 'w') as file:
+    with open(r'data/cocktails_downloaded.yml', 'w') as file:
         documents = yaml.dump(db, file)
 
 
@@ -75,10 +85,8 @@ def search_ingredient(searches=None, amount=None):
                     ingredient = cocktail[x]
                     if ingredient:
                         ingredients.append(ingredient)
-            result = process.extract(search, ingredients)
-            for x in result:
-                ingredient = x[0]
-                confidence = x[1]
+            for ingredient in ingredients:
+                confidence = fuzz.partial_ratio(search.lower(), ingredient.lower())
                 if confidence > 90:
                     cocktail_name = cocktail["strDrink"]
                     if cocktail_name not in cocktail_hits:

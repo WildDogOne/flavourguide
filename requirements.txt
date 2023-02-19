@@ -1,7 +1,7 @@
 requests
 pandas
 tomark
-fuzzywuzzy
 python-Levenshtein
 rich
 pyyaml
+thefuzz
