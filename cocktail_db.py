@@ -44,13 +44,14 @@ def count():
     print(len(db))
 
 
-def search_ingredient(searches=None):
+def search_ingredient(searches=None, amount=None):
     if type(searches) == str:
         searches = [searches]
     db = load_cocktail_db()
     table = Table(title=", ".join(searches), show_header=True)
     table.add_column("Cocktail")
     table.add_column("Ingredients")
+    table.add_column("Matched Ingredient Count")
     cocktail_hits = {}
     for search in searches:
         for cocktail in db:
@@ -71,14 +72,14 @@ def search_ingredient(searches=None):
                                                         "hits": 1}
                     else:
                         cocktail_hits[cocktail_name]["hits"] += 1
-                    # pprint(cocktail)
-                    # table.add_row(cocktail_name, ", ".join(ingredients))
-    # pprint(cocktail_hits)
+    #sorted_cocktail_hits = sorted(cocktail_hits.items(), key=lambda item: item[1])
 
     for key, value in cocktail_hits.items():
-        if len(searches) == value["hits"]:
-            table.add_row(key, value["ingredients"])
-        # pprint(value["hits"])
+        if amount:
+            if value["hits"] >= amount:
+                table.add_row(key, value["ingredients"], str(value["hits"]))
+        elif len(searches) == value["hits"]:
+            table.add_row(key, value["ingredients"], str(value["hits"]))
     if len(table.rows) > 0:
         console = Console()
         console.print(table)
@@ -105,13 +106,20 @@ if __name__ == '__main__':
                         help="Search for cocktail by ingredient",
                         nargs="+",
                         required=False)
+    parser.add_argument("-a",
+                        "--amount",
+                        help="Amount of ingredients that need to be matched"
+                             "Defaults to all",
+                        type=int,
+                        required=False)
     args = parser.parse_args()
     ingredient_search = args.ingredient
+    amount = args.amount
     if args.download:
         download()
     elif args.count:
         count()
     elif ingredient_search:
-        search_ingredient(ingredient_search)
+        search_ingredient(ingredient_search, amount)
     else:
         parser.print_help()
