@@ -5,6 +5,8 @@ from fuzzywuzzy import process
 from rich.console import Console
 from rich.table import Table
 
+from functions.flavour import convert_to_yaml
+
 
 def load_db():
     with open('flavours.json', 'r') as openfile:
@@ -70,14 +72,20 @@ if __name__ == '__main__':
                         help="Search for similar ingredients."
                              "Mostly usefull if you don't know what you are looking for exactly.",
                         required=False)
+    parser.add_argument("--convert-to-yaml",
+                        help="Converts the flavours.json to flavours.yml",
+                        action='store_true',
+                        required=False)
     args = parser.parse_args()
-    pprint(args)
+    # pprint(args)
     ingredient = args.ingredient
     lookup = args.lookup
     if ingredient:
         ingredient_search(ingredient)
     elif lookup:
         ingredient_lookup(lookup)
+    elif args.convert_to_yaml:
+        convert_to_yaml()
     elif args.similarlookup:
         similar_finder()
     else:

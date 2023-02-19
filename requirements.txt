@@ -4,3 +4,4 @@ tomark
 fuzzywuzzy
 python-Levenshtein
 rich
+pyyaml

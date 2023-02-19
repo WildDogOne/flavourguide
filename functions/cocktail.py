@@ -1,3 +1,5 @@
+import json
+import yaml
 import argparse
 import json
 from pprint import pprint
@@ -7,16 +9,26 @@ from rich.table import Table
 import requests
 
 
-def load_cocktail_db():
+def count():
+    db = load_cocktail_db_json()
+    print(len(db))
+
+
+def load_cocktail_db_json():
     with open('cocktails.json', 'r') as openfile:
         db = json.load(openfile)
     return db
 
 
-def download():
+def convert_to_yaml():
+    db = load_cocktail_db_json()
+    with open(r'data/cocktail.yml', 'w') as file:
+        documents = yaml.dump(db, file)
+
+
+def download(id=11000):
     url = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php"
     cocktails = []
-    id = 11000
     go = 1
     while go == 1:
         params = {"i": id}
@@ -39,15 +51,10 @@ def download():
                 outfile.write(json_object)
 
 
-def count():
-    db = load_cocktail_db()
-    print(len(db))
-
-
 def search_ingredient(searches=None, amount=None):
     if type(searches) == str:
         searches = [searches]
-    db = load_cocktail_db()
+    db = load_cocktail_db_json()
     table = Table(title=", ".join(searches), show_header=True)
     table.add_column("Cocktail")
     table.add_column("Ingredients")
@@ -72,7 +79,7 @@ def search_ingredient(searches=None, amount=None):
                                                         "hits": 1}
                     else:
                         cocktail_hits[cocktail_name]["hits"] += 1
-    #sorted_cocktail_hits = sorted(cocktail_hits.items(), key=lambda item: item[1])
+    # sorted_cocktail_hits = sorted(cocktail_hits.items(), key=lambda item: item[1])
 
     for key, value in cocktail_hits.items():
         if amount:
@@ -85,41 +92,3 @@ def search_ingredient(searches=None, amount=None):
         console.print(table)
     else:
         print(f"No results found for your search {', '.join(searches)}")
-
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(prog='Cocktail Organiser',
-                                     description='A little CLI to download and organise cocktails')
-    parser.add_argument("-d",
-                        "--download",
-                        help="Downloads the whole cocktail DB."
-                             "This will take a long time",
-                        action='store_true',
-                        required=False)
-    parser.add_argument("-c",
-                        "--count",
-                        help="Count how many entries are in the DB",
-                        action='store_true',
-                        required=False)
-    parser.add_argument("-i",
-                        "--ingredient",
-                        help="Search for cocktail by ingredient",
-                        nargs="+",
-                        required=False)
-    parser.add_argument("-a",
-                        "--amount",
-                        help="Amount of ingredients that need to be matched"
-                             "Defaults to all",
-                        type=int,
-                        required=False)
-    args = parser.parse_args()
-    ingredient_search = args.ingredient
-    amount = args.amount
-    if args.download:
-        download()
-    elif args.count:
-        count()
-    elif ingredient_search:
-        search_ingredient(ingredient_search, amount)
-    else:
-        parser.print_help()
