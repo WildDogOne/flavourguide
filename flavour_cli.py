@@ -1,6 +1,6 @@
 import argparse
 
-from functions.flavour import convert_to_yaml, ingredient_search, ingredient_lookup, similar_finder
+from functions.flavour import convert_to_yaml, ingredient_search, ingredient_lookup, similar_finder, downloader
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog='Flavor Guide CLI',
@@ -13,6 +13,11 @@ if __name__ == '__main__':
                         "--similarlookup",
                         help="Checks if there are similar ingredients in the DB."
                              "This is mostly for Debugging. Should always result in zero results.",
+                        action='store_true',
+                        required=False)
+    parser.add_argument("-d",
+                        "--download",
+                        help="Download initial Flavour Guide DB",
                         action='store_true',
                         required=False)
     parser.add_argument("-l",
@@ -36,5 +41,7 @@ if __name__ == '__main__':
         convert_to_yaml()
     elif args.similarlookup:
         similar_finder()
+    elif args.download:
+        downloader()
     else:
         parser.print_help()
