@@ -10,7 +10,7 @@ import requests
 
 
 def count():
-    db = load_cocktail_db_json()
+    db = load_cocktail_db_yaml()
     print(len(db))
 
 
@@ -20,9 +20,16 @@ def load_cocktail_db_json():
     return db
 
 
+def load_cocktail_db_yaml():
+    with open(r'data/cocktails.yml') as file:
+        db = yaml.full_load(file)
+
+    return db
+
+
 def convert_to_yaml():
     db = load_cocktail_db_json()
-    with open(r'data/cocktail.yml', 'w') as file:
+    with open(r'data/cocktails.yml', 'w') as file:
         documents = yaml.dump(db, file)
 
 
@@ -54,7 +61,7 @@ def download(id=11000):
 def search_ingredient(searches=None, amount=None):
     if type(searches) == str:
         searches = [searches]
-    db = load_cocktail_db_json()
+    db = load_cocktail_db_yaml()
     table = Table(title=", ".join(searches), show_header=True)
     table.add_column("Cocktail")
     table.add_column("Ingredients")

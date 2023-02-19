@@ -1,0 +1,3308 @@
+Acai:
+  fruit:
+  - Goji Berry
+  herb_n_spice: []
+  other: []
+Agave:
+  fruit:
+  - Mango
+  - Papaya
+  - Cantaloupe
+  - Cherry
+  - Grapefruit
+  - Pineapple
+  - Strawberry
+  - Lime
+  - Guava
+  - Pomegranate
+  - Tangerine
+  - Watermelon
+  herb_n_spice:
+  - Anise
+  - Chilli
+  - Cinnamon
+  - Ginger
+  - Mint
+  - Basil
+  - Thyme
+  - Cardamom
+  other:
+  - Almond
+  - Honey
+  - Cucumber
+  - Coffee
+  - Celery
+  - Carrot
+  - Chillies
+Allspice:
+  fruit:
+  - Pumpkin
+  herb_n_spice: []
+  other:
+  - Hazelnut
+Almond:
+  fruit:
+  - Apricot
+  - Cherry
+  - Plum
+  - Peach
+  - Fig
+  - Blueberry
+  - Cranberry
+  - Date
+  - Lemon
+  - Nectarine
+  - Pear
+  - Persimmon
+  - Pineapple
+  - Prune
+  - Quince
+  - Strawberry
+  - Yuzu
+  herb_n_spice:
+  - Cinnamon
+  - Pepper
+  - Cardamom
+  - Nutmeg
+  - Parsley
+  - Basil
+  - Cassia Leaf
+  - Ginger
+  - Star Anise
+  other:
+  - Coffee
+  - Honey
+  - Caramel
+  - Agave
+  - Chamomile
+  - Chocolate
+  - Maple Syrup
+  - Pine Nut
+  - Vanilla
+  - Violet
+Anise:
+  fruit:
+  - Fig
+  - Kumquat
+  - Lime
+  - Mango
+  - Nectarine
+  - Orange
+  - Pineapple
+  - Plum
+  - Prune
+  - Strawberry
+  - Watermelon
+  herb_n_spice:
+  - Cardamom
+  - Cinnamon
+  - Cloves
+  other:
+  - Agave
+  - Caramel
+  - Chocolate
+  - Coconut
+  - Coffee
+  - Fennel
+  - Honey
+  - Maple Syrup
+  - Vanilla
+  - Walnut
+Apple:
+  fruit:
+  - Cranberry
+  - Mango
+  - Citrus
+  - Currant
+  - Pumpkin
+  - Kiwi
+  - Raspberry
+  - Blackberry
+  - Blueberry
+  - Date
+  - Kumquat
+  - Lemon
+  - Orange
+  - Pear
+  - Prune
+  - Quince
+  - Tangerine
+  - Yuzu
+  herb_n_spice:
+  - Cardamom
+  - Cinnamon
+  - Ginger
+  - Cloves
+  - Nutmeg
+  - Rosemary
+  - Mint
+  - Dill
+  - Lemon Thyme
+  - Sage
+  - Star Anise
+  - Thyme
+  other:
+  - Caramel
+  - Chestnut
+  - Maple
+  - Hazelnut
+  - Walnut
+  - Rhubarb
+  - Pecan
+  - Cashew
+  - Chamomile
+  - Cucumber
+  - Elderflower
+  - Honey
+  - Jasmine
+  - Lemongrass
+  - Vanilla
+Apricot:
+  fruit:
+  - Plum
+  - Peach
+  - Orange
+  - Pineapple
+  - Cherry
+  - Fig
+  - Strawberry
+  - Raspberry
+  - Banana
+  - Blueberry
+  - Date
+  - Lemon
+  - Lime
+  - Nectarine
+  - Prune
+  herb_n_spice:
+  - Black Pepper
+  - Cardamom
+  - Ginger
+  - Mint
+  - Rosemary
+  - Dill
+  other:
+  - Almond
+  - Caramel
+  - Honey
+  - Vanilla
+  - Rose
+  - Coconut
+  - Pistachio
+  - Coffee
+  - Lavender
+  - Maple Syrup
+  - Rhubarb
+  - Violet
+  - Walnut
+Avocado:
+  fruit:
+  - Pineapple
+  - Mango
+  - Lime
+  - Plum
+  herb_n_spice:
+  - Cinnamon
+  - Mint
+  other:
+  - Juniper
+  - Honey
+  - Agave
+  - Cucumber
+  - Matcha
+Banana:
+  fruit:
+  - Apricot
+  - Guava
+  - Kiwi
+  - Kumquat
+  - Lime
+  - Mango
+  - Orange
+  - Papaya
+  - Pineapple
+  - Pomegranate
+  - Lemon
+  - Longan
+  herb_n_spice:
+  - Cardamom
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Mint
+  other:
+  - Caramel
+  - Coconut
+  - Coffee
+  - Hazelnut
+  - Honey
+  - Macadamia
+  - Maple
+  - Pecan
+  - Walnut
+  - Chocolate
+  - Peanut
+Basil:
+  fruit:
+  - Cantaloupe
+  - Grapefruit
+  - Guava
+  - Kiwi
+  - Kumquat
+  - Lemon
+  - Orange
+  - Papaya
+  - Peach
+  - Persimmon
+  - Pineapple
+  - Plum
+  - Raspberry
+  - Strawberry
+  - Tangerine
+  - Watermelon
+  herb_n_spice:
+  - Cardamom
+  - Lemon Thyme
+  - Pepper
+  - Rosemary
+  other:
+  - Agave
+  - Almond
+  - Carrot
+  - Cucumber
+  - Elderflower
+  - Hazelnut
+  - Honey
+  - Olive
+  - Pecan
+  - Pine Nut
+  - Pistachio
+  - Tomato
+  - Vanilla
+  - Violet
+Bay Leaf:
+  fruit:
+  - Pineapple
+  - Lime
+  - Lemon
+  herb_n_spice:
+  - Ginger
+  - Thyme
+  other:
+  - Juniper
+  - Honey
+  - Chestnut
+  - Hazelnut
+Berries:
+  fruit:
+  - Elderberry
+  - Kumquat
+  - Lemon
+  - Lime
+  - Orange
+  - Peach
+  - Strawberry
+  herb_n_spice:
+  - Mint
+  other:
+  - Elderflower
+Black Current:
+  fruit:
+  - Apple
+  - Cherry
+  - Fig
+  - Peach
+  - Pear
+  - Prune
+  - Raspberry
+  - Strawberry
+  herb_n_spice:
+  - Ginger
+  - Basil
+  - Pepper
+  - Mint
+  - Rosemary
+  other:
+  - Almond
+  - Carrot
+  - Fennel
+  - Honey
+Black Pepper:
+  fruit:
+  - Apricot
+  - Blackberry
+  - Cherry
+  - Fig
+  - Lemon
+  - Papaya
+  - Persimmon
+  - Plum
+  - Strawberry
+  herb_n_spice:
+  - Dill
+  - Sage
+  other:
+  - Carrot
+  - Chamomile
+  - Cucumber
+  - Elderflower
+  - Olive
+  - Tomato
+Blackberries:
+  fruit: []
+  herb_n_spice:
+  - Lemon Thyme
+  - Pepper
+  - Thyme
+  other: []
+Blackberry:
+  fruit:
+  - Apple
+  - Elderberry
+  - Citrus
+  - Mango
+  - Peach
+  - Pear
+  - Raspberry
+  - Rhubarb
+  - Strawberry
+  - Tangerine
+  - Nectarine
+  herb_n_spice:
+  - Cinnamon
+  - Ginger
+  - Black Pepper
+  - Mint
+  other:
+  - Vanilla
+  - Hazelnut
+  - Chocolate
+  - Honey
+  - Maple
+  - Rhubarb
+Blood Orange:
+  fruit:
+  - Fig
+  - Pineapple
+  - Passionfruit
+  herb_n_spice:
+  - Cardamom
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Rosemary
+  - Mint
+  other:
+  - Almond
+  - Honey
+  - Chocolate
+Blueberries:
+  fruit:
+  - Goji Berry
+  herb_n_spice: []
+  other: []
+Blueberry:
+  fruit:
+  - Lemon
+  - Fig
+  - Mango
+  - Apple
+  - Apricot
+  - Nectarine
+  - Peach
+  - Pomegranate
+  herb_n_spice:
+  - Cardamom
+  - Ginger
+  - Rosemary
+  - Sage
+  other:
+  - Lavender
+  - Hazelnut
+  - Jasmine
+  - Lemongrass
+  - Orange Blossom
+  - White Chocolate
+  - Almond
+  - Chocolate
+Cantaloupe:
+  fruit:
+  - Lime
+  - Lemon
+  - Pomegranate
+  - Melon
+  - Pineapple
+  - Orange
+  herb_n_spice:
+  - Ginger
+  - Mint
+  - Basil
+  - Sage
+  other:
+  - Honey
+  - Maple
+  - Agave
+  - Cucumber
+  - Rose
+Caramel:
+  fruit:
+  - Apple
+  - Cranberry
+  - Banana
+  - Tangerine
+  - Pear
+  - Apricot
+  - Cherry
+  - Lemon
+  - Nectarine
+  - Passionfruit
+  - Peach
+  - Pineapple
+  - Prune
+  - Pumpkin
+  - Quince
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Anise
+  - Mint
+  - Nutmeg
+  other:
+  - Almond
+  - Chocolate
+  - Coffee
+  - Toffee
+  - Vanilla
+  - Walnut
+  - Cashew
+Cardamom:
+  fruit:
+  - Apple
+  - Lime
+  - Pineapple
+  - Orange
+  - Papaya
+  - Grapefruit
+  - Apricot
+  - Banana
+  - Blueberry
+  - Cranberry
+  - Kiwi
+  - Lemon
+  - Mandarin
+  - Nectarine
+  - Plum
+  - Pumpkin
+  herb_n_spice:
+  - Ginger
+  - Anise
+  - Cardamom
+  - Mint
+  - Basil
+  - Cinnamon
+  - Nutmeg
+  - Rosemary
+  - Thyme
+  other:
+  - Rose
+  - Coconut
+  - Honey
+  - Agave
+  - Almond
+  - Carrot
+  - Chestnut
+  - Chillies
+  - Coffee
+  - Lavender
+  - Pecan
+  - Pistachio
+  - Rhubarb
+  - Vanilla
+Carrot:
+  fruit:
+  - Pineapple
+  - Orange
+  - Lime
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Cardamom
+  - Chilli
+  - Ginger
+  - Mint
+  - Basil
+  - Thyme
+  - Rosemary
+  other:
+  - Agave
+  - Tomato
+  - Juniper
+  - Cucumber
+  - Celery
+Cashew:
+  fruit:
+  - Pear
+  - Pineapple
+  - Apple
+  - Goji Berry
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Nutmeg
+  - Parsley
+  - Dill
+  other:
+  - Caramel
+  - Honey
+Cassia Leaf:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Almond
+Cayenne Pepper:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Macadamia
+Celery:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Agave
+  - Carrot
+  - Tomato
+Chamomile:
+  fruit:
+  - Pineapple
+  - Apple
+  - Citrus
+  - Tangerine
+  - Grapefruit
+  - Kiwi
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Mint
+  - Thyme
+  other:
+  - Almond
+  - Coffee
+Cherries:
+  fruit: []
+  herb_n_spice:
+  - Sage
+  other:
+  - Chocolate
+Cherry:
+  fruit:
+  - Apricot
+  - Citrus
+  - Nectarine
+  - Peach
+  - Plum
+  - Currant
+  - Lychee
+  - Fig
+  - Kiwi
+  - Kumquat
+  - Lemon
+  - Mandarin
+  - Orange
+  - Pear
+  - Persimmon
+  - Pineapple
+  - Quince
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Nutmeg
+  - Sage
+  - Pepper
+  other:
+  - Vanilla
+  - Violet
+  - Chocolate
+  - Pecan
+  - Caramel
+  - Agave
+  - Almond
+  - Coffee
+  - Hazelnut
+  - Macadamia
+  - Walnut
+Chestnut:
+  fruit:
+  - Fig
+  - Lemon
+  - Pear
+  - Prune
+  - Orange
+  - Raisin
+  - Apple
+  - Plum
+  herb_n_spice:
+  - Cardamom
+  - Nutmeg
+  - Cloves
+  - Bay Leaf
+  - Rosemary
+  - Thyme
+  other:
+  - Maple Syrup
+  - Honey
+  - Chocolate
+  - Coffee
+Chilli:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Agave
+  - Carrot
+Chillies:
+  fruit:
+  - Mango
+  - Lime
+  - Pineapple
+  - Papaya
+  - Orange
+  - Grapefruit
+  herb_n_spice:
+  - Cardamom
+  - Mint
+  other:
+  - Agave
+  - Honey
+  - Chocolate
+Chocolate:
+  fruit:
+  - Blueberry
+  - Cherries
+  - Raspberry
+  - Orange
+  - Strawberry
+  - Banana
+  - Blackberry
+  - Cherry
+  - Date
+  - Goji Berry
+  - Mandarin
+  - Peach
+  - Pear
+  - Plum
+  - Pomegranate
+  - Pumpkin
+  herb_n_spice:
+  - Anise
+  - Cinnamon
+  - Cloves
+  - Mint
+  - Sage
+  - Rosemary
+  - Star Anise
+  other:
+  - Almond
+  - Caramel
+  - Hazelnut
+  - Honey
+  - Maple
+  - Coffee
+  - Vanilla
+  - Chestnut
+  - Chillies
+  - Coconut
+  - Maple Syrup
+  - Peanut
+  - Pecan
+  - Pistachio
+Cinnamon:
+  fruit:
+  - Apple
+  - Lime
+  - Pineapple
+  - Papaya
+  - Grapefruit
+  - Banana
+  - Blackberry
+  - Cherry
+  - Cranberry
+  - Date
+  - Elderberry
+  - Fig
+  - Goji Berry
+  - Grape
+  - Kumquat
+  - Longan
+  - Mandarin
+  - Mango
+  - Nectarine
+  - Orange
+  - Passionfruit
+  - Peach
+  - Pear
+  - Persimmon
+  - Plum
+  - Pomegranate
+  - Prune
+  - Pumpkin
+  - Quince
+  - Raspberry
+  - Tangerine
+  - Watermelon
+  herb_n_spice:
+  - Ginger
+  - Anise
+  - Cardamom
+  - Nutmeg
+  - Mint
+  - Cloves
+  - Star Anise
+  - Thyme
+  other:
+  - Almond
+  - Coconut
+  - Honey
+  - Agave
+  - Caramel
+  - Carrot
+  - Cashew
+  - Chamomile
+  - Chocolate
+  - Coffee
+  - Jasmine
+  - Lemongrass
+  - Maple Syrup
+  - Peanut
+  - Tomato
+  - Vanilla
+  - Violet
+Citrus:
+  fruit:
+  - Apple
+  - Blackberry
+  - Cherry
+  - Grape
+  - Lychee
+  - Orange
+  - Passionfruit
+  - Peach
+  - Pear
+  - Raspberry
+  - Strawberry
+  - Tangerine
+  herb_n_spice: []
+  other:
+  - Chamomile
+  - Cucumber
+  - Rose
+Cloudberry:
+  fruit:
+  - Citrus
+  - Fruits
+  - Orange
+  - Pineapple
+  herb_n_spice:
+  - Cinnamon
+  - Sage
+  - Mint
+  other:
+  - Cream
+  - Pistachio
+Cloves:
+  fruit:
+  - Apple
+  - Lime
+  - Orange
+  - Raisin
+  - Prune
+  - Pear
+  - Banana
+  - Cranberry
+  - Elderberry
+  - Mango
+  - Peach
+  - Persimmon
+  - Pineapple
+  - Pomegranate
+  - Pumpkin
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Anise
+  - Nutmeg
+  - Mint
+  - Sage
+  other:
+  - Liquorice
+  - Chocolate
+  - Walnut
+  - Chestnut
+  - Coffee
+Coconut:
+  fruit:
+  - Pineapple
+  - Orange
+  - Guava
+  - Papaya
+  - Orange
+  - Watermelon
+  - Apricot
+  - Banana
+  - Lychee
+  - Mango
+  - Nectarine
+  - Peach
+  - Pomegranate
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Anise
+  - Ginger
+  - Mint
+  - Rosemary
+  - Cardamom
+  - Coriander
+  - Parsley
+  other:
+  - Chocolate
+  - Cucumber
+  - Honey
+  - Lemongrass
+  - Pistachio
+  - Violet
+Coffee:
+  fruit:
+  - Apricot
+  - Cherry
+  - Orange
+  - Pumpkin
+  - Banana
+  - Goji Berry
+  - Kumquat
+  - Mandarin
+  - Yuzu
+  herb_n_spice:
+  - Anise
+  - Cloves
+  - Cinnamon
+  - Cardamom
+  - Mint
+  - Nutmeg
+  other:
+  - Almond
+  - Hazelnut
+  - Chocolate
+  - Vanilla
+  - Honey
+  - Walnut
+  - Agave
+  - Caramel
+  - Chamomile
+  - Chestnut
+  - Peanut
+Coriander:
+  fruit:
+  - Strawberry
+  - Lime
+  - Lemon
+  - Pineapple
+  - Papaya
+  herb_n_spice:
+  - Ginger
+  - Mint
+  other:
+  - Coconut
+  - Cucumber
+  - Juniper
+  - Honey
+  - Olive
+Cranberry:
+  fruit:
+  - Apple
+  - Lemon
+  - Lime
+  - Orange
+  - Peach
+  - Pear
+  - Pumpkin
+  - Date
+  - Nectarine
+  - Persimmon
+  - Plum
+  - Pomegranate
+  - Quince
+  - Watermelon
+  herb_n_spice:
+  - Cardamom
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Sage
+  - Mint
+  - Rosemary
+  other:
+  - Almond
+  - Hazelnut
+  - Honey
+  - Pistachio
+  - Walnut
+  - White Chocolate
+  - Caramel
+  - Violet
+Cream:
+  fruit: []
+  herb_n_spice: []
+  other: []
+Cucumber:
+  fruit:
+  - Strawberry
+  - Raspberry
+  - Apple
+  - Orange
+  - Citrus
+  - Cantaloupe
+  - Kiwi
+  - Lemon
+  - Lime
+  - Pomegranate
+  - Watermelon
+  herb_n_spice:
+  - Black Pepper
+  - Basil
+  - Dill
+  - Mint
+  - Sage
+  - Thyme
+  - Rosemary
+  - Coriander
+  - Ginger
+  - Lemon Thyme
+  other:
+  - Agave
+  - Honey
+  - Flowers
+  - Juniper
+  - Rhubarb
+  - Carrot
+  - Coconut
+  - Elderflower
+  - Fennel
+  - Lavender
+  - Lemongrass
+  - Rose
+  - Vanilla
+Cumin:
+  fruit:
+  - Lemon
+  - Orange
+  - Papaya
+  herb_n_spice: []
+  other:
+  - Macadamia
+Currant:
+  fruit:
+  - Apple
+  - Cherry
+  - Lemon
+  - Peach
+  - Pear
+  - Prune
+  - Strawberry
+  herb_n_spice: []
+  other: []
+Dandelion:
+  fruit:
+  - Apple
+  - Orange
+  - Citrus
+  - Grapefruit
+  herb_n_spice:
+  - Cinnamon
+  - Mint
+  - Basil
+  - Sage
+  - Thyme
+  other:
+  - Honey
+  - Cucumber
+  - Rhubarb
+  - Maple
+  - Juniper
+Dark Chocolate:
+  fruit:
+  - Nectarine
+  - Pineapple
+  - Prune
+  herb_n_spice: []
+  other:
+  - Walnut
+Date:
+  fruit:
+  - Cranberry
+  - Apple
+  - Apricot
+  - Fig
+  - Nectarine
+  - Orange
+  - Prune
+  - Quince
+  - Tangerine
+  - Lime
+  - Longan
+  - Pear
+  herb_n_spice:
+  - Cinnamon
+  - Ginger
+  - Mint
+  other:
+  - Vanilla
+  - Chocolate
+  - Hazelnut
+  - Pecan
+  - Pistachio
+  - Walnut
+  - Honey
+  - Almond
+Dill:
+  fruit:
+  - Apricot
+  - Apple
+  - Lemon
+  - Pineapple
+  - Pomegranate
+  - Orange
+  - Plum
+  - Yuzu
+  herb_n_spice:
+  - Ginger
+  - Black Pepper
+  - Mint
+  other:
+  - Cucumber
+  - Cashew
+Dragon Fruit:
+  fruit:
+  - Mango
+  - Pineapple
+  - Lemon
+  - Lime
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Ginger
+  - Mint
+  other:
+  - Almond
+  - Honey
+  - Vanilla
+Durian:
+  fruit:
+  - Lime
+  - Cherry
+  - Pineapple
+  herb_n_spice:
+  - Nutmeg
+  - Cloves
+  - Star Anise
+  - Cinnamon
+  - Mint
+  other:
+  - Vanilla
+  - Caramel
+  - Honey
+Elderberry:
+  fruit:
+  - Berries
+  - Orange
+  - Peach
+  - Tangerine
+  - Blackberry
+  herb_n_spice:
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Nutmeg
+  - Mint
+  - Rosemary
+  other:
+  - Honey
+  - Vanilla
+Elderflower:
+  fruit:
+  - Lemon
+  - Apple
+  - Orange
+  - Pineapple
+  - Pear
+  - Peach
+  - Kiwi
+  - Berries
+  - Lychee
+  - Grapefruit
+  herb_n_spice:
+  - Black Pepper
+  - Mint
+  - Basil
+  - Sage
+  - Rosemary
+  - Thyme
+  - Tarragon
+  other:
+  - Honey
+  - Cucumber
+  - Rhubarb
+  - Juniper
+  - Jasmine
+  - Violet
+Fennel:
+  fruit:
+  - Lemon
+  - Strawberry
+  - Orange
+  herb_n_spice:
+  - Anise
+  - Mint
+  other:
+  - Maple
+  - Honey
+  - Rhubarb
+  - Cucumber
+Fennel Seeds:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Pistachio
+Fig:
+  fruit:
+  - Pear
+  - Cherry
+  - Date
+  - Prune
+  - Date
+  - Quince
+  - Apricot
+  - Blueberry
+  - Lime
+  - Mandarin
+  - Nectarine
+  - Orange
+  - Peach
+  - Plum
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Anise
+  - Thyme
+  - Rosemary
+  - Mint
+  other:
+  - Hazelnut
+  - Vanilla
+  - Walnut
+  - Almond
+  - Chestnut
+  - Pecan
+  - Pine Nut
+Flowers:
+  fruit:
+  - Lemon
+  herb_n_spice: []
+  other:
+  - Cucumber
+Fruits:
+  fruit: []
+  herb_n_spice: []
+  other: []
+Ginger:
+  fruit:
+  - Apricot
+  - Apple
+  - Lime
+  - Lemon
+  - Mango
+  - Grapefruit
+  - Papaya
+  - Raspberry
+  - Guava
+  - Plum
+  - Banana
+  - Blackberry
+  - Blueberry
+  - Cantaloupe
+  - Cranberry
+  - Date
+  - Elderberry
+  - Grape
+  - Kumquat
+  - Longan
+  - Lychee
+  - Mandarin
+  - Orange
+  - Passionfruit
+  - Peach
+  - Pear
+  - Persimmon
+  - Pineapple
+  - Pomegranate
+  - Prune
+  - Pumpkin
+  - Strawberry
+  - Tangerine
+  - Watermelon
+  - Yuzu
+  herb_n_spice:
+  - Cinnamon
+  - Mint
+  - Thyme
+  - Rosemary
+  - Bay Leaf
+  - Cardamom
+  - Coriander
+  - Dill
+  - Lemon Thyme
+  - Parsley
+  - Pepper
+  - Star Anise
+  - Tarragon
+  other:
+  - Almond
+  - Coconut
+  - Cucumber
+  - Juniper
+  - Agave
+  - Carrot
+  - Cashew
+  - Hazelnut
+  - Honey
+  - Jasmine
+  - Lavender
+  - Lemongrass
+  - Macadamia
+  - Maple Syrup
+  - Pine Nut
+  - Rhubarb
+  - Rose
+  - Violet
+Goji Berry:
+  fruit:
+  - Acai
+  - Raspberries
+  - Strawberry
+  - Blueberries
+  - Longan
+  - Lychee
+  herb_n_spice:
+  - Cinnamon
+  - Mint
+  - Thyme
+  other:
+  - Cashew
+  - Walnut
+  - Hazelnut
+  - Chocolate
+  - Coffee
+Gooseberry:
+  fruit:
+  - Lemon
+  - Lime
+  - Yuzu
+  - Berries
+  herb_n_spice:
+  - Black Pepper
+  - Ginger
+  - Mint
+  - Thyme
+  - Rosemary
+  other:
+  - Honey
+  - White Chocolate
+Grape:
+  fruit:
+  - Citrus
+  - Melon
+  - Orange
+  - Lemon
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  other:
+  - Honey
+  - Rose
+  - Pecan
+Grapefruit:
+  fruit:
+  - Lemon
+  - Lime
+  - Melon
+  - Orange
+  - Papaya
+  - Pineapple
+  - Pomegranate
+  - Raspberry
+  - Persimmon
+  - Strawberry
+  - Tangerine
+  - Yuzu
+  herb_n_spice:
+  - Cardamom
+  - Ginger
+  - Mint
+  - Rosemary
+  - Lemon Thyme
+  - Basil
+  - Cinnamon
+  - Tarragon
+  - Thyme
+  other:
+  - Vanilla
+  - Chamomile
+  - Rose Water
+  - Honey
+  - Pecan
+  - Agave
+  - Chillies
+  - Elderflower
+  - Olive
+Guava:
+  fruit:
+  - Coconut
+  - Pineapple
+  - Strawberry
+  - Lime
+  - Passionfruit
+  - Banana
+  - Lemon
+  - Orange
+  herb_n_spice:
+  - Ginger
+  - Basil
+  - Mint
+  other:
+  - Kaffir Leaf
+  - Juniper
+  - Lavender
+  - Honey
+  - Vanilla
+  - Agave
+  - Coconut
+  - Lemongrass
+Hazelnut:
+  fruit:
+  - Banana
+  - Fig
+  - Cherry
+  - Mandarin
+  - Peach
+  - Apple
+  - Blackberry
+  - Blueberry
+  - Cranberry
+  - Date
+  - Goji Berry
+  - Lemon
+  - Nectarine
+  - Pear
+  - Pineapple
+  - Plum
+  - Prune
+  - Quince
+  - Strawberry
+  herb_n_spice:
+  - Allspice
+  - Ginger
+  - Turmeric
+  - Bay Leaf
+  - Basil
+  other:
+  - Chocolate
+  - Honey
+  - Coffee
+Hibiscus:
+  fruit:
+  - Apple
+  - Citrus
+  - Cranberry
+  - Raspberries
+  - Strawberry
+  - Peach
+  - Blackberries
+  - Grapefruit
+  - Watermelon
+  herb_n_spice:
+  - Cinnamon
+  - Ginger
+  - Mint
+  - Thyme
+  other:
+  - Honey
+  - Cucumber
+  - Rhubarb
+Honey:
+  fruit:
+  - Apple
+  - Mango
+  - Pineapple
+  - Cranberry
+  - Peach
+  - Lemon
+  - Orange
+  - Grapefruit
+  - Watermelon
+  - Apricot
+  - Banana
+  - Blackberry
+  - Cantaloupe
+  - Date
+  - Elderberry
+  - Grape
+  - Guava
+  - Kiwi
+  - Kumquat
+  - Longan
+  - Mandarin
+  - Nectarine
+  - Pear
+  - Persimmon
+  - Plum
+  - Pomegranate
+  - Prune
+  - Pumpkin
+  - Quince
+  - Raspberry
+  - Strawberry
+  - Tangerine
+  - Yuzu
+  herb_n_spice:
+  - Cinnamon
+  - Anise
+  - Ginger
+  - Mint
+  - Basil
+  - Sage
+  - Thyme
+  - Bay Leaf
+  - Cardamom
+  - Coriander
+  - Lemon Thyme
+  - Parsley
+  - Pepper
+  - Rosemary
+  - Star Anise
+  - Tarragon
+  other:
+  - Juniper
+  - Chocolate
+  - Cucumber
+  - Coconut
+  - Rhubarb
+  - Agave
+  - Almond
+  - Cashew
+  - Chestnut
+  - Chillies
+  - Coffee
+  - Elderflower
+  - Fennel
+  - Hazelnut
+  - Jasmine
+  - Lavender
+  - Rose
+  - Walnut
+Jackfruit:
+  fruit:
+  - Lemon
+  - Pineapple
+  herb_n_spice:
+  - Ginger
+  - Mint
+  - Rosemary
+  other:
+  - Hazelnut
+Jasmine:
+  fruit:
+  - Lemon
+  - Apple
+  - Peach
+  - Orange
+  - Blueberry
+  - Yuzu
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  - Thyme
+  other:
+  - Elderflower
+  - Honey
+  - Maple
+  - Lavender
+  - Violet
+Juniper:
+  fruit:
+  - Guava
+  - Lemon
+  - Lime
+  - Pomegranate
+  - Yuzu
+  herb_n_spice:
+  - Bay Leaf
+  - Coriander
+  - Ginger
+  - Lemon Thyme
+  - Tarragon
+  - Thyme
+  other:
+  - Carrot
+  - Cucumber
+  - Elderflower
+  - Honey
+  - Olive
+  - Rhubarb
+Juniper Berries:
+  fruit:
+  - Strawberry
+  - Lemon
+  - Grapefruit
+  - Berries
+  - Orange
+  - Peach
+  - Plum
+  - Pear
+  herb_n_spice:
+  - Cardamom
+  - Cinnamon
+  - Anise
+  - Black Pepper
+  - Rosemary
+  - Mint
+  - Sage
+  - Lemongrass
+  - Thyme
+  other:
+  - Honey
+  - Rhubarb
+  - Cucumber
+Kaffir Leaf:
+  fruit:
+  - Guava
+  herb_n_spice: []
+  other:
+  - Lemongrass
+Kiwi:
+  fruit:
+  - Strawberry
+  - Apple
+  - Mango
+  - Cherry
+  - Lychee
+  - Papaya
+  - Passionfruit
+  - Pineapple
+  - Tangerine
+  - Banana
+  herb_n_spice:
+  - Cardamom
+  - Basil
+  - Mint
+  - Rosemary
+  other:
+  - Chamomile
+  - Orange Blossom
+  - Cucumber
+  - Honey
+  - Macadamia
+  - Elderflower
+Kumquat:
+  fruit:
+  - Berries
+  - Plum
+  - Cherry
+  - Papaya
+  - Apple
+  - Lime
+  - Lemon
+  - Pumpkin
+  - Banana
+  - Mango
+  - Orange
+  - Persimmon
+  - Pineapple
+  - Quince
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Anise
+  - Ginger
+  - Nutmeg
+  - Basil
+  - Mint
+  other:
+  - Coffee
+  - Vanilla
+  - Honey
+  - Walnut
+Lavender:
+  fruit:
+  - Apricot
+  - Lemon
+  - Peach
+  - Blueberry
+  - Guava
+  - Orange
+  herb_n_spice:
+  - Ginger
+  - Cardamom
+  - Mint
+  - Thyme
+  - Rosemary
+  - Pepper
+  other:
+  - Cucumber
+  - Rhubarb
+  - Honey
+  - Jasmine
+  - Violet
+Lemon:
+  fruit:
+  - Apple
+  - Apricot
+  - Banana
+  - Berries
+  - Cherry
+  - Currant
+  - Grapefruit
+  - Grape
+  - Guava
+  - Kumquat
+  - Lime
+  - Mango
+  - Nectarine
+  - Orange
+  - Papaya
+  - Passionfruit
+  - Pear
+  - Plum
+  - Prune
+  - Quince
+  - Blueberry
+  - Cantaloupe
+  - Cranberry
+  - Persimmon
+  - Raspberry
+  - Watermelon
+  - Yuzu
+  herb_n_spice:
+  - Black Pepper
+  - Cardamom
+  - Cumin
+  - Mint
+  - Thyme
+  - Basil
+  - Rosemary
+  - Sage
+  - Bay Leaf
+  - Coriander
+  - Dill
+  - Ginger
+  - Lemon Thyme
+  - Nutmeg
+  - Parsley
+  - Pepper
+  - Tarragon
+  other:
+  - Flowers
+  - Almond
+  - Caramel
+  - Chestnut
+  - Hazelnut
+  - Honey
+  - Pecan
+  - Pine Nut
+  - Pistachio
+  - Poppyseed
+  - Walnut
+  - Rhubarb
+  - Cucumber
+  - Juniper
+  - Elderflower
+  - Fennel
+  - Jasmine
+  - Lavender
+  - Lemongrass
+  - Maple Syrup
+  - Olive
+  - Tomato
+  - Violet
+Lemon Thyme:
+  fruit:
+  - Apple
+  - Lemon
+  - Pineapple
+  - Orange
+  - Blackberries
+  - Raspberries
+  - Grapefruit
+  - Mandarin
+  herb_n_spice:
+  - Ginger
+  - Basil
+  - Mint
+  other:
+  - Honey
+  - Juniper
+  - Cucumber
+  - Rhubarb
+Lemongrass:
+  fruit:
+  - Apple
+  - Strawberry
+  - Lemon
+  - Guava
+  - Peach
+  - Blueberry
+  - Passionfruit
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  - Sage
+  other:
+  - Coconut
+  - Kaffir Leaf
+  - Cucumber
+  - Olive
+Lime:
+  fruit:
+  - Apricot
+  - Banana
+  - Date
+  - Fig
+  - Berries
+  - Grapefruit
+  - Guava
+  - Kumquat
+  - Lemon
+  - Lychee
+  - Orange
+  - Mango
+  - Papaya
+  - Passionfruit
+  - Persimmon
+  - Pineapple
+  - Cantaloupe
+  - Cranberry
+  - Watermelon
+  herb_n_spice:
+  - Cinnamon
+  - Cardamom
+  - Anise
+  - Ginger
+  - Mint
+  - Rosemary
+  - Sage
+  - Tarragon
+  - Thyme
+  - Bay Leaf
+  - Cloves
+  - Coriander
+  - Nutmeg
+  - Parsley
+  - Pepper
+  - Star Anise
+  other:
+  - Rhubarb
+  - Cucumber
+  - Chillies
+  - Juniper
+  - Agave
+  - Carrot
+Lime Leaf:
+  fruit: []
+  herb_n_spice:
+  - Nutmeg
+  other: []
+Lingonberry:
+  fruit:
+  - Pear
+  herb_n_spice: []
+  other: []
+Liquorice:
+  fruit: []
+  herb_n_spice:
+  - Cloves
+  other: []
+Longan:
+  fruit:
+  - Banana
+  - Mango
+  - Pomegranate
+  - Goji Berry
+  - Orange
+  - Date
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Rosemary
+  - Thyme
+  other:
+  - Honey
+  - Vanilla
+Loquat:
+  fruit:
+  - Orange
+  - Cranberry
+  herb_n_spice:
+  - Ginger
+  - Basil
+  other:
+  - Liquorice
+  - Honey
+Lychee:
+  fruit:
+  - Citrus
+  - Goji Berry
+  - Passionfruit
+  - Coconut
+  - Pineapple
+  - Mango
+  - Watermelon
+  - Cherry
+  - Kiwi
+  - Lime
+  - Strawberry
+  herb_n_spice:
+  - Ginger
+  - Mint
+  other:
+  - Vanilla
+  - Elderflower
+Macadamia:
+  fruit:
+  - Strawberry
+  - Cherry
+  - Peach
+  - Plum
+  - Banana
+  - Kiwi
+  - Papaya
+  - Passionfruit
+  - Pear
+  - Pineapple
+  herb_n_spice:
+  - Cumin
+  - Ginger
+  - Cayenne Pepper
+  - Mint
+  other:
+  - Maple Syrup
+Mandarin:
+  fruit:
+  - Cherry
+  - Fig
+  - Tropical Fruits
+  herb_n_spice:
+  - Star Anise
+  - Ginger
+  - Nutmeg
+  - Cinnamon
+  - Cardamom
+  - Thyme
+  - Lemon Thyme
+  - Rosemary
+  - Sage
+  - Mint
+  other:
+  - Chocolate
+  - Coffee
+  - Vanilla
+  - Honey
+  - Maple
+  - Hazelnut
+Mango:
+  fruit:
+  - Kumquat
+  - Lemon
+  - Lime
+  - Orange
+  - Papaya
+  - Passionfruit
+  - Pear
+  - Pineapple
+  - Tangerine
+  - Coconut
+  - Apple
+  - Banana
+  - Blackberry
+  - Blueberry
+  - Kiwi
+  - Longan
+  - Lychee
+  - Persimmon
+  - Pomegranate
+  - Strawberry
+  herb_n_spice:
+  - Anise
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Mint
+  other:
+  - Chillies
+  - Agave
+  - Honey
+Maple:
+  fruit:
+  - Apple
+  - Banana
+  - Blackberry
+  - Cantaloupe
+  - Mandarin
+  - Nectarine
+  - Peach
+  - Pineapple
+  - Prune
+  - Quince
+  herb_n_spice:
+  - Star Anise
+  other:
+  - Chocolate
+  - Fennel
+  - Jasmine
+  - Pecan
+  - Pine Nut
+Maple Syrup:
+  fruit:
+  - Apricot
+  - Pineapple
+  - Orange
+  - Lemon
+  - Pomegranate
+  - Strawberry
+  - Tangerine
+  herb_n_spice:
+  - Anise
+  - Cinnamon
+  - Ginger
+  - Mint
+  - Nutmeg
+  other:
+  - Almond
+  - Chocolate
+  - Oak
+  - Walnut
+  - Chestnut
+  - Macadamia
+Matcha:
+  fruit: []
+  herb_n_spice: []
+  other: []
+Melon:
+  fruit:
+  - Cantaloupe
+  - Grape
+  - Grapefruit
+  - Pineapple
+  herb_n_spice: []
+  other: []
+Mint:
+  fruit:
+  - Apricot
+  - Apple
+  - Strawberry
+  - Plum
+  - Pear
+  - Lime
+  - Lemon
+  - Berries
+  - Peach
+  - Pomegranate
+  - Banana
+  - Blackberry
+  - Cantaloupe
+  - Cranberry
+  - Date
+  - Elderberry
+  - Fig
+  - Goji Berry
+  - Grape
+  - Grapefruit
+  - Guava
+  - Kiwi
+  - Kumquat
+  - Lychee
+  - Mandarin
+  - Mango
+  - Nectarine
+  - Orange
+  - Papaya
+  - Passionfruit
+  - Pineapple
+  - Prune
+  - Quince
+  - Raspberry
+  - Tangerine
+  - Watermelon
+  - Yuzu
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Cardamom
+  - Rosemary
+  - Thyme
+  - Dill
+  - Cloves
+  - Coriander
+  - Lemon Thyme
+  - Parsley
+  - Pepper
+  - Star Anise
+  - Tarragon
+  other:
+  - Cucumber
+  - Rhubarb
+  - Honey
+  - Agave
+  - Caramel
+  - Carrot
+  - Chamomile
+  - Chillies
+  - Chocolate
+  - Coconut
+  - Coffee
+  - Elderflower
+  - Fennel
+  - Jasmine
+  - Lavender
+  - Lemongrass
+  - Macadamia
+  - Maple Syrup
+  - Peanut
+  - Rose
+  - Vanilla
+  - Violet
+Mulberry:
+  fruit:
+  - Berries
+  - Plum
+  - Lemon
+  - Currant
+  - Apple
+  herb_n_spice:
+  - Black Pepper
+  - Mint
+  - Thyme
+  - Rosemary
+  other:
+  - Juniper
+Nectarine:
+  fruit:
+  - Apricot
+  - Blackberry
+  - Blueberry
+  - Cherry
+  - Cranberry
+  - Fig
+  - Lemon
+  - Orange
+  - Peach
+  - Plum
+  - Raspberry
+  - Strawberry
+  - Date
+  - Persimmon
+  - Quince
+  herb_n_spice:
+  - Anise
+  - Cardamom
+  - Cinnamon
+  - Mint
+  - Rosemary
+  other:
+  - Almond
+  - Caramel
+  - Coconut
+  - Dark Chocolate
+  - Hazelnut
+  - Honey
+  - Maple
+  - Pecan
+  - Pistachio
+Nutmeg:
+  fruit:
+  - Lemon
+  - Lime
+  - Orange
+  - Apple
+  - Cherry
+  - Elderberry
+  - Kumquat
+  - Mandarin
+  - Pear
+  - Persimmon
+  - Plum
+  - Pumpkin
+  - Quince
+  herb_n_spice:
+  - Cinnamon
+  - Cardamom
+  - Cloves
+  - Rosemary
+  - Lime Leaf
+  - Star Anise
+  other:
+  - Caramel
+  - Coffee
+  - Maple Syrup
+  - Almond
+  - Cashew
+  - Chestnut
+  - Peanut
+  - Pistachio
+  - Walnut
+Oak:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Maple Syrup
+Olive:
+  fruit:
+  - Lemon
+  - Grapefruit
+  - Orange
+  herb_n_spice:
+  - Black Pepper
+  - Coriander
+  - Rosemary
+  - Thyme
+  - Basil
+  other:
+  - Juniper
+  - Lemongrass
+Orange:
+  fruit:
+  - Apple
+  - Apricot
+  - Banana
+  - Berries
+  - Cherry
+  - Date
+  - Fig
+  - Grapefruit
+  - Guava
+  - Kumquat
+  - Citrus
+  - Mango
+  - Nectarine
+  - Papaya
+  - Passionfruit
+  - Pear
+  - Persimmon
+  - Plum
+  - Pomegranate
+  - Prune
+  - Pumpkin
+  - Quince
+  - Raisin
+  - Cantaloupe
+  - Cranberry
+  - Elderberry
+  - Grape
+  - Lemon
+  - Lime
+  - Longan
+  - Peach
+  - Pineapple
+  - Strawberry
+  - Tangerine
+  - Watermelon
+  - Yuzu
+  herb_n_spice:
+  - Anise
+  - Cardamom
+  - Cinnamon
+  - Cloves
+  - Cumin
+  - Ginger
+  - Nutmeg
+  - Basil
+  - Dill
+  - Thyme
+  - Rosemary
+  - Mint
+  - Lemon Thyme
+  - Star Anise
+  - Tarragon
+  other:
+  - Rhubarb
+  - Lavender
+  - Rose Water
+  - Vanilla
+  - Carrot
+  - Chestnut
+  - Chillies
+  - Chocolate
+  - Coconut
+  - Coffee
+  - Cucumber
+  - Elderflower
+  - Fennel
+  - Honey
+  - Jasmine
+  - Maple Syrup
+  - Olive
+Orange Blossom:
+  fruit:
+  - Blueberry
+  - Kiwi
+  herb_n_spice: []
+  other: []
+Oregano:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Pine Nut
+Other Berries:
+  fruit:
+  - Raspberry
+  herb_n_spice: []
+  other: []
+Papaya:
+  fruit:
+  - Banana
+  - Grapefruit
+  - Kiwi
+  - Kumquat
+  - Lemon
+  - Lime
+  - Mango
+  - Orange
+  - Passionfruit
+  - Peach
+  - Pineapple
+  - Coconut
+  - Strawberry
+  herb_n_spice:
+  - Black Pepper
+  - Coriander
+  - Cumin
+  - Ginger
+  - Mint
+  - Basil
+  - Cardamom
+  - Cinnamon
+  other:
+  - Macadamia
+  - Vanilla
+  - Agave
+  - Chillies
+  - Coconut
+Paprika:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Peanut
+Parsley:
+  fruit:
+  - Strawberry
+  - Lime
+  - Lemon
+  herb_n_spice:
+  - Ginger
+  - Mint
+  other:
+  - Coconut
+  - Honey
+  - Almond
+  - Cashew
+  - Peanut
+  - Pecan
+  - Pistachio
+Passionfruit:
+  fruit:
+  - Kiwi
+  - Citrus
+  - Mango
+  - Orange
+  - Papaya
+  - Pineapple
+  - Raspberry
+  - Strawberry
+  - Guava
+  - Lemon
+  - Lime
+  - Lychee
+  - Peach
+  - Watermelon
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  other:
+  - Vanilla
+  - Macadamia
+  - Caramel
+  - Lemongrass
+Peach:
+  fruit:
+  - Apricot
+  - Blackberry
+  - Blueberry
+  - Berries
+  - Citrus
+  - Cherry
+  - Coconut
+  - Currant
+  - Fig
+  - Nectarine
+  - Orange
+  - Papaya
+  - Passionfruit
+  - Plum
+  - Cranberry
+  - Elderberry
+  - Raspberry
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Basil
+  - Mint
+  other:
+  - Almond
+  - Caramel
+  - Chocolate
+  - Hazelnut
+  - Honey
+  - Maple
+  - Pecan
+  - Pistachio
+  - Walnut
+  - Vanilla
+  - Elderflower
+  - Jasmine
+  - Lavender
+  - Lemongrass
+  - Macadamia
+  - Peanut
+  - Pine Nut
+  - Rhubarb
+  - Rose
+  - Violet
+Peanut:
+  fruit:
+  - Banana
+  - Strawberry
+  - Peach
+  - Pear
+  - Pineapple
+  herb_n_spice:
+  - Cinnamon
+  - Nutmeg
+  - Paprika
+  - Parsley
+  - Mint
+  other:
+  - Chocolate
+  - Coffee
+Pear:
+  fruit:
+  - Apple
+  - Citrus
+  - Blackberry
+  - Cherry
+  - Cranberry
+  - Currant
+  - Date
+  - Fig
+  - Lingonberry
+  - Pomegranate
+  - Prune
+  - Quince
+  - Raisin
+  - Lemon
+  - Mango
+  - Orange
+  herb_n_spice:
+  - Cinnamon
+  - Cloves
+  - Nutmeg
+  - Ginger
+  - Rosemary
+  - Mint
+  other:
+  - Almond
+  - Caramel
+  - Chestnut
+  - Chocolate
+  - Macadamia
+  - Honey
+  - Hazelnut
+  - Pistachio
+  - Vanilla
+  - Walnut
+  - Cashew
+  - Elderflower
+  - Peanut
+  - Pecan
+Pecan:
+  fruit:
+  - Banana
+  - Pear
+  - Grape
+  - Fig
+  - Apple
+  - Cherry
+  - Date
+  - Grapefruit
+  - Lemon
+  - Nectarine
+  - Peach
+  - Prune
+  - Quince
+  - Strawberry
+  herb_n_spice:
+  - Cardamom
+  - Basil
+  - Parsley
+  other:
+  - Vanilla
+  - Maple
+  - Chocolate
+Pepper:
+  fruit:
+  - Blackberries
+  - Cherry
+  - Strawberry
+  - Lime
+  - Lemon
+  herb_n_spice:
+  - Ginger
+  - Mint
+  - Sage
+  - Basil
+  other:
+  - Tomato
+  - Honey
+  - Lavender
+  - Almond
+Persimmon:
+  fruit:
+  - Cherry
+  - Cranberry
+  - Grapefruit
+  - Kumquat
+  - Lemon
+  - Nectarine
+  - Mango
+  - Orange
+  - Lime
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Nutmeg
+  - Basil
+  other:
+  - Almond
+  - Honey
+  - Vanilla
+Pine Nut:
+  fruit:
+  - Lemon
+  - Fig
+  - Peach
+  - Plum
+  herb_n_spice:
+  - Ginger
+  - Turmeric
+  - Basil
+  - Oregano
+  - Rosemary
+  other:
+  - Almond
+  - Maple
+Pineapple:
+  fruit:
+  - Apricot
+  - Banana
+  - Cherry
+  - Coconut
+  - Grapefruit
+  - Kiwi
+  - Kumquat
+  - Lime
+  - Mango
+  - Melon
+  - Orange
+  - Papaya
+  - Passionfruit
+  - Raspberry
+  - Strawberry
+  - Cantaloupe
+  - Guava
+  - Lychee
+  - Pomegranate
+  - Watermelon
+  herb_n_spice:
+  - Cinnamon
+  - Cardamom
+  - Cloves
+  - Ginger
+  - Anise
+  - Basil
+  - Mint
+  - Rosemary
+  - Bay Leaf
+  - Coriander
+  - Dill
+  - Lemon Thyme
+  - Sage
+  - Star Anise
+  - Thyme
+  other:
+  - Almond
+  - Caramel
+  - Coconut
+  - Dark Chocolate
+  - Hazelnut
+  - Honey
+  - Macadamia
+  - Maple
+  - Peanut
+  - Agave
+  - Carrot
+  - Cashew
+  - Chamomile
+  - Chillies
+  - Elderflower
+  - Maple Syrup
+  - Pistachio
+  - Rhubarb
+  - Rose
+Pistachio:
+  fruit:
+  - Pineapple
+  - Plum
+  - Peach
+  - Coconut
+  - Cranberry
+  - Apricot
+  - Date
+  - Lemon
+  - Nectarine
+  - Pear
+  - Prune
+  - Strawberry
+  herb_n_spice:
+  - Nutmeg
+  - Cardamom
+  - Fennel Seeds
+  - Basil
+  - Parsley
+  - Rosemary
+  other:
+  - Vanilla
+  - Chocolate
+Plum:
+  fruit:
+  - Cherry
+  - Cranberry
+  - Fig
+  - Kumquat
+  - Lemon
+  - Nectarine
+  - Peach
+  - Raspberry
+  - Strawberry
+  - Apricot
+  - Orange
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Anise
+  - Cardamom
+  - Ginger
+  - Nutmeg
+  - Basil
+  - Dill
+  - Mint
+  - Star Anise
+  other:
+  - Almond
+  - Chestnut
+  - Chocolate
+  - Rhubarb
+  - Hazelnut
+  - Honey
+  - Walnut
+  - Vanilla
+  - Macadamia
+  - Pine Nut
+  - Pistachio
+Pomegranate:
+  fruit:
+  - Cranberry
+  - Cucumber
+  - Pear
+  - Blueberry
+  - Raspberry
+  - Mango
+  - Pineapple
+  - Strawberry
+  - Banana
+  - Cantaloupe
+  - Grapefruit
+  - Longan
+  - Orange
+  - Pumpkin
+  herb_n_spice:
+  - Ginger
+  - Cloves
+  - Cinnamon
+  - Rosemary
+  - Thyme
+  - Mint
+  - Dill
+  other:
+  - Juniper
+  - Vanilla
+  - Coconut
+  - Chocolate
+  - Honey
+  - Maple Syrup
+  - Agave
+Poppyseed:
+  fruit:
+  - Lemon
+  herb_n_spice: []
+  other: []
+Prune:
+  fruit:
+  - Apple
+  - Apricot
+  - Currant
+  - Date
+  - Fig
+  - Lemon
+  - Orange
+  - Pear
+  - Raisin
+  herb_n_spice:
+  - Anise
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Mint
+  - Rosemary
+  other:
+  - Almond
+  - Caramel
+  - Chestnut
+  - Dark Chocolate
+  - Hazelnut
+  - Honey
+  - Maple
+  - Pecan
+  - Pistachio
+  - Walnut
+Pumpkin:
+  fruit:
+  - Apple
+  - Cranberry
+  - Pomegranate
+  - Strawberry
+  - Kumquat
+  - Orange
+  herb_n_spice:
+  - Allspice
+  - Cardamom
+  - Cinnamon
+  - Cloves
+  - Ginger
+  - Nutmeg
+  - Sage
+  - Thyme
+  - Rosemary
+  other:
+  - Coffee
+  - Chocolate
+  - Honey
+  - Caramel
+  - Vanilla
+Quince:
+  fruit:
+  - Apple
+  - Cherry
+  - Cranberry
+  - Date
+  - Fig
+  - Kumquat
+  - Lemon
+  - Nectarine
+  - Orange
+  - Pear
+  - Raspberry
+  herb_n_spice:
+  - Cinnamon
+  - Nutmeg
+  - Mint
+  other:
+  - Almond
+  - Caramel
+  - Hazelnut
+  - Honey
+  - Maple
+  - Pecan
+  - Walnut
+Raisin:
+  fruit:
+  - Orange
+  - Pear
+  - Prune
+  herb_n_spice:
+  - Cloves
+  other:
+  - Chestnut
+Rambutan:
+  fruit:
+  - Lychee
+  - Longan
+  - Lemon
+  - Lime
+  - Pineapple
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  other:
+  - Coconut
+  - Agave
+  - Honey
+  - Vanilla
+Raspberries:
+  fruit:
+  - Goji Berry
+  herb_n_spice:
+  - Lemon Thyme
+  - Thyme
+  other:
+  - Vanilla
+Raspberry:
+  fruit:
+  - Apricot
+  - Apple
+  - Citrus
+  - Lemon
+  - Nectarine
+  - Other Berries
+  - Peach
+  - Plum
+  - Passionfruit
+  - Pineapple
+  - Blackberry
+  - Grapefruit
+  - Pomegranate
+  - Quince
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Thyme
+  - Mint
+  - Basil
+  other:
+  - Vanilla
+  - Rhubarb
+  - Honey
+  - Chocolate
+  - Cucumber
+  - Rose
+Rhubarb:
+  fruit:
+  - Apple
+  - Apricot
+  - Orange
+  - Peach
+  - Lemon
+  - Pineapple
+  - Blackberry
+  - Lime
+  - Plum
+  - Raspberry
+  - Strawberry
+  herb_n_spice:
+  - Ginger
+  - Cardamom
+  - Mint
+  - Thyme
+  - Lemon Thyme
+  - Rosemary
+  - Sage
+  other:
+  - Juniper
+  - Cucumber
+  - Honey
+  - Elderflower
+  - Fennel
+  - Lavender
+  - Rose
+  - Vanilla
+Rose:
+  fruit:
+  - Pineapple
+  - Citrus
+  - Strawberry
+  - Peach
+  - Raspberry
+  - Apricot
+  - Cantaloupe
+  - Grape
+  herb_n_spice:
+  - Ginger
+  - Cardamom
+  - Mint
+  - Rosemary
+  - Thyme
+  other:
+  - Honey
+  - Cucumber
+  - Rhubarb
+Rose Water:
+  fruit:
+  - Grapefruit
+  - Orange
+  herb_n_spice: []
+  other: []
+Rosemary:
+  fruit:
+  - Apricot
+  - Apple
+  - Lime
+  - Cranberry
+  - Lemon
+  - Pineapple
+  - Orange
+  - Pomegranate
+  - Blueberry
+  - Elderberry
+  - Fig
+  - Grapefruit
+  - Kiwi
+  - Longan
+  - Mandarin
+  - Nectarine
+  - Pear
+  - Prune
+  - Pumpkin
+  - Strawberry
+  - Watermelon
+  herb_n_spice:
+  - Ginger
+  - Cardamom
+  - Mint
+  - Basil
+  - Thyme
+  - Nutmeg
+  other:
+  - Rose
+  - Olive
+  - Honey
+  - Rhubarb
+  - Cucumber
+  - Carrot
+  - Chestnut
+  - Chocolate
+  - Coconut
+  - Elderflower
+  - Lavender
+  - Pine Nut
+  - Pistachio
+  - Vanilla
+  - Violet
+  - Walnut
+Sage:
+  fruit:
+  - Apple
+  - Lime
+  - Lemon
+  - Cherries
+  - Pineapple
+  - Blueberry
+  - Cantaloupe
+  - Cherry
+  - Cranberry
+  - Mandarin
+  - Pumpkin
+  - Strawberry
+  herb_n_spice:
+  - Black Pepper
+  - Thyme
+  - Cloves
+  - Pepper
+  other:
+  - Honey
+  - Cucumber
+  - Rhubarb
+  - Chocolate
+  - Elderflower
+  - Lemongrass
+  - Vanilla
+Soursop:
+  fruit:
+  - Apple
+  - Lemon
+  - Lime
+  - Guava
+  - Raspberry
+  - Blackberry
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Cardamom
+  - Mint
+  - Rosemary
+  - Basil
+  other:
+  - Vanilla
+  - Coconut
+Star Anise:
+  fruit:
+  - Apple
+  - Lime
+  - Pineapple
+  - Plum
+  - Orange
+  - Tangerine
+  - Mandarin
+  herb_n_spice:
+  - Cinnamon
+  - Nutmeg
+  - Ginger
+  - Mint
+  other:
+  - Almond
+  - Chocolate
+  - Honey
+  - Maple
+  - Walnut
+Star Fruit:
+  fruit:
+  - Apple
+  - Orange
+  - Lime
+  - Passionfruit
+  herb_n_spice:
+  - Black Pepper
+  - Cardamom
+  - Cinnamon
+  - Mint
+  other:
+  - Rhubarb
+  - Vanilla
+  - Honey
+Strawberry:
+  fruit:
+  - Currant
+  - Citrus
+  - Berries
+  - Grapefruit
+  - Guava
+  - Kiwi
+  - Kumquat
+  - Lychee
+  - Mango
+  - Nectarine
+  - Orange
+  - Papaya
+  - Passionfruit
+  - Peach
+  - Pineapple
+  - Plum
+  - Apricot
+  - Blackberry
+  - Goji Berry
+  - Pomegranate
+  - Pumpkin
+  herb_n_spice:
+  - Anise
+  - Black Pepper
+  - Cloves
+  - Ginger
+  - Basil
+  - Thyme
+  - Rosemary
+  - Sage
+  - Mint
+  - Coriander
+  - Parsley
+  - Pepper
+  other:
+  - Rhubarb
+  - Vanilla
+  - Almond
+  - Caramel
+  - Coconut
+  - Chocolate
+  - Hazelnut
+  - Honey
+  - Maple Syrup
+  - Pecan
+  - Pistachio
+  - Violet
+  - Agave
+  - Cucumber
+  - Fennel
+  - Lemongrass
+  - Macadamia
+  - Peanut
+  - Rose
+  - Tomato
+Tangerine:
+  fruit:
+  - Apple
+  - Orange
+  - Citrus
+  - Grapefruit
+  - Blackberry
+  - Date
+  - Elderberry
+  - Kiwi
+  - Mango
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  - Basil
+  - Star Anise
+  other:
+  - Agave
+  - Honey
+  - Maple Syrup
+  - Vanilla
+  - Caramel
+  - Chamomile
+Tarragon:
+  fruit:
+  - Lime
+  - Lemon
+  - Orange
+  - Grapefruit
+  herb_n_spice:
+  - Ginger
+  - Mint
+  other:
+  - Elderflower
+  - Honey
+  - Juniper
+Thyme:
+  fruit:
+  - Apple
+  - Lemon
+  - Pineapple
+  - Orange
+  - Blackberries
+  - Raspberries
+  - Grapefruit
+  - Fig
+  - Goji Berry
+  - Lime
+  - Longan
+  - Mandarin
+  - Pomegranate
+  - Pumpkin
+  - Raspberry
+  - Strawberry
+  herb_n_spice:
+  - Cinnamon
+  - Cardamom
+  - Rosemary
+  - Mint
+  - Bay Leaf
+  - Ginger
+  - Sage
+  other:
+  - Honey
+  - Juniper
+  - Cucumber
+  - Rose
+  - Lavender
+  - Violet
+  - Agave
+  - Carrot
+  - Chamomile
+  - Chestnut
+  - Elderflower
+  - Jasmine
+  - Olive
+  - Rhubarb
+Toffee:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Caramel
+Tomato:
+  fruit:
+  - Lemon
+  - Strawberry
+  herb_n_spice:
+  - Black Pepper
+  - Cinnamon
+  - Basil
+  - Pepper
+  other:
+  - Celery
+  - Carrot
+Tropical Fruits:
+  fruit:
+  - Mandarin
+  herb_n_spice: []
+  other: []
+Turmeric:
+  fruit: []
+  herb_n_spice: []
+  other:
+  - Hazelnut
+  - Pine Nut
+Vanilla:
+  fruit:
+  - Apricot
+  - Passionfruit
+  - Apple
+  - Peach
+  - Raspberries
+  - Orange
+  - Blackberry
+  - Cherry
+  - Date
+  - Elderberry
+  - Fig
+  - Grapefruit
+  - Guava
+  - Kumquat
+  - Longan
+  - Lychee
+  - Mandarin
+  - Papaya
+  - Pear
+  - Persimmon
+  - Plum
+  - Pomegranate
+  - Pumpkin
+  - Raspberry
+  - Strawberry
+  - Tangerine
+  - Watermelon
+  herb_n_spice:
+  - Anise
+  - Cinnamon
+  - Cardamom
+  - Basil
+  - Mint
+  - Rosemary
+  - Sage
+  other:
+  - Almond
+  - Chocolate
+  - Coffee
+  - Walnut
+  - Cucumber
+  - Rhubarb
+  - Caramel
+  - Pecan
+  - Pistachio
+Violet:
+  fruit:
+  - Apricot
+  - Lemon
+  - Cherry
+  - Peach
+  - Cranberry
+  - Strawberry
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Mint
+  - Basil
+  - Rosemary
+  - Thyme
+  other:
+  - Almond
+  - Coconut
+  - Lavender
+  - Jasmine
+  - Elderflower
+Walnut:
+  fruit:
+  - Apple
+  - Apricot
+  - Banana
+  - Cherry
+  - Cranberry
+  - Date
+  - Fig
+  - Goji Berry
+  - Kumquat
+  - Lemon
+  - Peach
+  - Pear
+  - Plum
+  - Prune
+  - Quince
+  herb_n_spice:
+  - Nutmeg
+  - Anise
+  - Rosemary
+  - Cloves
+  - Star Anise
+  other:
+  - Dark Chocolate
+  - Vanilla
+  - Coffee
+  - Honey
+  - Caramel
+  - Maple Syrup
+Watermelon:
+  fruit:
+  - Lemon
+  - Lime
+  - Passionfruit
+  - Orange
+  - Pineapple
+  - Cranberry
+  - Lychee
+  herb_n_spice:
+  - Ginger
+  - Cinnamon
+  - Anise
+  - Mint
+  - Basil
+  - Rosemary
+  other:
+  - Vanilla
+  - Coconut
+  - Cucumber
+  - Agave
+  - Honey
+White Chocolate:
+  fruit:
+  - Blueberry
+  - Cranberry
+  herb_n_spice: []
+  other: []
+Yuzu:
+  fruit:
+  - Apple
+  - Orange
+  - Lemon
+  - Grapefruit
+  herb_n_spice:
+  - Ginger
+  - Mint
+  - Dill
+  other:
+  - Almond
+  - Coffee
+  - Honey
+  - Juniper
+  - Jasmine

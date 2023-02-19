@@ -1,5 +1,6 @@
 import argparse
 import json
+from pprint import pprint
 
 from functions.cocktail import convert_to_yaml, search_ingredient, count, download
 
@@ -9,10 +10,14 @@ if __name__ == '__main__':
     parser.add_argument("-d",
                         "--download",
                         help="Downloads the whole cocktail DB."
-                             "This will take a long time"
-                             "Optionally you can append an int for the start ID",
-                        # action='store_true',
-                        nargs="+",
+                             "This will take a long time",
+                        action='store_true',
+                        required=False)
+    parser.add_argument("-s",
+                        "--start",
+                        help="Optional starting ID for download",
+                        type=int,
+                        nargs=1,
                         required=False)
     parser.add_argument("--convert-to-yaml",
                         help="Downloads the whole cocktail DB."
@@ -36,10 +41,15 @@ if __name__ == '__main__':
                         type=int,
                         required=False)
     args = parser.parse_args()
+    pprint(args)
+
     ingredient_search = args.ingredient
     amount = args.amount
     if args.download:
-        download(args.download)
+        if args.start:
+            download(args.start[0])
+        else:
+            download()
     elif args.count:
         count()
     elif ingredient_search:
