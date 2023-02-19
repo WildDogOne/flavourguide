@@ -17,7 +17,7 @@ def load_flavour_db_json():
     return db
 
 
-def load_cocktail_db_yaml():
+def load_flavour_db_yaml():
     with open(flavour_db) as file:
         db = yaml.full_load(file)
     return db
@@ -30,7 +30,7 @@ def convert_to_yaml():
 
 
 def ingredient_search(search):
-    ingredients = load_cocktail_db_yaml()
+    ingredients = load_flavour_db_yaml()
     keys = [key for key in ingredients]
     result = process.extractOne(search, keys)
     if result:
@@ -50,7 +50,7 @@ def ingredient_search(search):
 
 
 def ingredient_lookup(lookup):
-    db = load_cocktail_db_yaml()
+    db = load_flavour_db_yaml()
     for key in db.keys():
         confidence = fuzz.partial_ratio(lookup.lower(), key.lower)
         if key.lower() != lookup.lower():
@@ -59,7 +59,7 @@ def ingredient_lookup(lookup):
 
 
 def similar_finder():
-    db = load_cocktail_db_yaml()
+    db = load_flavour_db_yaml()
     for key in db:
         results = process.extract(key, db.keys())
         for result in results:
