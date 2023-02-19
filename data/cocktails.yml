@@ -32239,11 +32239,11 @@
   strInstructionsZH-HANS: null
   strInstructionsZH-HANT: null
   strMeasure1: '1 1/2 oz '
-  strMeasure2: '1 oz '
-  strMeasure3: '1 oz '
-  strMeasure4: '2 dashes '
-  strMeasure5: null
-  strMeasure6: null
-  strMeasure7: null
+  strMeasure2: '1/2 oz '
+  strMeasure3: '1/2 oz '
+  strMeasure4: '1/2 oz '
+  strMeasure5: '1 oz '
+  strMeasure6: 1 teaspoon
+  strMeasure7: 1 Dash
   strTags: null
   strVideo: null

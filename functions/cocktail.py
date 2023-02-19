@@ -92,10 +92,12 @@ def search_ingredient(searches=None, amount=None):
                 if confidence > 90:
                     cocktail_name = cocktail["strDrink"]
                     if cocktail_name not in cocktail_hits:
-                        cocktail_hits[cocktail_name] = {"ingredients": ", ".join(ingredients),
+                        cocktail_hits[cocktail_name] = {"ingredients": ", ".join(ingredients).title(),
                                                         "hits": 1}
+                        break
                     else:
                         cocktail_hits[cocktail_name]["hits"] += 1
+                        break
     # sorted_cocktail_hits = sorted(cocktail_hits.items(), key=lambda item: item[1])
 
     for key, value in cocktail_hits.items():
