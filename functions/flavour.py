@@ -50,7 +50,7 @@ def ingredient_search(search):
 def ingredient_lookup(lookup):
     db = load_cocktail_db_yaml()
     for key in db.keys():
-        confidence = fuzz.partial_ratio(lookup, key)
+        confidence = fuzz.partial_ratio(lookup.lower(), key.lower)
         if key.lower() != lookup.lower():
             if confidence > 50:
                 print(f"Similar to {key} - Similarity Grade {confidence}")
